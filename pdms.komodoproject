@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="a05b57be-ac00-4e5c-a0e4-1a5ee28b7360" kpf_version="5" name="pdms.komodoproject">
+<preference-set idref="a05b57be-ac00-4e5c-a0e4-1a5ee28b7360" id="project" preftype="project">
+  <string relative="path" id="import_dirname"></string>
+  <boolean id="useTabs">1</boolean>
+</preference-set>
+</project>
