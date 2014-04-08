@@ -34,6 +34,8 @@ GetOptions(
 	'<>' => sub { $special = shift },
 ) or die "Invalid parameter";
 
+
+my $sql = SqlManager->new;
 if ($special) {
 	# one parameter without options was set.
 	# Assume it is a file path
@@ -65,6 +67,7 @@ if ($special) {
 			}
 		}
 		
+		$sql->write_doc($doc);
 		say "done";
 	}
 	
