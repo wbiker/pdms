@@ -39,6 +39,7 @@ sub add_tag {
 	my $self = shift;
 	my $tag = shift;
 	
+	$tag = lc($tag);
 	push(@{$self->{tag}}, $tag);
 }
 
