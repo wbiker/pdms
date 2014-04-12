@@ -4,35 +4,42 @@ use Digest::MD5 qw(md5_hex);
 use File::Basename;
 use File::Spec::Functions qw(catfile catdir);
 use File::Copy;
+use autodie;
+use feature qw(say);
 
 has 'hash' => (is => 'rw', isa => 'Str');
-has 'filename' => (is => 'rw', isa => 'Str');
-has 'file' => (is => 'ro', isa => 'Str', required => 1);
+has 'original' => (is => 'rw', isa => 'Str');
+has 'file' => (is => 'rw', isa => 'Str', required => 1);
+has 'name' => (is => 'rw', isa => 'Str');
+has 'rootdir' => (is => 'ro', isa => 'Str', required => 1);
 has 'extension' => (is => 'rw', isa => 'Str');
 has 'path' => (is => 'rw', isa => 'Str');
-has 'tag' => (is => 'ro', isa => 'ArrayRef');
-has 'version' => (is => 'ro', isa => 'Int', default => 1);
+has 'tag' => (is => 'rw', isa => 'ArrayRef');
+has 'version' => (is => 'rw', isa => 'Int', default => 1);
 
 sub BUILD {
 	my $self = shift;
 	
 	# search for the file name and the base name
-	my ($filename, $directories, $extension) = fileparse($self->file, qr/\.[^.]*/);
-	$self->filename($filename);
-	$self->path($directories);
+	$self->original($self->file);
+	my ($filename, $directories, $extension) = fileparse($self->original, qr/\.[^.]*/);
+	
+	say "Set name: ", $filename;
+	$self->name($filename);
+	say "set extension: ", $extension;
 	$self->extension($extension);
 	# calculate hash out of the name
-	$self->hash(md5_hex($filename));
-}
-
-sub store_file {
-	my $self = shift;
-	my $path = shift;
+	my $hash = md5_hex(time);
+	say "set hash: ", $hash;
+	$self->hash($hash);
 	
-	my $dest_path = catdir($path, $self->hash);
-	mkdir($dest_path);
-	my $dest_file = catfile($dest_path, $self->{filename});
-	copy($self->{file}, $dest_file);
+	my $dest_path = catdir($self->rootdir, 'docs', $self->hash);
+	do { say "create path: ", $dest_path; mkdir($dest_path); } unless -e $dest_path;
+	$self->path($dest_path);
+	
+	my $dest_file = catfile($dest_path, $self->name.$self->extension);
+	say "set file: ", $dest_file;
+	$self->file($dest_file);
 }
 
 sub add_tag {
@@ -41,6 +48,13 @@ sub add_tag {
 	
 	$tag = lc($tag);
 	push(@{$self->{tag}}, $tag);
+}
+
+sub copy_file {
+	my $self = shift;
+	
+	say "Copy ", $self->original, " to ", $self->file;
+	copy($self->original, $self->file);
 }
 
 1;

@@ -15,6 +15,10 @@ die "$config not found." unless -e $config;
 my $conf = LoadFile($config);
 die "No config read." unless $conf;
 
+mkdir $conf->{root_dir} unless -d $conf->{root_dir};
+
+do { usage(); exit; } unless @ARGV;
+
 # Command Line parameter handling
 my $search;
 my $check_in;
@@ -48,27 +52,99 @@ if ($special) {
 	}
 	elsif($search) {
 		# search for a certain file name, stored in $special
+		my $found = $sql->find_name($special);
+		
+		say "Found: ";
+		for my $file (@$found) {
+			say "\t", $file;
+		}
+		say "done.";
+	}
+	elsif($tags) {
+		# try to split tags
+		my @tag_split = split(',', $tags);
+		if (1 < scalar @tag_split) {
+			# more than one.
+			
+		}
+		else {
+			# just one tag.
+			
+		}
+		
+	}
+	elsif($list) {
+		# --list was set and something was given over without option.
+		# assume the something in $special are text label for what I should list
+		if ($special =~ /tag(s)?/i) {
+			# list all tags
+			my $tags = $sql->get_tags;
+			say "Tags found in the database:";
+			say "\t$_" for @$tags;
+		}
+		elsif($special =~ /name(s)?/i) {
+			my $names = $sql->get_names;
+			say "File names found in the database:";
+			say "\t$_" for @$names;
+		}
+		
 	}
 	else {
 		# ok nothing set, assume it is a path and store file in DB
 		# But first, tags can also be set on the command line to store new doc with them.
-		my $doc = Document->new(file => $special);
+		my $doc = Document->new(file => $special, rootdir => $conf->{root_dir});
 		if ($tags) {
 			# check whether more than one tag was set.
 			my @tags = split(',', $tags);
-			if (1 < $#tags) {
+			if (1 < scalar @tags) {
 				# there are more than one tags set.
+				say "More than one tag:";
 				for my $tag (@tags) {
+					say "\t$tag";
 					$doc->add_tag($tag);
 				}
 			}
 			else {
+				say "One tag: $tags";
 				$doc->add_tag($tags);
 			}
 		}
 		
-		$sql->write_doc($doc);
-		say "done";
-	}
+		if (!$sql->exists_in_db($doc->name)) {
+			$doc->copy_file;
+			say "write doc in database.";
+			$sql->write_doc($doc);
+			say "done";	
+		}
+		else {
+			say $doc->name, " already in database. Use check-in to add a new version.";
+		}
+		
+		
+	}	
+}
+elsif($list) {
+	# not useful
+	say "What should I list? Possible labels are: tags or names";
+}
+
+
+sub usage {
+	print <<"HELP";
+$0 - a document management system.
+
+usage:
+	Add file to database
+	$0 /path/to/file [--tag=tag1,tag2,...]
+
+	List all tags
+	$0 --list tags
+
+	List all file names
+	$0 --list names
+
+	Search for file name
+	$0 --search <string>
 	
+HELP
 }
