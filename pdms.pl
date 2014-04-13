@@ -1,3 +1,5 @@
+#!/usr/bin/env perl
+
 use strict;
 use warnings;
 use Getopt::Long;
@@ -39,7 +41,7 @@ GetOptions(
 ) or die "Invalid parameter";
 
 
-my $sql = SqlManager->new;
+my $sql = SqlManager->new(root_path => $conf->{root_dir});
 if ($special) {
 	# one parameter without options was set.
 	# Assume it is a file path
@@ -52,26 +54,14 @@ if ($special) {
 	}
 	elsif($search) {
 		# search for a certain file name, stored in $special
-		my $found = $sql->find_name($special);
+		my @found = $sql->find_name($special);
 		
 		say "Found: ";
-		for my $file (@$found) {
-			say "\t", $file;
+		for my $file (@found) {
+			say "\tName: ", $file->name;
+			say "\tPath: ", $file->get_file;
 		}
 		say "done.";
-	}
-	elsif($tags) {
-		# try to split tags
-		my @tag_split = split(',', $tags);
-		if (1 < scalar @tag_split) {
-			# more than one.
-			
-		}
-		else {
-			# just one tag.
-			
-		}
-		
 	}
 	elsif($list) {
 		# --list was set and something was given over without option.
@@ -85,9 +75,11 @@ if ($special) {
 		elsif($special =~ /name(s)?/i) {
 			my $names = $sql->get_names;
 			say "File names found in the database:";
-			say "\t$_" for @$names;
+			for my $value (@$names) {
+				say "\t", $value if $value;
+			}
+			
 		}
-		
 	}
 	else {
 		# ok nothing set, assume it is a path and store file in DB
@@ -125,10 +117,21 @@ if ($special) {
 }
 elsif($list) {
 	# not useful
-	say "What should I list? Possible labels are: tags or names";
+	say "$0 --list [tags|names] What should I list? Possible labels are: tags or names";
 }
-
-
+elsif($search) {
+	if($tags) {
+		# try to split tags
+		my @tag_split = split(',', $tags);
+		my @files = $sql->find_files_with_tags(@tag_split);
+		
+		say "File found:";
+		for my $file (@files) {
+			say "\tName: ", $file->name;
+			say "\tPath: ", $file->get_file;
+		}
+	}
+}
 sub usage {
 	print <<"HELP";
 $0 - a document management system.
@@ -145,6 +148,9 @@ usage:
 
 	Search for file name
 	$0 --search <string>
+	
+	Search for files with tag names
+	$0 --search --tag=tag1[,tag2]
 	
 HELP
 }

@@ -5,10 +5,10 @@ use Digest::MD5 qw(md5_hex);
 use feature qw(say);
 
 use Document;
-use Category;
 use Tag;
 
 has 'db' => (is => 'rw');
+has 'root_path' => (is => 'ro', required => 1);
 
 sub BUILD {
 	my $self = shift;
@@ -33,24 +33,20 @@ sub write_doc {
 		if (@tags) {
 			for my $tag (@tags) {
 				my $tag_id = $self->get_tag_id($tag);
-				my $sth = $dbh->prepare("INSERT INTO DOCUMENT (hash, file, name, path, ext, tag) VALUES (?1, ?2 , ?3, ?4, ?5, ?6)");
+				my $sth = $dbh->prepare("INSERT INTO DOCUMENT (hash, name, ext, tag) VALUES (?1, ?2 , ?3, ?4)");
 				$sth->bind_param(1, $doc->hash);
-				$sth->bind_param(2, $doc->file);
-				$sth->bind_param(3, $doc->name);
-				$sth->bind_param(4, $doc->path);
-				$sth->bind_param(5, $doc->extension);
-				$sth->bind_param(6, $tag_id);
+				$sth->bind_param(2, $doc->name);
+				$sth->bind_param(3, $doc->extension);
+				$sth->bind_param(4, $tag_id);
 				$sth->execute();
 				$sth->finish();
 			}
 		}
 		else {
-			my $sth = $dbh->prepare("INSERT INTO DOCUMENT (hash, file, name, path, ext) VALUES (?1, ?2 , ?3, ?4, ?5)");
+			my $sth = $dbh->prepare("INSERT INTO DOCUMENT (hash, name, ext) VALUES (?1, ?2 , ?3)");
 			$sth->bind_param(1, $doc->hash);
-			$sth->bind_param(2, $doc->file);
-			$sth->bind_param(3, $doc->name);
-			$sth->bind_param(4, $doc->path);
-			$sth->bind_param(5, $doc->extension);
+			$sth->bind_param(2, $doc->name);
+			$sth->bind_param(3, $doc->extension);
 			$sth->execute();
 			$sth->finish();
 		}
@@ -83,32 +79,132 @@ sub find_name {
 	$name = "%".$name unless $name =~ /\A%/;
 	$name = $name."%" unless $name =~ /%\Z/;
 	
-	say "Name: $name";
+	my $tags = $self->get_all_tags;
 	
 	my $dbh = $self->db;
-	my $sth = $dbh->prepare("SELECT * FROM DOCUMENT WHERE name like ?");
+	my $sth = $dbh->prepare("SELECT DISTINCT * FROM DOCUMENT WHERE name like ?");
 	$sth->execute($name);
-	my $row_array = $sth->fetchrow_arrayref;
+	my $files = {};
+	while(my $row_array = $sth->fetchrow_arrayref) {
+		my $hash = $row_array->[1];
+		my $name = $row_array->[2];
+		my $ext = $row_array->[3];
+		my $version = $row_array->[4];
+		my $parent = $row_array->[5];
+		my $tag = $row_array->[6];
+		
+		$files->{$hash}->{name} = $name;
+		$files->{$hash}->{ext} = $ext;
+		$files->{$hash}->{version} = $version;
+		$files->{$hash}->{parent} = $parent;
+		push(@{$files->{$hash}->{tag}}, $tags->{$tag});
+	}
+	$sth->finish;
 	
-	return $row_array;
+	my @doc_files;
+	for my $doc (keys %$files) {
+		push(@doc_files, new Document->new(hash => $doc,
+										   name => $files->{$doc}->{name},
+										   extension => $files->{$doc}->{ext},
+										   version => $files->{$doc}->{version},
+										   parent => $files->{$doc}->{parent},
+										   tag => $files->{$doc}->{tag},
+										   rootdir => $self->root_path,
+										  ));
+	}
+	
+	return @doc_files;
 }
 
-sub find_tag {
+sub get_all_tags {
+	my $self = shift;
+	
+	my $dbh = $self->db;
+	my $statement = "SELECT id, name FROM TAG";
+
+	my $sth = $dbh->prepare($statement);
+	$sth->execute(); 	
+
+	my %tags;
+	while(my $row_array = $sth->fetchrow_arrayref) {
+		$tags{$row_array->[0]} = $row_array->[1];
+	}
+	$sth->finish;
+	
+	return \%tags;
+}
+
+sub find_tags {
 	my $self = shift;
 	my $tag = shift;
 	
+	my $dbh = $self->db;
+	
+	my @tag_ids;
+	my $statement = "SELECT id FROM TAG WHERE name like ?";
+	my $sth;
 	if (ref $tag eq 'ARRAY') {
 		# more than one tag
-		
+		for my $cnt (2..scalar@{$tag}) {
+			$statement .= " OR name like ?";
+		}
+		$sth = $dbh->prepare($statement);
+		$sth->execute(@$tag); 	
+	}
+	else {
+		$sth = $dbh->prepare($statement);
+		$sth->execute($tag);
 	}
 
-	my $dbh = $self->db;
-	my $prepare = "SELECT id FROM Tag WHERE name like ?";
-	my $sth = $dbh->prepare("SELECT * FROM DOCUMENT WHERE name like ?");
-	#$sth->execute($name);
-	my $row_array = $sth->fetchrow_arrayref;
+	while(my $row_array = $sth->fetchrow_arrayref) {
+		push(@tag_ids, $row_array->[0]);
+	}
+
+	$sth->finish;	
+	return @tag_ids;
+}
+
+sub find_files_with_tags {
+	my $self = shift;
+	my $tag = shift;
 	
-	return $row_array;
+	my @tag_ids = $self->find_tags($tag);
+	my $dbh = $self->db;
+	
+	my $statement = "SELECT DISTINCT * FROM DOCUMENT WHERE tag = ?";
+	if (1 < scalar @tag_ids) {
+		$statement .= " OR tag = ?";
+	}
+
+	my $sth = $dbh->prepare($statement);
+	$sth->execute(@tag_ids);
+	
+	my $all_tags = $self->get_all_tags;
+	
+	my @files;
+	my $docs = {};
+	while(my @row_array = $sth->fetchrow_array) {
+		my $hash = $row_array[1];
+		
+		$docs->{$hash}->{name} = $row_array[2];
+		$docs->{$hash}->{ext} = $row_array[3];
+		$docs->{$hash}->{version} = $row_array[4];
+		$docs->{$hash}->{parent} = $row_array[5];
+		push(@{$docs->{$hash}->{tag}}, $all_tags->{$row_array[6]});
+	}
+	my @doc_files;
+	for my $doc (keys %$docs) {
+		push(@doc_files, new Document->new(hash => $doc,
+										   name => $docs->{$doc}->{name},
+										   extension => $docs->{$doc}->{ext},
+										   version => $docs->{$doc}->{version},
+										   parent => $docs->{$doc}->{parent},
+										   tag => $docs->{$doc}->{tag},
+										   rootdir => $self->root_path,
+										  ));
+	}
+	
+	return @doc_files;
 }
 
 sub get_tags {
@@ -164,7 +260,6 @@ sub get_tag_id {
 		# tag in database, return id
 		return $row_array[0];
 	}
-	
 }
 
 1;
