@@ -1,0 +1,439 @@
+[Thu Aug 21 16:21:15 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 16:21:23 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 16:21:23 2014] [debug] GET "/".
+[Thu Aug 21 16:21:23 2014] [debug] Routing to controller "Pdms::Example" and action "welcome".
+[Thu Aug 21 16:21:23 2014] [error] Can't call method "name" on an undefined value at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Example.pm line 8.
+
+[Thu Aug 21 16:21:23 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Aug 21 16:21:23 2014] [debug] Template "exception.html.ep" not found.
+[Thu Aug 21 16:21:23 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Thu Aug 21 16:21:23 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Thu Aug 21 16:21:23 2014] [debug] 500 Internal Server Error (0.034234s, 29.211/s).
+[Thu Aug 21 16:22:21 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 16:22:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 16:22:24 2014] [debug] GET "/".
+[Thu Aug 21 16:22:24 2014] [debug] Routing to controller "Pdms::Example" and action "welcome".
+[Thu Aug 21 16:22:24 2014] [debug] Rendering template "example/welcome.html.ep".
+[Thu Aug 21 16:22:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 21 16:22:24 2014] [debug] 200 OK (0.039646s, 25.223/s).
+[Thu Aug 21 16:23:54 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 16:23:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 16:23:57 2014] [debug] GET "/".
+[Thu Aug 21 16:23:57 2014] [debug] Routing to controller "Pdms::Example" and action "welcome".
+[Thu Aug 21 16:23:57 2014] [error] Can't call method "name" on an undefined value at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Example.pm line 11.
+
+[Thu Aug 21 16:23:57 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Aug 21 16:23:57 2014] [debug] Template "exception.html.ep" not found.
+[Thu Aug 21 16:23:57 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Thu Aug 21 16:23:57 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Thu Aug 21 16:23:57 2014] [debug] 500 Internal Server Error (0.061055s, 16.379/s).
+[Thu Aug 21 16:24:33 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 16:24:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 16:24:36 2014] [debug] GET "/".
+[Thu Aug 21 16:24:36 2014] [debug] Routing to controller "Pdms::Example" and action "welcome".
+[Thu Aug 21 16:24:36 2014] [debug] Rendering template "example/welcome.html.ep".
+[Thu Aug 21 16:24:36 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 21 16:24:36 2014] [debug] 200 OK (0.043335s, 23.076/s).
+[Thu Aug 21 16:25:26 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 16:25:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 16:25:29 2014] [debug] GET "/".
+[Thu Aug 21 16:25:29 2014] [debug] Routing to controller "Pdms::Example" and action "welcome".
+[Thu Aug 21 16:25:29 2014] [debug] Rendering template "example/welcome.html.ep".
+[Thu Aug 21 16:25:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 21 16:25:29 2014] [debug] 200 OK (0.039862s, 25.087/s).
+[Thu Aug 21 16:26:43 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 16:26:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 16:26:45 2014] [debug] GET "/".
+[Thu Aug 21 16:26:45 2014] [debug] Routing to controller "Pdms::Example" and action "welcome".
+[Thu Aug 21 16:26:45 2014] [debug] Rendering template "example/welcome.html.ep".
+[Thu Aug 21 16:26:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 21 16:26:45 2014] [debug] 200 OK (0.041163s, 24.294/s).
+[Thu Aug 21 17:11:04 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 17:11:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 17:11:34 2014] [debug] GET "/".
+[Thu Aug 21 17:11:34 2014] [debug] Routing to controller "Pdms::Example" and action "welcome".
+[Thu Aug 21 17:11:34 2014] [debug] Rendering template "example/welcome.html.ep".
+[Thu Aug 21 17:11:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 21 17:11:34 2014] [debug] 200 OK (0.039087s, 25.584/s).
+[Thu Aug 21 18:00:58 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 18:46:15 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 18:46:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 18:46:21 2014] [debug] GET "/".
+[Thu Aug 21 18:46:21 2014] [debug] Class "Pdms::Files" is not a controller.
+[Thu Aug 21 18:46:21 2014] [debug] Rendering template "files/files.html.ep".
+[Thu Aug 21 18:46:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 21 18:46:21 2014] [debug] 200 OK (0.030975s, 32.284/s).
+[Thu Aug 21 18:59:30 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 18:59:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 18:59:36 2014] [debug] GET "/".
+[Thu Aug 21 18:59:36 2014] [debug] Class "Pdms::Files" is not a controller.
+[Thu Aug 21 18:59:36 2014] [debug] Rendering template "files/files.html.ep".
+[Thu Aug 21 18:59:36 2014] [error] Global symbol "$files" requires explicit package name at template files/files.html.ep line 18.
+Global symbol "$files" requires explicit package name at template files/files.html.ep line 19.
+Global symbol "$file" requires explicit package name at template files/files.html.ep line 20.
+Global symbol "$files" requires explicit package name at template files/files.html.ep line 20.
+Global symbol "$file" requires explicit package name at template files/files.html.ep line 22.
+Global symbol "$file" requires explicit package name at template files/files.html.ep line 23.
+Global symbol "$file" requires explicit package name at template files/files.html.ep line 24.
+19: % if($files) {
+20:     % foreach $file (@$files) {
+21:         <tr>
+22:             <td><%= $file->{file_id} %></td>
+23:             <td><%= $file->{name} %></td>
+24:             <td><%= $file->{size} %></td>
+25:         </tr>
+26:     % }
+27: % } else {
+28: <p>No files stored so far.</p<>
+29: % }
+
+[Thu Aug 21 18:59:36 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Aug 21 18:59:36 2014] [debug] Template "exception.html.ep" not found.
+[Thu Aug 21 18:59:37 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Thu Aug 21 18:59:37 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Thu Aug 21 18:59:37 2014] [debug] 500 Internal Server Error (0.062336s, 16.042/s).
+[Thu Aug 21 19:01:52 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 19:01:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 19:01:54 2014] [debug] GET "/".
+[Thu Aug 21 19:01:54 2014] [debug] Class "Pdms::Files" is not a controller.
+[Thu Aug 21 19:01:54 2014] [debug] Rendering template "files/files.html.ep".
+[Thu Aug 21 19:01:54 2014] [error] Global symbol "$file" requires explicit package name at template files/files.html.ep line 20.
+Global symbol "$file" requires explicit package name at template files/files.html.ep line 22.
+Global symbol "$file" requires explicit package name at template files/files.html.ep line 23.
+Global symbol "$file" requires explicit package name at template files/files.html.ep line 24.
+19: % if($files) {
+20:     % foreach $file (@$files) {
+21:         <tr>
+22:             <td><%= $file->{file_id} %></td>
+23:             <td><%= $file->{name} %></td>
+24:             <td><%= $file->{size} %></td>
+25:         </tr>
+26:     % }
+27: % } else {
+28: <p>No files stored so far.</p<>
+29: % }
+
+[Thu Aug 21 19:01:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Aug 21 19:01:54 2014] [debug] Template "exception.html.ep" not found.
+[Thu Aug 21 19:01:54 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Thu Aug 21 19:01:54 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Thu Aug 21 19:01:54 2014] [debug] 500 Internal Server Error (0.062983s, 15.877/s).
+[Thu Aug 21 19:02:23 2014] [info] Listening at "http://*:3000".
+[Thu Aug 21 19:02:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 21 19:02:25 2014] [debug] GET "/".
+[Thu Aug 21 19:02:25 2014] [debug] Class "Pdms::Files" is not a controller.
+[Thu Aug 21 19:02:25 2014] [debug] Rendering template "files/files.html.ep".
+[Thu Aug 21 19:02:25 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 21 19:02:25 2014] [debug] 200 OK (0.030523s, 32.762/s).
+[Fri Aug 22 14:00:52 2014] [info] Listening at "http://*:3000".
+[Fri Aug 22 14:01:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:01:01 2014] [debug] GET "/".
+[Fri Aug 22 14:01:01 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:01:01 2014] [debug] Rendering template "files/files.html.ep".
+[Fri Aug 22 14:01:01 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 14:01:01 2014] [debug] 200 OK (0.033437s, 29.907/s).
+[Fri Aug 22 14:01:05 2014] [debug] GET "/".
+[Fri Aug 22 14:01:05 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:01:05 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 14:01:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 14:01:05 2014] [debug] 200 OK (0.001181s, 846.740/s).
+[Fri Aug 22 14:01:06 2014] [debug] GET "/".
+[Fri Aug 22 14:01:06 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:01:06 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 14:01:06 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 14:01:06 2014] [debug] 200 OK (0.001241s, 805.802/s).
+[Fri Aug 22 14:01:11 2014] [debug] GET "/new_file".
+[Fri Aug 22 14:01:11 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:01:11 2014] [debug] Rendering template "files/new_file.html.ep".
+[Fri Aug 22 14:01:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 14:01:11 2014] [debug] 200 OK (0.003090s, 323.625/s).
+[Fri Aug 22 14:01:24 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:01:24 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 14:01:24 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 14:01:24 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 14:01:24 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:01:24 2014] [debug] 404 Not Found (0.030126s, 33.194/s).
+[Fri Aug 22 14:03:52 2014] [info] Listening at "http://*:3000".
+[Fri Aug 22 14:03:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:03:56 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:03:56 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:03:56 2014] [debug] Template "files/new_file_send.html.ep" not found.
+[Fri Aug 22 14:03:56 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 14:03:56 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 14:03:56 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 14:03:56 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:03:56 2014] [debug] 404 Not Found (0.047071s, 21.245/s).
+[Fri Aug 22 14:04:20 2014] [info] Listening at "http://*:3000".
+[Fri Aug 22 14:04:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:04:25 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:04:25 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:04:25 2014] [debug] Template "files/new_file_send.html.ep" not found.
+[Fri Aug 22 14:04:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 14:04:25 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 14:04:25 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 14:04:25 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:04:25 2014] [debug] 404 Not Found (0.043745s, 22.860/s).
+[Fri Aug 22 14:04:31 2014] [debug] GET "/new_file".
+[Fri Aug 22 14:04:31 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:04:31 2014] [debug] Rendering template "files/new_file.html.ep".
+[Fri Aug 22 14:04:31 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 14:04:31 2014] [debug] 200 OK (0.004541s, 220.216/s).
+[Fri Aug 22 14:04:33 2014] [debug] POST "/new_file_send".
+[Fri Aug 22 14:04:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 14:04:33 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 14:04:33 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 14:04:33 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:04:33 2014] [debug] 404 Not Found (0.020475s, 48.840/s).
+[Fri Aug 22 14:04:58 2014] [info] Listening at "http://*:3000".
+[Fri Aug 22 14:05:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:05:24 2014] [debug] GET "/new_file".
+[Fri Aug 22 14:05:24 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:05:24 2014] [debug] Rendering template "files/new_file.html.ep".
+[Fri Aug 22 14:05:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 14:05:24 2014] [debug] 200 OK (0.035399s, 28.249/s).
+[Fri Aug 22 14:05:38 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:05:38 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:05:38 2014] [debug] Template "files/new_file_send.html.ep" not found.
+[Fri Aug 22 14:05:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 14:05:38 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 14:05:38 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 14:05:39 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:05:39 2014] [debug] 404 Not Found (0.026078s, 38.346/s).
+[Fri Aug 22 14:09:20 2014] [info] Listening at "http://*:3000".
+[Fri Aug 22 14:09:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:09:27 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:09:27 2014] [debug] Class "Pdms::Files" is not a controller.
+[Fri Aug 22 14:09:27 2014] [debug] Template "files/new_file_send.html.ep" not found.
+[Fri Aug 22 14:09:27 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 14:09:27 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 14:09:27 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 14:09:27 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:09:27 2014] [debug] 404 Not Found (0.042669s, 23.436/s).
+[Fri Aug 22 14:11:33 2014] [info] Listening at "http://*:3000".
+[Fri Aug 22 14:11:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:11:37 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:11:37 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:11:37 2014] [debug] Template "files/new_file_send.html.ep" not found.
+[Fri Aug 22 14:11:37 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Aug 22 14:11:52 2014] [debug] Inactivity timeout.
+[Fri Aug 22 14:11:52 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:11:52 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:11:52 2014] [debug] Template "files/new_file_send.html.ep" not found.
+[Fri Aug 22 14:11:52 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Aug 22 14:12:07 2014] [debug] Inactivity timeout.
+[Fri Aug 22 14:13:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:13:32 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:13:32 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:13:32 2014] [error] Can't locate object method "status" via package "Mojo::Message::Response" at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 24.
+
+[Fri Aug 22 14:13:32 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 22 14:13:32 2014] [debug] Template "exception.html.ep" not found.
+[Fri Aug 22 14:13:32 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Fri Aug 22 14:13:32 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:13:32 2014] [debug] 500 Internal Server Error (0.055423s, 18.043/s).
+[Fri Aug 22 14:13:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:13:47 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:13:47 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:13:47 2014] [debug] 200 OK (0.025204s, 39.676/s).
+[Fri Aug 22 14:15:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:15:54 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:15:54 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:15:54 2014] [error] Can't locate object method "r" via package "Mojo::Message::Request" at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 24.
+
+[Fri Aug 22 14:15:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 22 14:15:54 2014] [debug] Template "exception.html.ep" not found.
+[Fri Aug 22 14:15:54 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Fri Aug 22 14:15:54 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:15:54 2014] [debug] 500 Internal Server Error (0.055206s, 18.114/s).
+[Fri Aug 22 14:16:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:16:08 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:16:08 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:16:08 2014] [debug] 200 OK (0.041831s, 23.906/s).
+[Fri Aug 22 14:18:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:18:22 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:18:22 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:18:22 2014] [debug] 200 OK (0.024313s, 41.130/s).
+[Fri Aug 22 14:27:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:27:13 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:27:13 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:27:13 2014] [debug] 200 OK (0.024462s, 40.880/s).
+[Fri Aug 22 14:27:47 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:27:47 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:27:47 2014] [debug] 200 OK (0.000852s, 1173.709/s).
+[Fri Aug 22 14:29:04 2014] [debug] GET "/new_file".
+[Fri Aug 22 14:29:04 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Fri Aug 22 14:29:04 2014] [debug] Rendering template "files/new_file.html.ep".
+[Fri Aug 22 14:29:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 14:29:04 2014] [debug] 200 OK (0.006923s, 144.446/s).
+[Fri Aug 22 14:29:25 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:29:25 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:29:25 2014] [debug] 200 OK (0.000859s, 1164.144/s).
+[Fri Aug 22 14:36:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:36:57 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:36:57 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:36:57 2014] [debug] 200 OK (0.024489s, 40.835/s).
+[Fri Aug 22 14:39:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 14:39:48 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:39:48 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:39:48 2014] [error] Can't locate object method "size" via package "Monatliche Ausgaben.ods" (perhaps you forgot to load "Monatliche Ausgaben.ods"?) at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 24.
+
+[Fri Aug 22 14:39:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 22 14:39:48 2014] [debug] Template "exception.html.ep" not found.
+[Fri Aug 22 14:39:48 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Fri Aug 22 14:39:48 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:39:48 2014] [debug] 500 Internal Server Error (0.078287s, 12.774/s).
+[Fri Aug 22 14:41:14 2014] [debug] POST "/new_file".
+[Fri Aug 22 14:41:14 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 14:41:14 2014] [error] Can't locate object method "size" via package "anfahrt.pdf" (perhaps you forgot to load "anfahrt.pdf"?) at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 24.
+
+[Fri Aug 22 14:41:14 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 22 14:41:14 2014] [debug] Template "exception.html.ep" not found.
+[Fri Aug 22 14:41:14 2014] [debug] Rendering cached inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Fri Aug 22 14:41:14 2014] [debug] Rendering cached inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 14:41:14 2014] [debug] 500 Internal Server Error (0.027291s, 36.642/s).
+[Fri Aug 22 14:59:59 2014] [debug] GET "/".
+[Fri Aug 22 14:59:59 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 14:59:59 2014] [debug] Rendering template "files/files.html.ep".
+[Fri Aug 22 14:59:59 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 14:59:59 2014] [debug] 200 OK (0.030480s, 32.808/s).
+[Fri Aug 22 14:59:59 2014] [debug] GET "/".
+[Fri Aug 22 14:59:59 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 14:59:59 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 14:59:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 14:59:59 2014] [debug] 400 Bad Request (0.002132s, 469.043/s).
+[Fri Aug 22 15:00:04 2014] [debug] OPTIONS "/".
+[Fri Aug 22 15:00:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 15:00:04 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 15:00:04 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 15:00:04 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 15:00:04 2014] [debug] 404 Not Found (0.019393s, 51.565/s).
+[Fri Aug 22 15:00:04 2014] [debug] GET "/".
+[Fri Aug 22 15:00:04 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:00:04 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:00:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:00:05 2014] [debug] 400 Bad Request (0.004139s, 241.604/s).
+[Fri Aug 22 15:00:20 2014] [debug] GET "/".
+[Fri Aug 22 15:00:20 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:00:20 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:00:20 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:00:20 2014] [debug] 400 Bad Request (0.002199s, 454.752/s).
+[Fri Aug 22 15:00:20 2014] [debug] GET "/".
+[Fri Aug 22 15:00:20 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:00:20 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:00:20 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:00:20 2014] [debug] 400 Bad Request (0.002401s, 416.493/s).
+[Fri Aug 22 15:00:30 2014] [debug] GET "/nice%20ports%2C/Tri%6Eity.txt%2ebak".
+[Fri Aug 22 15:00:30 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 15:00:30 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 15:00:30 2014] [debug] Rendering cached inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 15:00:30 2014] [debug] Rendering cached inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 15:00:30 2014] [debug] 404 Not Found (0.007887s, 126.791/s).
+[Fri Aug 22 15:00:30 2014] [debug] GET "/".
+[Fri Aug 22 15:00:30 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:00:30 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:00:30 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:00:30 2014] [debug] 400 Bad Request (0.002410s, 414.938/s).
+[Fri Aug 22 15:00:35 2014] [debug] GET "/".
+[Fri Aug 22 15:00:35 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:00:35 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:00:35 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:00:35 2014] [debug] 400 Bad Request (0.002474s, 404.204/s).
+[Fri Aug 22 15:01:40 2014] [debug] Inactivity timeout.
+[Fri Aug 22 15:27:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 15:27:10 2014] [debug] GET "/new_file".
+[Fri Aug 22 15:27:10 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Fri Aug 22 15:27:10 2014] [debug] Rendering template "files/new_file.html.ep".
+[Fri Aug 22 15:27:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 15:27:10 2014] [debug] 200 OK (0.028338s, 35.288/s).
+[Fri Aug 22 15:27:12 2014] [debug] POST "/new_file".
+[Fri Aug 22 15:27:12 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 15:27:12 2014] [error] Can't call method "size" on an undefined value at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 24.
+
+[Fri Aug 22 15:27:12 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 22 15:27:12 2014] [debug] Template "exception.html.ep" not found.
+[Fri Aug 22 15:27:12 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Fri Aug 22 15:27:12 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 15:27:12 2014] [debug] 500 Internal Server Error (0.069654s, 14.357/s).
+[Fri Aug 22 15:28:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 15:28:03 2014] [debug] POST "/new_file".
+[Fri Aug 22 15:28:03 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 15:28:03 2014] [debug] 200 OK (0.031209s, 32.042/s).
+[Fri Aug 22 15:47:18 2014] [debug] GET "/".
+[Fri Aug 22 15:47:18 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:47:18 2014] [debug] Rendering template "files/files.html.ep".
+[Fri Aug 22 15:47:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 15:47:18 2014] [debug] 200 OK (0.009773s, 102.323/s).
+[Fri Aug 22 15:47:18 2014] [debug] GET "/".
+[Fri Aug 22 15:47:18 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:47:18 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:47:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:47:18 2014] [debug] 400 Bad Request (0.002653s, 376.932/s).
+[Fri Aug 22 15:47:23 2014] [debug] OPTIONS "/".
+[Fri Aug 22 15:47:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 15:47:23 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 15:47:23 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 15:47:23 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 15:47:24 2014] [debug] 404 Not Found (0.021980s, 45.496/s).
+[Fri Aug 22 15:47:24 2014] [debug] GET "/".
+[Fri Aug 22 15:47:24 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:47:24 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:47:24 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:47:24 2014] [debug] 400 Bad Request (0.002137s, 467.946/s).
+[Fri Aug 22 15:47:39 2014] [debug] GET "/".
+[Fri Aug 22 15:47:39 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:47:39 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:47:39 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:47:39 2014] [debug] 400 Bad Request (0.002329s, 429.369/s).
+[Fri Aug 22 15:47:39 2014] [debug] GET "/".
+[Fri Aug 22 15:47:39 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:47:39 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:47:39 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:47:39 2014] [debug] 400 Bad Request (0.002310s, 432.900/s).
+[Fri Aug 22 15:47:49 2014] [debug] GET "/nice%20ports%2C/Tri%6Eity.txt%2ebak".
+[Fri Aug 22 15:47:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Aug 22 15:47:49 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Aug 22 15:47:49 2014] [debug] Rendering cached inline template "61bac5a767dfc11d41545325644efbfa".
+[Fri Aug 22 15:47:49 2014] [debug] Rendering cached inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Fri Aug 22 15:47:49 2014] [debug] 404 Not Found (0.008749s, 114.299/s).
+[Fri Aug 22 15:47:49 2014] [debug] GET "/".
+[Fri Aug 22 15:47:49 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:47:49 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:47:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:47:49 2014] [debug] 400 Bad Request (0.001997s, 500.751/s).
+[Fri Aug 22 15:47:54 2014] [debug] GET "/".
+[Fri Aug 22 15:47:54 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Aug 22 15:47:54 2014] [debug] Rendering cached template "files/files.html.ep".
+[Fri Aug 22 15:47:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Aug 22 15:47:54 2014] [debug] 400 Bad Request (0.002829s, 353.482/s).
+[Fri Aug 22 15:49:00 2014] [debug] Inactivity timeout.
+[Fri Aug 22 17:19:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 17:19:18 2014] [debug] GET "/new_file".
+[Fri Aug 22 17:19:18 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Fri Aug 22 17:19:18 2014] [debug] Rendering template "files/new_file.html.ep".
+[Fri Aug 22 17:19:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 17:19:18 2014] [debug] 200 OK (0.049428s, 20.231/s).
+[Fri Aug 22 17:19:42 2014] [debug] POST "/new_file".
+[Fri Aug 22 17:19:42 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 17:19:42 2014] [debug] 200 OK (0.021767s, 45.941/s).
+[Fri Aug 22 17:47:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 17:47:24 2014] [debug] POST "/new_file".
+[Fri Aug 22 17:47:24 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 17:47:24 2014] [debug] 200 OK (0.028131s, 35.548/s).
+[Fri Aug 22 17:47:40 2014] [info] Listening at "http://*:3000".
+[Fri Aug 22 17:47:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 17:47:44 2014] [debug] GET "/new_file".
+[Fri Aug 22 17:47:44 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Fri Aug 22 17:47:44 2014] [debug] Rendering template "files/new_file.html.ep".
+[Fri Aug 22 17:47:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 22 17:47:44 2014] [debug] 200 OK (0.026100s, 38.314/s).
+[Fri Aug 22 17:47:49 2014] [debug] POST "/new_file".
+[Fri Aug 22 17:47:49 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 17:47:49 2014] [debug] 200 OK (0.000915s, 1092.896/s).
+[Fri Aug 22 17:48:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 17:48:24 2014] [debug] POST "/new_file".
+[Fri Aug 22 17:48:24 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 17:48:24 2014] [debug] 200 OK (0.028475s, 35.119/s).
+[Fri Aug 22 17:49:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 22 17:49:16 2014] [debug] POST "/new_file".
+[Fri Aug 22 17:49:16 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Fri Aug 22 17:49:16 2014] [debug] 200 OK (0.024562s, 40.713/s).

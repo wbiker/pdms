@@ -1,0 +1,10 @@
+% layout 'default';
+% title 'New File';
+
+<h1>New file</h1>
+
+<form id="new_file" action="<%= url_for('/new_file') %>"  method="POST" enctype="multipart/form-data">
+File: <INPUT type="file" name="file" /><BR>
+Categories:
+<INPUT type="submit" value="Send" /><BR>
+</form>

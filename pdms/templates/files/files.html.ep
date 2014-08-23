@@ -1,0 +1,31 @@
+% layout 'default';
+% title 'All Files';
+<h2>All files</h2>
+<h3>File name:</h3>
+
+<table>
+<thead>
+<tr>
+    <th>
+        ID
+    </th>
+    <th>
+        name
+    </th>
+</tr>
+</thead>
+<tr>
+% my $files = stash('files');
+% if($files) {
+    % foreach my $file (@$files) {
+        <tr>
+            <td><%= $file->{file_id} %></td>
+            <td><%= $file->{name} %></td>
+            <td><%= $file->{size} %></td>
+        </tr>
+    % }
+% } else {
+<p>No files stored so far.</p<>
+% }
+</tr>
+</table>
