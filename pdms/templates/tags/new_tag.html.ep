@@ -1,0 +1,9 @@
+% layout 'default';
+% title 'New Tag';
+
+<h1>New Tags</h1>
+
+<form action="<%= url_for('/tags/new_tag') %>" method="post">
+New Tag: <input type="text" name="tag_value" />
+<input type="submit" value="Send"/>
+</form>

@@ -18,11 +18,14 @@
 package Pdms::PdmsFile;
 use Mojo::Base -base;
 
+has 'id';
 has 'name';
 has 'type';
 has 'tag';
 has 'category';
 has 'size';
 has 'file';
+has 'date';
+has 'description';
 
 1;

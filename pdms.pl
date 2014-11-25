@@ -53,6 +53,7 @@ if ($special) {
 		
 	}
 	elsif($search) {
+        say "search file names with ", $special;
 		# search for a certain file name, stored in $special
 		my @found = $sql->find_name($special);
 		

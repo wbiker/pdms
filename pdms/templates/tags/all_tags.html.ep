@@ -1,0 +1,22 @@
+% layout 'default';
+% title 'All Tags';
+
+<p>
+<a href="<%= url_for('/tags/new_tag') %>">New Tag</a>
+</p>
+
+<h1>All Tags</h1>
+
+<table>
+<tr>
+<th>ID</th>
+<th>Value</th>
+<th>Remove</th>
+</tr>
+% for my $tag (@$tags) {
+<tr>
+<td><%= $tag->{tag_id} %></td>
+<td><%= $tag->{tag_value} %></td>
+<td><a href="<%= url_for("/tags/remove/$tag->{tag_id}") %>">Remove</a></td>
+% }
+</table>

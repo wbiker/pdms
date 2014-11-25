@@ -437,3 +437,2153 @@ Global symbol "$file" requires explicit package name at template files/files.htm
 [Fri Aug 22 17:49:16 2014] [debug] POST "/new_file".
 [Fri Aug 22 17:49:16 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
 [Fri Aug 22 17:49:16 2014] [debug] 200 OK (0.024562s, 40.713/s).
+[Sat Aug 23 19:53:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 23 19:53:32 2014] [debug] GET "/".
+[Sat Aug 23 19:53:32 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Aug 23 19:53:32 2014] [debug] Rendering template "files/files.html.ep".
+[Sat Aug 23 19:53:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 23 19:53:32 2014] [debug] 200 OK (0.037821s, 26.440/s).
+[Sat Aug 23 19:53:37 2014] [debug] GET "/new_file".
+[Sat Aug 23 19:53:37 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sat Aug 23 19:53:37 2014] [error] Can't locate object method "sql" via package "Pdms" at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 16.
+
+[Sat Aug 23 19:53:37 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Aug 23 19:53:37 2014] [debug] Template "exception.html.ep" not found.
+[Sat Aug 23 19:53:37 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sat Aug 23 19:53:37 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sat Aug 23 19:53:37 2014] [debug] 500 Internal Server Error (0.037697s, 26.527/s).
+[Sat Aug 23 19:56:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 23 19:56:43 2014] [debug] GET "/new_file".
+[Sat Aug 23 19:56:43 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sat Aug 23 19:56:43 2014] [error] Can't locate object method "sql" via package "Pdms" at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 16.
+
+[Sat Aug 23 19:56:43 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Aug 23 19:56:43 2014] [debug] Template "exception.html.ep" not found.
+[Sat Aug 23 19:56:43 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sat Aug 23 19:56:43 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sat Aug 23 19:56:43 2014] [debug] 500 Internal Server Error (0.055757s, 17.935/s).
+[Sat Aug 23 19:57:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 23 19:57:24 2014] [debug] GET "/new_file".
+[Sat Aug 23 19:57:24 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sat Aug 23 19:57:24 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sat Aug 23 19:57:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Aug 23 19:57:24 2014] [debug] 200 OK (0.027759s, 36.024/s).
+[Sat Aug 23 19:57:53 2014] [debug] POST "/new_file".
+[Sat Aug 23 19:57:53 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Sat Aug 23 19:57:53 2014] [debug] 200 OK (0.001771s, 564.653/s).
+[Sun Aug 24 10:34:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 10:34:34 2014] [debug] GET "/".
+[Sun Aug 24 10:34:34 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Aug 24 10:34:34 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Aug 24 10:34:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 10:34:34 2014] [debug] 200 OK (0.035842s, 27.900/s).
+[Sun Aug 24 10:37:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 10:37:27 2014] [debug] GET "/".
+[Sun Aug 24 10:37:27 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Aug 24 10:37:27 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Aug 24 10:37:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 10:37:27 2014] [debug] 200 OK (0.030233s, 33.076/s).
+[Sun Aug 24 10:38:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 10:38:46 2014] [debug] GET "/".
+[Sun Aug 24 10:38:46 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Aug 24 10:38:46 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Aug 24 10:38:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 10:38:46 2014] [debug] 200 OK (0.035107s, 28.484/s).
+[Sun Aug 24 10:38:49 2014] [debug] GET "/tags".
+[Sun Aug 24 10:38:49 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:38:49 2014] [debug] Template "tags/all_tags.html.ep" not found.
+[Sun Aug 24 10:38:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 10:38:49 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 10:38:49 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 10:38:49 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 10:38:49 2014] [debug] 404 Not Found (0.026843s, 37.254/s).
+[Sun Aug 24 10:39:07 2014] [info] Listening at "http://*:3000".
+[Sun Aug 24 10:39:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 10:39:10 2014] [debug] GET "/tags".
+[Sun Aug 24 10:39:10 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:39:10 2014] [debug] Template "tags/all_tags.html.ep" not found.
+[Sun Aug 24 10:39:10 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 10:39:10 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 10:39:10 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 10:39:10 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 10:39:10 2014] [debug] 404 Not Found (0.046669s, 21.428/s).
+[Sun Aug 24 10:40:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 10:40:02 2014] [debug] GET "/tags".
+[Sun Aug 24 10:40:02 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:40:02 2014] [debug] Template "tags/all_tags.html.ep" not found.
+[Sun Aug 24 10:40:02 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 10:40:02 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 10:40:02 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 10:40:02 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 10:40:02 2014] [debug] 404 Not Found (0.048255s, 20.723/s).
+[Sun Aug 24 10:40:07 2014] [debug] GET "/categories".
+[Sun Aug 24 10:40:07 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 10:40:07 2014] [debug] Template "categories/all_categories.html.ep" not found.
+[Sun Aug 24 10:40:07 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 10:40:07 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 10:40:07 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 10:40:07 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 10:40:07 2014] [debug] 404 Not Found (0.026666s, 37.501/s).
+[Sun Aug 24 10:41:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 10:41:10 2014] [debug] GET "/categories".
+[Sun Aug 24 10:41:10 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 10:41:10 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 10:41:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 10:41:10 2014] [debug] 200 OK (0.012877s, 77.658/s).
+[Sun Aug 24 10:41:38 2014] [debug] GET "/tags".
+[Sun Aug 24 10:41:38 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:41:38 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 10:41:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 10:41:38 2014] [debug] 200 OK (0.026491s, 37.749/s).
+[Sun Aug 24 10:41:39 2014] [debug] GET "/categories".
+[Sun Aug 24 10:41:39 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 10:41:39 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Sun Aug 24 10:41:39 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 10:41:39 2014] [debug] 200 OK (0.002862s, 349.406/s).
+[Sun Aug 24 10:41:41 2014] [debug] GET "/tags".
+[Sun Aug 24 10:41:41 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:41:41 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 10:41:41 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 10:41:41 2014] [debug] 200 OK (0.003209s, 311.624/s).
+[Sun Aug 24 10:41:42 2014] [debug] GET "/new_file".
+[Sun Aug 24 10:41:42 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 10:41:42 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 10:41:42 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 10:41:42 2014] [debug] 200 OK (0.006015s, 166.251/s).
+[Sun Aug 24 10:57:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 10:57:12 2014] [debug] GET "/tags".
+[Sun Aug 24 10:57:12 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:57:12 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 10:57:12 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 10:57:12 2014] [debug] 200 OK (0.031146s, 32.107/s).
+[Sun Aug 24 10:57:20 2014] [debug] GET "/categories".
+[Sun Aug 24 10:57:20 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 10:57:20 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 10:57:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 10:57:20 2014] [debug] 200 OK (0.008314s, 120.279/s).
+[Sun Aug 24 10:57:22 2014] [debug] GET "/tags".
+[Sun Aug 24 10:57:22 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:57:22 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 10:57:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 10:57:22 2014] [debug] 200 OK (0.003501s, 285.633/s).
+[Sun Aug 24 10:57:25 2014] [debug] GET "/categories".
+[Sun Aug 24 10:57:25 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 10:57:25 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Sun Aug 24 10:57:25 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 10:57:25 2014] [debug] 200 OK (0.003161s, 316.356/s).
+[Sun Aug 24 10:57:27 2014] [debug] GET "/tags".
+[Sun Aug 24 10:57:27 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 10:57:27 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 10:57:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 10:57:27 2014] [debug] 200 OK (0.003268s, 305.998/s).
+[Sun Aug 24 10:57:27 2014] [debug] GET "/categories".
+[Sun Aug 24 10:57:27 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 10:57:27 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Sun Aug 24 10:57:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 10:57:27 2014] [debug] 200 OK (0.003313s, 301.841/s).
+[Sun Aug 24 14:51:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 14:51:36 2014] [debug] GET "/categories".
+[Sun Aug 24 14:51:36 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 14:51:36 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 14:51:36 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 14:51:36 2014] [debug] 200 OK (0.031030s, 32.227/s).
+[Sun Aug 24 14:51:38 2014] [debug] GET "/tags".
+[Sun Aug 24 14:51:38 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 14:51:38 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 14:51:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 14:51:38 2014] [debug] 200 OK (0.053179s, 18.804/s).
+[Sun Aug 24 14:51:39 2014] [debug] GET "/categories".
+[Sun Aug 24 14:51:39 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 14:51:39 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Sun Aug 24 14:51:39 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 14:51:39 2014] [debug] 200 OK (0.003044s, 328.515/s).
+[Sun Aug 24 14:51:40 2014] [debug] GET "/tags".
+[Sun Aug 24 14:51:40 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 14:51:40 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 14:51:40 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 14:51:40 2014] [debug] 200 OK (0.003169s, 315.557/s).
+[Sun Aug 24 14:52:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 14:52:06 2014] [debug] GET "/tags".
+[Sun Aug 24 14:52:06 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 14:52:06 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 14:52:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 14:52:06 2014] [debug] 200 OK (0.029761s, 33.601/s).
+[Sun Aug 24 14:52:08 2014] [debug] GET "/categories".
+[Sun Aug 24 14:52:08 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 14:52:08 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 14:52:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 14:52:08 2014] [debug] 200 OK (0.009226s, 108.389/s).
+[Sun Aug 24 14:52:11 2014] [debug] GET "/tags".
+[Sun Aug 24 14:52:11 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 14:52:11 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 14:52:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 14:52:11 2014] [debug] 200 OK (0.003291s, 303.859/s).
+[Sun Aug 24 14:52:12 2014] [debug] GET "/categories".
+[Sun Aug 24 14:52:12 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 14:52:12 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Sun Aug 24 14:52:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 14:52:12 2014] [debug] 200 OK (0.003406s, 293.600/s).
+[Sun Aug 24 15:02:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:02:49 2014] [debug] GET "/tags".
+[Sun Aug 24 15:02:49 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 15:02:49 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 15:02:49 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:02:49 2014] [debug] 200 OK (0.030872s, 32.392/s).
+[Sun Aug 24 15:02:51 2014] [debug] GET "/categories".
+[Sun Aug 24 15:02:51 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:02:51 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:02:51 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:02:51 2014] [debug] 200 OK (0.009341s, 107.055/s).
+[Sun Aug 24 15:02:52 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:02:52 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:02:52 2014] [error] Can't call method "p" on an undefined value at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Categories.pm line 18.
+
+[Sun Aug 24 15:02:52 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Aug 24 15:02:52 2014] [debug] Template "exception.html.ep" not found.
+[Sun Aug 24 15:02:52 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sun Aug 24 15:02:52 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 15:02:52 2014] [debug] 500 Internal Server Error (0.032561s, 30.712/s).
+[Sun Aug 24 15:03:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:03:09 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:03:09 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:03:09 2014] [debug] Template "categories/new_category.html.ep" not found.
+[Sun Aug 24 15:03:09 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:03:17 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:03:17 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:03:17 2014] [debug] Template "categories/new_category.html.ep" not found.
+[Sun Aug 24 15:03:17 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:03:21 2014] [debug] GET "/new_file".
+[Sun Aug 24 15:03:21 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 15:03:21 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 15:03:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:03:21 2014] [debug] 200 OK (0.009483s, 105.452/s).
+[Sun Aug 24 15:03:23 2014] [debug] GET "/categories".
+[Sun Aug 24 15:03:23 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:03:23 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:03:23 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:03:23 2014] [debug] 200 OK (0.007587s, 131.804/s).
+[Sun Aug 24 15:03:25 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:03:25 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:03:25 2014] [debug] Template "categories/new_category.html.ep" not found.
+[Sun Aug 24 15:03:25 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:03:34 2014] [info] Listening at "http://*:3000".
+[Sun Aug 24 15:03:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:03:36 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:03:36 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:03:36 2014] [debug] Template "categories/new_category.html.ep" not found.
+[Sun Aug 24 15:03:36 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:03:38 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:03:38 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:03:38 2014] [debug] Template "categories/new_category.html.ep" not found.
+[Sun Aug 24 15:03:38 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:03:53 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:03:53 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:03:53 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:03:53 2014] [debug] Template "categories/new_category.html.ep" not found.
+[Sun Aug 24 15:03:53 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:04:08 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:04:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:04:56 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:04:56 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:04:56 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Sun Aug 24 15:04:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:04:56 2014] [debug] 200 OK (0.036205s, 27.620/s).
+[Sun Aug 24 15:05:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:05:22 2014] [debug] GET "/tags".
+[Sun Aug 24 15:05:22 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 15:05:22 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 15:05:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:05:22 2014] [debug] 200 OK (0.029003s, 34.479/s).
+[Sun Aug 24 15:05:23 2014] [debug] GET "/categories".
+[Sun Aug 24 15:05:23 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:05:23 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:05:23 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:05:23 2014] [debug] 200 OK (0.008508s, 117.536/s).
+[Sun Aug 24 15:05:23 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:05:23 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:05:23 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Sun Aug 24 15:05:23 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:05:23 2014] [debug] 200 OK (0.007900s, 126.582/s).
+[Sun Aug 24 15:05:42 2014] [debug] POST "/category/new_category".
+[Sun Aug 24 15:05:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 15:05:42 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 15:05:42 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 15:05:42 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 15:05:42 2014] [debug] 404 Not Found (0.024155s, 41.399/s).
+[Sun Aug 24 15:06:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:06:12 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:06:12 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:06:12 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Sun Aug 24 15:06:12 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:06:12 2014] [debug] 200 OK (0.031764s, 31.482/s).
+[Sun Aug 24 15:06:14 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:06:14 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:06:14 2014] [debug] Template "categories/store_category.html.ep" not found.
+[Sun Aug 24 15:06:14 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:06:29 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:06:29 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:06:29 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:06:29 2014] [debug] Template "categories/store_category.html.ep" not found.
+[Sun Aug 24 15:06:29 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:06:44 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:06:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:06:59 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:06:59 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:06:59 2014] [debug] Template "categories/store_category.html.ep" not found.
+[Sun Aug 24 15:06:59 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:07:14 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:07:14 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:07:14 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:07:14 2014] [debug] Template "categories/store_category.html.ep" not found.
+[Sun Aug 24 15:07:14 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:07:17 2014] [info] Listening at "http://*:3000".
+[Sun Aug 24 15:07:23 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:07:23 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:07:23 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:07:23 2014] [debug] Template "categories/store_category.html.ep" not found.
+[Sun Aug 24 15:07:23 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:07:38 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:07:38 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:07:38 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:07:38 2014] [debug] Template "categories/store_category.html.ep" not found.
+[Sun Aug 24 15:07:38 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:07:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:07:51 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:07:51 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:07:51 2014] [debug] 200 OK (0.029439s, 33.969/s).
+[Sun Aug 24 15:42:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:42:20 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:42:20 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:42:20 2014] [debug] 200 OK (0.022869s, 43.727/s).
+[Sun Aug 24 15:42:29 2014] [debug] GET "/categories".
+[Sun Aug 24 15:42:29 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:42:29 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:42:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:42:29 2014] [debug] 200 OK (0.009868s, 101.338/s).
+[Sun Aug 24 15:43:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:43:10 2014] [debug] GET "/categories".
+[Sun Aug 24 15:43:10 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:43:10 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:43:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:43:10 2014] [debug] 200 OK (0.033748s, 29.631/s).
+[Sun Aug 24 15:43:11 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:43:11 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:43:11 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Sun Aug 24 15:43:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:43:11 2014] [debug] 200 OK (0.007588s, 131.787/s).
+[Sun Aug 24 15:43:22 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:43:22 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:43:22 2014] [debug] 200 OK (0.007732s, 129.333/s).
+[Sun Aug 24 15:43:25 2014] [debug] GET "/categories".
+[Sun Aug 24 15:43:25 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:43:25 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Sun Aug 24 15:43:25 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 15:43:25 2014] [debug] 200 OK (0.003743s, 267.165/s).
+[Sun Aug 24 15:44:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:44:19 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 15:44:19 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 15:44:19 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Sun Aug 24 15:44:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:44:19 2014] [debug] 200 OK (0.036417s, 27.460/s).
+[Sun Aug 24 15:44:24 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:44:24 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:44:24 2014] [debug] 200 OK (0.002953s, 338.639/s).
+[Sun Aug 24 15:46:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:46:12 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:46:12 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:46:12 2014] [debug] 200 OK (0.029041s, 34.434/s).
+[Sun Aug 24 15:46:54 2014] [info] Listening at "http://*:3000".
+[Sun Aug 24 15:47:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:47:00 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:47:00 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:47:00 2014] [debug] 200 OK (0.023669s, 42.249/s).
+[Sun Aug 24 15:49:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:49:58 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 15:49:58 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 15:49:58 2014] [debug] 200 OK (0.027663s, 36.149/s).
+[Sun Aug 24 15:50:05 2014] [debug] GET "/categories".
+[Sun Aug 24 15:50:05 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:50:05 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:50:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:50:05 2014] [debug] 200 OK (0.009877s, 101.245/s).
+[Sun Aug 24 15:50:11 2014] [debug] GET "/category/remove/1".
+[Sun Aug 24 15:50:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 15:50:11 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 15:50:11 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 15:50:11 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 15:50:11 2014] [debug] 404 Not Found (0.022559s, 44.328/s).
+[Sun Aug 24 15:51:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:51:03 2014] [debug] GET "/categories/remove/1".
+[Sun Aug 24 15:51:03 2014] [debug] Routing to controller "Pdms::Categories" and action "remove".
+[Sun Aug 24 15:51:03 2014] [debug] Action not found in controller.
+[Sun Aug 24 15:51:03 2014] [debug] Template "categories/remove.html.ep" not found.
+[Sun Aug 24 15:51:03 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 15:51:03 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 15:51:03 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 15:51:03 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 15:51:03 2014] [debug] 404 Not Found (0.044107s, 22.672/s).
+[Sun Aug 24 15:56:02 2014] [info] Listening at "http://*:3000".
+[Sun Aug 24 15:56:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:56:06 2014] [debug] GET "/categories/remove/1".
+[Sun Aug 24 15:56:06 2014] [debug] Routing to controller "Pdms::Categories" and action "remove_category".
+[Sun Aug 24 15:56:06 2014] [debug] Template "categories/remove_category.html.ep" not found.
+[Sun Aug 24 15:56:06 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:56:21 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:56:21 2014] [debug] GET "/categories/remove/1".
+[Sun Aug 24 15:56:21 2014] [debug] Routing to controller "Pdms::Categories" and action "remove_category".
+[Sun Aug 24 15:56:21 2014] [debug] Template "categories/remove_category.html.ep" not found.
+[Sun Aug 24 15:56:21 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Aug 24 15:56:36 2014] [debug] Inactivity timeout.
+[Sun Aug 24 15:56:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:56:56 2014] [debug] GET "/categories/remove/1".
+[Sun Aug 24 15:56:56 2014] [debug] Routing to controller "Pdms::Categories" and action "remove_category".
+[Sun Aug 24 15:56:56 2014] [debug] 200 OK (0.038064s, 26.272/s).
+[Sun Aug 24 15:58:04 2014] [debug] GET "/categories".
+[Sun Aug 24 15:58:04 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:58:04 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:58:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:58:04 2014] [debug] 200 OK (0.009892s, 101.092/s).
+[Sun Aug 24 15:58:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:58:29 2014] [debug] GET "/categories".
+[Sun Aug 24 15:58:29 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:58:29 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:58:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:58:29 2014] [debug] 200 OK (0.034691s, 28.826/s).
+[Sun Aug 24 15:59:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 15:59:43 2014] [debug] GET "/categories".
+[Sun Aug 24 15:59:43 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 15:59:43 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 15:59:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 15:59:43 2014] [debug] 200 OK (0.038233s, 26.155/s).
+[Sun Aug 24 15:59:47 2014] [debug] GET "/categories/remove/1".
+[Sun Aug 24 15:59:47 2014] [debug] Routing to controller "Pdms::Categories" and action "remove_category".
+[Sun Aug 24 15:59:47 2014] [debug] 200 OK (0.002106s, 474.834/s).
+[Sun Aug 24 16:21:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 16:21:41 2014] [debug] GET "/categories/remove/1".
+[Sun Aug 24 16:21:41 2014] [debug] Routing to controller "Pdms::Categories" and action "remove_category".
+[Sun Aug 24 16:21:41 2014] [debug] 200 OK (0.024271s, 41.201/s).
+[Sun Aug 24 16:21:55 2014] [debug] GET "/tags".
+[Sun Aug 24 16:21:55 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 16:21:55 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 16:21:55 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 16:21:55 2014] [debug] 200 OK (0.009579s, 104.395/s).
+[Sun Aug 24 16:21:56 2014] [debug] GET "/categories".
+[Sun Aug 24 16:21:56 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 16:21:56 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 16:21:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 16:21:56 2014] [debug] 200 OK (0.010007s, 99.930/s).
+[Sun Aug 24 16:21:58 2014] [debug] GET "/categories/new_category".
+[Sun Aug 24 16:21:58 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Sun Aug 24 16:21:58 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Sun Aug 24 16:21:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 16:21:58 2014] [debug] 200 OK (0.005491s, 182.116/s).
+[Sun Aug 24 16:22:01 2014] [debug] POST "/categories/new_category".
+[Sun Aug 24 16:22:01 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Sun Aug 24 16:22:01 2014] [debug] 200 OK (0.004036s, 247.770/s).
+[Sun Aug 24 16:22:06 2014] [debug] GET "/categories".
+[Sun Aug 24 16:22:06 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 16:22:06 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Sun Aug 24 16:22:06 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 16:22:06 2014] [debug] 200 OK (0.005335s, 187.441/s).
+[Sun Aug 24 17:08:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:08:37 2014] [debug] GET "/tags".
+[Sun Aug 24 17:08:37 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:08:37 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:08:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:08:37 2014] [debug] 200 OK (0.031148s, 32.105/s).
+[Sun Aug 24 17:08:38 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:08:38 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:08:38 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Sun Aug 24 17:08:38 2014] [error] syntax error at template tags/new_tag.html.ep line 6, near ") method"
+1: % layout 'default';
+2: % title 'New Tag';
+3: 
+4: <h1>New Tags</h1>
+5: 
+6: <form action="<%= url_for('/categories/new_tag') method="post">
+7: New Tag: <input type="text" name="tag_value" />
+8: <input type="submit" value="Send"/>
+9: </form>
+
+[Sun Aug 24 17:08:38 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Aug 24 17:08:38 2014] [debug] Template "exception.html.ep" not found.
+[Sun Aug 24 17:08:38 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sun Aug 24 17:08:38 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:08:38 2014] [debug] 500 Internal Server Error (0.040631s, 24.612/s).
+[Sun Aug 24 17:09:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:09:14 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:09:14 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:09:14 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Sun Aug 24 17:09:14 2014] [error] syntax error at template tags/new_tag.html.ep line 6, near ") method"
+1: % layout 'default';
+2: % title 'New Tag';
+3: 
+4: <h1>New Tags</h1>
+5: 
+6: <form action="<%= url_for('/tags/new_tag') method="post">
+7: New Tag: <input type="text" name="tag_value" />
+8: <input type="submit" value="Send"/>
+9: </form>
+
+[Sun Aug 24 17:09:14 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Aug 24 17:09:14 2014] [debug] Template "exception.html.ep" not found.
+[Sun Aug 24 17:09:14 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sun Aug 24 17:09:14 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:09:14 2014] [debug] 500 Internal Server Error (0.063800s, 15.674/s).
+[Sun Aug 24 17:09:55 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:09:55 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:09:55 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:09:55 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Sun Aug 24 17:09:55 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:09:55 2014] [debug] 200 OK (0.028937s, 34.558/s).
+[Sun Aug 24 17:10:03 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:10:03 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:10:03 2014] [debug] 200 OK (0.003639s, 274.801/s).
+[Sun Aug 24 17:10:08 2014] [debug] GET "/tags".
+[Sun Aug 24 17:10:08 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:10:08 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:10:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:10:08 2014] [debug] 200 OK (0.007111s, 140.627/s).
+[Sun Aug 24 17:10:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:10:43 2014] [debug] GET "/tags".
+[Sun Aug 24 17:10:43 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:10:43 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:10:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:10:43 2014] [debug] 200 OK (0.032747s, 30.537/s).
+[Sun Aug 24 17:10:45 2014] [debug] GET "/tags/remove/1".
+[Sun Aug 24 17:10:45 2014] [debug] Routing to controller "Pdms::Tags" and action "remove_tag".
+[Sun Aug 24 17:10:45 2014] [debug] 200 OK (0.002899s, 344.947/s).
+[Sun Aug 24 17:14:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:14:14 2014] [debug] GET "/tags".
+[Sun Aug 24 17:14:14 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:14:14 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:14:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:14:14 2014] [debug] 200 OK (0.037094s, 26.959/s).
+[Sun Aug 24 17:14:17 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:14:17 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:14:17 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Sun Aug 24 17:14:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:14:17 2014] [debug] 200 OK (0.005082s, 196.773/s).
+[Sun Aug 24 17:14:19 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:14:19 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:14:19 2014] [debug] Template "tags#all_tags.html.ep" not found.
+[Sun Aug 24 17:14:19 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 17:14:19 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 17:14:19 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 17:14:19 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:14:19 2014] [debug] 404 Not Found (0.023411s, 42.715/s).
+[Sun Aug 24 17:14:44 2014] [debug] GET "/tags".
+[Sun Aug 24 17:14:44 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:14:44 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 17:14:44 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:14:44 2014] [debug] 200 OK (0.005018s, 199.283/s).
+[Sun Aug 24 17:16:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:16:54 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:16:54 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:16:54 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Sun Aug 24 17:16:54 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:16:54 2014] [debug] 200 OK (0.039820s, 25.113/s).
+[Sun Aug 24 17:16:56 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:16:56 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:16:56 2014] [debug] Template "all_tags.html.ep" not found.
+[Sun Aug 24 17:16:56 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 17:16:56 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 17:16:56 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 17:16:56 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:16:56 2014] [debug] 404 Not Found (0.041065s, 24.352/s).
+[Sun Aug 24 17:18:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:18:45 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:18:45 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:18:45 2014] [debug] Rendering template "/tags/all_tags.html.ep".
+[Sun Aug 24 17:18:45 2014] [error] Global symbol "$tags" requires explicit package name at template /tags/all_tags.html.ep line 16.
+Global symbol "$tags" requires explicit package name at template /tags/all_tags.html.ep line 19.
+14: <th>Remove</th>
+15: </tr>
+16: % for my $tag (keys %$tags) {
+17: <tr>
+18: <td><%= $tag %></td>
+19: <td><%= $tags->{$tag}->{tag_value} %></td>
+20: <td><a href="<%= url_for("/tags/remove/$tag") %>">Remove</a></td>
+21: % }
+22: </table>
+
+[Sun Aug 24 17:18:45 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Aug 24 17:18:45 2014] [debug] Template "exception.html.ep" not found.
+[Sun Aug 24 17:18:45 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sun Aug 24 17:18:45 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:18:45 2014] [debug] 500 Internal Server Error (0.059367s, 16.844/s).
+[Sun Aug 24 17:22:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:22:39 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:22:39 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:22:39 2014] [debug] 302 Found (0.026410s, 37.864/s).
+[Sun Aug 24 17:22:39 2014] [debug] GET "/tags".
+[Sun Aug 24 17:22:39 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:22:39 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:22:39 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:22:39 2014] [debug] 200 OK (0.009668s, 103.434/s).
+[Sun Aug 24 17:22:41 2014] [debug] GET "/tags/remove/3".
+[Sun Aug 24 17:22:41 2014] [debug] Routing to controller "Pdms::Tags" and action "remove_tag".
+[Sun Aug 24 17:22:41 2014] [debug] 302 Found (0.002416s, 413.907/s).
+[Sun Aug 24 17:22:41 2014] [debug] GET "/tags/all_tags".
+[Sun Aug 24 17:22:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug 24 17:22:41 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Aug 24 17:22:41 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Sun Aug 24 17:22:41 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:22:41 2014] [debug] 404 Not Found (0.023494s, 42.564/s).
+[Sun Aug 24 17:23:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:23:04 2014] [debug] GET "/tags".
+[Sun Aug 24 17:23:04 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:23:04 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:23:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:23:04 2014] [debug] 200 OK (0.035791s, 27.940/s).
+[Sun Aug 24 17:23:05 2014] [debug] GET "/tags/remove/2".
+[Sun Aug 24 17:23:05 2014] [debug] Routing to controller "Pdms::Tags" and action "remove_tag".
+[Sun Aug 24 17:23:05 2014] [debug] 302 Found (0.003681s, 271.665/s).
+[Sun Aug 24 17:23:05 2014] [debug] GET "/tags".
+[Sun Aug 24 17:23:05 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:23:05 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 17:23:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:23:05 2014] [debug] 200 OK (0.002839s, 352.237/s).
+[Sun Aug 24 17:26:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:26:12 2014] [debug] GET "/categories".
+[Sun Aug 24 17:26:12 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 17:26:12 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 17:26:12 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:26:12 2014] [debug] 200 OK (0.032816s, 30.473/s).
+[Sun Aug 24 17:26:16 2014] [debug] GET "/tags".
+[Sun Aug 24 17:26:16 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:26:16 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:26:16 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:26:16 2014] [debug] 200 OK (0.006994s, 142.980/s).
+[Sun Aug 24 17:26:17 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:26:17 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:26:17 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Sun Aug 24 17:26:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:26:17 2014] [debug] 200 OK (0.005123s, 195.198/s).
+[Sun Aug 24 17:26:23 2014] [debug] GET "/tags".
+[Sun Aug 24 17:26:23 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:26:23 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 17:26:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:26:23 2014] [debug] 200 OK (0.003817s, 261.986/s).
+[Sun Aug 24 17:48:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:48:16 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:48:16 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:48:16 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Sun Aug 24 17:48:16 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:48:16 2014] [debug] 200 OK (0.032644s, 30.634/s).
+[Sun Aug 24 17:48:19 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:48:19 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:48:19 2014] [debug] 302 Found (0.005951s, 168.039/s).
+[Sun Aug 24 17:48:19 2014] [debug] GET "/tags".
+[Sun Aug 24 17:48:19 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:48:19 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 17:48:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:48:19 2014] [debug] 200 OK (0.010128s, 98.736/s).
+[Sun Aug 24 17:48:21 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:48:21 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:48:21 2014] [debug] Rendering cached template "tags/new_tag.html.ep".
+[Sun Aug 24 17:48:21 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:48:21 2014] [debug] 200 OK (0.002231s, 448.229/s).
+[Sun Aug 24 17:48:27 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:48:27 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:48:27 2014] [debug] 302 Found (0.003376s, 296.209/s).
+[Sun Aug 24 17:48:27 2014] [debug] GET "/tags".
+[Sun Aug 24 17:48:27 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:48:27 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 17:48:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:48:27 2014] [debug] 200 OK (0.003672s, 272.331/s).
+[Sun Aug 24 17:48:29 2014] [debug] GET "/tags/new_tag".
+[Sun Aug 24 17:48:29 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Sun Aug 24 17:48:29 2014] [debug] Rendering cached template "tags/new_tag.html.ep".
+[Sun Aug 24 17:48:29 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:48:29 2014] [debug] 200 OK (0.002262s, 442.087/s).
+[Sun Aug 24 17:48:34 2014] [debug] POST "/tags/new_tag".
+[Sun Aug 24 17:48:34 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Sun Aug 24 17:48:34 2014] [debug] 302 Found (0.002916s, 342.936/s).
+[Sun Aug 24 17:48:34 2014] [debug] GET "/tags".
+[Sun Aug 24 17:48:34 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 17:48:34 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Sun Aug 24 17:48:34 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:48:34 2014] [debug] 200 OK (0.004054s, 246.670/s).
+[Sun Aug 24 17:48:36 2014] [debug] GET "/new_file".
+[Sun Aug 24 17:48:36 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 17:48:36 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 17:48:36 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:48:36 2014] [debug] 200 OK (0.005574s, 179.404/s).
+[Sun Aug 24 17:48:43 2014] [debug] GET "/categories".
+[Sun Aug 24 17:48:43 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 17:48:43 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 17:48:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 17:48:43 2014] [debug] 200 OK (0.010359s, 96.534/s).
+[Sun Aug 24 17:48:46 2014] [debug] GET "/new_file".
+[Sun Aug 24 17:48:46 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 17:48:46 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Sun Aug 24 17:48:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Aug 24 17:48:46 2014] [debug] 200 OK (0.003220s, 310.559/s).
+[Sun Aug 24 17:57:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:57:24 2014] [debug] GET "/new_file".
+[Sun Aug 24 17:57:24 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 17:57:24 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 17:57:24 2014] [error] Global symbol "$category" requires explicit package name at template files/new_file.html.ep line 11.
+6: <form id="new_file" action="<%= url_for('/new_file') %>"  method="POST" enctype="multipart/form-data">
+7: File: <INPUT type="file" name="file" /><BR>
+8: Category:
+9: <p>
+10: <select name="category">
+11: % foreach my $category (keys %$category) {
+12: <option value="<%= $category->{$category}->{category_value} %>"><%= $category %></option>
+13: % }
+14: </select>
+15: </p>
+16: Tags: 
+
+[Sun Aug 24 17:57:24 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Aug 24 17:57:24 2014] [debug] Template "exception.html.ep" not found.
+[Sun Aug 24 17:57:24 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sun Aug 24 17:57:24 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:57:24 2014] [debug] 500 Internal Server Error (0.104536s, 9.566/s).
+[Sun Aug 24 17:59:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 17:59:22 2014] [debug] GET "/new_file".
+[Sun Aug 24 17:59:22 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 17:59:22 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 17:59:22 2014] [error] Can't use string ("2") as a HASH ref while "strict refs" in use at template files/new_file.html.ep line 12.
+7: File: <INPUT type="file" name="file" /><BR>
+8: Category:
+9: <p>
+10: <select name="category">
+11: % foreach my $category (keys %$categories) {
+12: <option value="<%= $category->{$category}->{category_value} %>"><%= $category %></option>
+13: % }
+14: </select>
+15: </p>
+16: Tags: 
+17: <p>
+
+[Sun Aug 24 17:59:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Aug 24 17:59:22 2014] [debug] Template "exception.html.ep" not found.
+[Sun Aug 24 17:59:22 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Sun Aug 24 17:59:22 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Sun Aug 24 17:59:22 2014] [debug] 500 Internal Server Error (0.064102s, 15.600/s).
+[Sun Aug 24 18:00:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 18:00:45 2014] [debug] GET "/new_file".
+[Sun Aug 24 18:00:45 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 18:00:45 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 18:00:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 18:00:45 2014] [debug] 200 OK (0.034660s, 28.852/s).
+[Sun Aug 24 18:01:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 18:01:57 2014] [debug] GET "/new_file".
+[Sun Aug 24 18:01:57 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 18:01:57 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 18:01:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 18:01:57 2014] [debug] 200 OK (0.035280s, 28.345/s).
+[Sun Aug 24 18:03:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 18:03:44 2014] [debug] POST "/new_file".
+[Sun Aug 24 18:03:44 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Sun Aug 24 18:03:44 2014] [debug] 200 OK (0.038336s, 26.085/s).
+[Sun Aug 24 18:04:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 24 18:04:40 2014] [debug] POST "/new_file".
+[Sun Aug 24 18:04:40 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Sun Aug 24 18:04:40 2014] [debug] 200 OK (0.038384s, 26.053/s).
+[Sun Aug 24 18:04:56 2014] [debug] POST "/new_file".
+[Sun Aug 24 18:04:56 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Sun Aug 24 18:04:56 2014] [debug] 200 OK (0.008775s, 113.960/s).
+[Sun Aug 24 18:22:56 2014] [debug] GET "/tags".
+[Sun Aug 24 18:22:56 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Sun Aug 24 18:22:56 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Sun Aug 24 18:22:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 18:22:56 2014] [debug] 200 OK (0.010647s, 93.923/s).
+[Sun Aug 24 18:22:58 2014] [debug] GET "/categories".
+[Sun Aug 24 18:22:58 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sun Aug 24 18:22:58 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sun Aug 24 18:22:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 18:22:58 2014] [debug] 200 OK (0.008064s, 124.008/s).
+[Sun Aug 24 18:23:00 2014] [debug] GET "/new_file".
+[Sun Aug 24 18:23:00 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Sun Aug 24 18:23:00 2014] [debug] Rendering template "files/new_file.html.ep".
+[Sun Aug 24 18:23:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Aug 24 18:23:00 2014] [debug] 200 OK (0.008088s, 123.640/s).
+[Mon Aug 25 14:15:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 14:15:09 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:15:09 2014] [error] syntax error at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 47, near ""ARRAY"}"
+syntax error at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 52, near "else"
+syntax error at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 55, near "}"
+Global symbol "$tag_ids" requires explicit package name at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 56.
+Global symbol "$file" requires explicit package name at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 58.
+syntax error at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 63, near "}"
+Unmatched right curly bracket at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 67, at end of line
+Compilation failed in require at (eval 279) line 1.
+
+[Mon Aug 25 14:15:09 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 25 14:15:09 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 25 14:15:09 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Mon Aug 25 14:15:09 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 14:15:09 2014] [debug] 500 Internal Server Error (0.073754s, 13.559/s).
+[Mon Aug 25 14:15:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 14:15:35 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:15:35 2014] [error] syntax error at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 56, near "$tag_ids:"
+syntax error at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 64, near "else"
+Global symbol "$self" requires explicit package name at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/Files.pm line 65.
+Compilation failed in require at (eval 279) line 1.
+
+[Mon Aug 25 14:15:35 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 25 14:15:35 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 25 14:15:35 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Mon Aug 25 14:15:35 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 14:15:35 2014] [debug] 500 Internal Server Error (0.067341s, 14.850/s).
+[Mon Aug 25 14:15:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 14:15:51 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:15:51 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 14:15:51 2014] [debug] 200 OK (0.027636s, 36.185/s).
+[Mon Aug 25 14:16:06 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:16:06 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 14:16:06 2014] [debug] 200 OK (0.001870s, 534.759/s).
+[Mon Aug 25 14:16:13 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:16:13 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 14:16:13 2014] [debug] 200 OK (0.001868s, 535.332/s).
+[Mon Aug 25 14:16:17 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:16:17 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 14:16:17 2014] [debug] 200 OK (0.001673s, 597.729/s).
+[Mon Aug 25 14:16:22 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:16:22 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 14:16:22 2014] [debug] 200 OK (0.002017s, 495.786/s).
+[Mon Aug 25 14:16:31 2014] [debug] POST "/new_file".
+[Mon Aug 25 14:16:31 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 14:16:31 2014] [debug] 200 OK (0.014146s, 70.691/s).
+[Mon Aug 25 14:16:40 2014] [debug] GET "/tags".
+[Mon Aug 25 14:16:40 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 14:16:40 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Mon Aug 25 14:16:40 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 14:16:40 2014] [debug] 200 OK (0.010454s, 95.657/s).
+[Mon Aug 25 14:16:44 2014] [debug] GET "/tags/remove/7".
+[Mon Aug 25 14:16:44 2014] [debug] Routing to controller "Pdms::Tags" and action "remove_tag".
+[Mon Aug 25 14:16:44 2014] [debug] 302 Found (0.002434s, 410.846/s).
+[Mon Aug 25 14:16:44 2014] [debug] GET "/tags".
+[Mon Aug 25 14:16:44 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 14:16:44 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Mon Aug 25 14:16:44 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 14:16:44 2014] [debug] 200 OK (0.003588s, 278.707/s).
+[Mon Aug 25 17:20:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:20:48 2014] [debug] GET "/tags".
+[Mon Aug 25 17:20:49 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 17:20:49 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Mon Aug 25 17:20:49 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:20:49 2014] [debug] 200 OK (0.030359s, 32.939/s).
+[Mon Aug 25 17:20:49 2014] [debug] GET "/tags".
+[Mon Aug 25 17:20:49 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 17:20:49 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Mon Aug 25 17:20:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 17:20:49 2014] [debug] 200 OK (0.003784s, 264.271/s).
+[Mon Aug 25 17:20:51 2014] [debug] GET "/tags".
+[Mon Aug 25 17:20:51 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 17:20:51 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Mon Aug 25 17:20:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 17:20:51 2014] [debug] 200 OK (0.005204s, 192.160/s).
+[Mon Aug 25 17:20:54 2014] [debug] GET "/tags".
+[Mon Aug 25 17:20:54 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 17:20:54 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Mon Aug 25 17:20:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 17:20:54 2014] [debug] 200 OK (0.003756s, 266.241/s).
+[Mon Aug 25 17:20:56 2014] [debug] GET "/categories".
+[Mon Aug 25 17:20:56 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Mon Aug 25 17:20:56 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Mon Aug 25 17:20:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:20:56 2014] [debug] 200 OK (0.009379s, 106.621/s).
+[Mon Aug 25 17:21:00 2014] [debug] GET "/new_file".
+[Mon Aug 25 17:21:00 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 17:21:00 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 17:21:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:21:00 2014] [debug] 200 OK (0.008283s, 120.729/s).
+[Mon Aug 25 17:22:04 2014] [debug] POST "/new_file".
+[Mon Aug 25 17:22:04 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 17:22:05 2014] [debug] 200 OK (0.148974s, 6.713/s).
+[Mon Aug 25 17:22:17 2014] [debug] GET "/".
+[Mon Aug 25 17:22:17 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:22:17 2014] [error] Can't locate object method "new" via package "PdmsFile" (perhaps you forgot to load "PdmsFile"?) at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/SqlManager.pm line 43.
+
+[Mon Aug 25 17:22:17 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 25 17:22:17 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 25 17:22:17 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Mon Aug 25 17:22:17 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 17:22:17 2014] [debug] 500 Internal Server Error (0.103230s, 9.687/s).
+[Mon Aug 25 17:25:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:25:37 2014] [debug] GET "/".
+[Mon Aug 25 17:25:37 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:25:37 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 17:25:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:25:37 2014] [debug] 200 OK (0.078762s, 12.696/s).
+[Mon Aug 25 17:35:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:35:34 2014] [debug] GET "/".
+[Mon Aug 25 17:35:34 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:35:34 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 17:35:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:35:34 2014] [debug] 200 OK (0.085279s, 11.726/s).
+[Mon Aug 25 17:35:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:35:48 2014] [debug] GET "/".
+[Mon Aug 25 17:35:48 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:35:48 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 17:35:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:35:48 2014] [debug] 200 OK (0.097321s, 10.275/s).
+[Mon Aug 25 17:36:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:36:39 2014] [debug] GET "/".
+[Mon Aug 25 17:36:39 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:36:39 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 17:36:39 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:36:39 2014] [debug] 200 OK (0.084978s, 11.768/s).
+[Mon Aug 25 17:38:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:38:53 2014] [debug] GET "/new_file".
+[Mon Aug 25 17:38:53 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 17:38:53 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 17:38:53 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:38:53 2014] [debug] 200 OK (0.031914s, 31.334/s).
+[Mon Aug 25 17:39:01 2014] [debug] POST "/new_file".
+[Mon Aug 25 17:39:01 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 17:39:01 2014] [debug] 200 OK (0.125211s, 7.987/s).
+[Mon Aug 25 17:41:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:41:04 2014] [debug] GET "/new_file".
+[Mon Aug 25 17:41:04 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 17:41:04 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 17:41:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:41:04 2014] [debug] 200 OK (0.040310s, 24.808/s).
+[Mon Aug 25 17:41:09 2014] [debug] POST "/new_file".
+[Mon Aug 25 17:41:09 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 17:41:09 2014] [debug] 200 OK (0.113154s, 8.838/s).
+[Mon Aug 25 17:41:15 2014] [debug] GET "/".
+[Mon Aug 25 17:41:15 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:41:15 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 17:41:15 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:41:15 2014] [debug] 200 OK (0.142985s, 6.994/s).
+[Mon Aug 25 17:50:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 17:50:57 2014] [debug] GET "/new_file".
+[Mon Aug 25 17:50:57 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 17:50:57 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 17:50:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:50:57 2014] [debug] 200 OK (0.044613s, 22.415/s).
+[Mon Aug 25 17:51:04 2014] [debug] POST "/new_file".
+[Mon Aug 25 17:51:04 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 17:51:04 2014] [debug] 200 OK (0.098717s, 10.130/s).
+[Mon Aug 25 17:55:54 2014] [debug] GET "/".
+[Mon Aug 25 17:55:54 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:55:54 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 17:55:54 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 17:55:54 2014] [debug] 200 OK (0.179418s, 5.574/s).
+[Mon Aug 25 17:57:22 2014] [debug] GET "/".
+[Mon Aug 25 17:57:22 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 17:57:23 2014] [debug] Rendering cached template "files/files.html.ep".
+[Mon Aug 25 17:57:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 17:57:23 2014] [debug] 200 OK (0.188479s, 5.306/s).
+[Mon Aug 25 18:29:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:29:43 2014] [debug] GET "/categories".
+[Mon Aug 25 18:29:43 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Mon Aug 25 18:29:43 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Mon Aug 25 18:29:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:29:43 2014] [debug] 200 OK (0.044845s, 22.299/s).
+[Mon Aug 25 18:29:46 2014] [debug] GET "/tags".
+[Mon Aug 25 18:29:46 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 18:29:46 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Mon Aug 25 18:29:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:29:46 2014] [debug] 200 OK (0.007994s, 125.094/s).
+[Mon Aug 25 18:29:56 2014] [debug] GET "/".
+[Mon Aug 25 18:29:56 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:29:56 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:29:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:29:56 2014] [debug] 200 OK (0.184632s, 5.416/s).
+[Mon Aug 25 18:39:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:39:16 2014] [debug] GET "/new_file".
+[Mon Aug 25 18:39:16 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 18:39:16 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 18:39:16 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:39:16 2014] [debug] 200 OK (0.033185s, 30.134/s).
+[Mon Aug 25 18:39:27 2014] [debug] POST "/new_file".
+[Mon Aug 25 18:39:27 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 18:39:27 2014] [debug] 302 Found (0.023934s, 41.782/s).
+[Mon Aug 25 18:39:27 2014] [debug] GET "/".
+[Mon Aug 25 18:39:27 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:39:27 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:39:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:39:27 2014] [debug] 200 OK (0.007495s, 133.422/s).
+[Mon Aug 25 18:39:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:39:43 2014] [debug] GET "/".
+[Mon Aug 25 18:39:43 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:39:43 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:39:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:39:43 2014] [debug] 200 OK (0.035594s, 28.095/s).
+[Mon Aug 25 18:40:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:40:18 2014] [debug] GET "/".
+[Mon Aug 25 18:40:18 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:40:18 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:40:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:40:18 2014] [debug] 200 OK (0.054440s, 18.369/s).
+[Mon Aug 25 18:40:22 2014] [debug] GET "/new_file".
+[Mon Aug 25 18:40:22 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 18:40:22 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 18:40:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:40:22 2014] [debug] 200 OK (0.007625s, 131.148/s).
+[Mon Aug 25 18:40:27 2014] [debug] POST "/new_file".
+[Mon Aug 25 18:40:27 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 18:40:27 2014] [debug] 302 Found (0.110770s, 9.028/s).
+[Mon Aug 25 18:40:27 2014] [debug] GET "/".
+[Mon Aug 25 18:40:27 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:40:27 2014] [debug] Rendering cached template "files/files.html.ep".
+[Mon Aug 25 18:40:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 18:40:27 2014] [debug] 200 OK (0.008437s, 118.526/s).
+[Mon Aug 25 18:41:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:41:24 2014] [debug] GET "/".
+[Mon Aug 25 18:41:24 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:41:24 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:41:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:41:24 2014] [debug] 200 OK (0.050852s, 19.665/s).
+[Mon Aug 25 18:43:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:43:35 2014] [debug] GET "/".
+[Mon Aug 25 18:43:35 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:43:35 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:43:35 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:43:35 2014] [debug] 200 OK (0.048700s, 20.534/s).
+[Mon Aug 25 18:53:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:53:01 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:53:01 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:53:01 2014] [debug] Action not found in controller.
+[Mon Aug 25 18:53:01 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:53:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Aug 25 18:53:01 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Aug 25 18:53:01 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Mon Aug 25 18:53:01 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 18:53:01 2014] [debug] 404 Not Found (0.042591s, 23.479/s).
+[Mon Aug 25 18:53:30 2014] [info] Listening at "http://*:3000".
+[Mon Aug 25 18:53:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:53:32 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:53:32 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:53:32 2014] [error] Can't locate object method "execute" via package "DELETE FROM file WHERE file_id = '?'" (perhaps you forgot to load "DELETE FROM file WHERE file_id = '?'"?) at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/SqlManager.pm line 185.
+
+[Mon Aug 25 18:53:32 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 25 18:53:32 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 25 18:53:32 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Mon Aug 25 18:53:32 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 18:53:32 2014] [debug] 500 Internal Server Error (0.062911s, 15.895/s).
+[Mon Aug 25 18:53:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:53:54 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:53:54 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:53:54 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:53:54 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 25 18:54:09 2014] [debug] Inactivity timeout.
+[Mon Aug 25 18:54:09 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:54:09 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:54:09 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:54:09 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 25 18:54:23 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:54:23 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:54:23 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:54:23 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:54:23 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 25 18:54:30 2014] [info] Listening at "http://*:3000".
+[Mon Aug 25 18:54:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:54:32 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:54:32 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:54:32 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:54:32 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 25 18:54:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:54:44 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:54:44 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:54:44 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:54:44 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 25 18:54:47 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:54:47 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:54:47 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:54:47 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 25 18:55:02 2014] [debug] Inactivity timeout.
+[Mon Aug 25 18:55:02 2014] [debug] GET "/files/remove/1".
+[Mon Aug 25 18:55:02 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:55:02 2014] [debug] Template "files/remove_file.html.ep" not found.
+[Mon Aug 25 18:55:02 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 25 18:55:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:55:12 2014] [debug] GET "/".
+[Mon Aug 25 18:55:12 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:55:12 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:55:12 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:55:12 2014] [debug] 200 OK (0.056459s, 17.712/s).
+[Mon Aug 25 18:55:15 2014] [debug] GET "/files/remove/2".
+[Mon Aug 25 18:55:15 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:55:15 2014] [debug] 302 Found (0.032688s, 30.592/s).
+[Mon Aug 25 18:55:15 2014] [debug] GET "/".
+[Mon Aug 25 18:55:15 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:55:15 2014] [debug] Rendering cached template "files/files.html.ep".
+[Mon Aug 25 18:55:15 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 18:55:15 2014] [debug] 200 OK (0.009320s, 107.296/s).
+[Mon Aug 25 18:55:17 2014] [debug] GET "/files/remove/3".
+[Mon Aug 25 18:55:17 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:55:17 2014] [debug] 302 Found (0.028428s, 35.177/s).
+[Mon Aug 25 18:55:17 2014] [debug] GET "/".
+[Mon Aug 25 18:55:17 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:55:17 2014] [debug] Rendering cached template "files/files.html.ep".
+[Mon Aug 25 18:55:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 18:55:17 2014] [debug] 200 OK (0.006764s, 147.842/s).
+[Mon Aug 25 18:55:18 2014] [debug] GET "/files/remove/4".
+[Mon Aug 25 18:55:18 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Mon Aug 25 18:55:18 2014] [debug] 302 Found (0.037800s, 26.455/s).
+[Mon Aug 25 18:55:18 2014] [debug] GET "/".
+[Mon Aug 25 18:55:18 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:55:18 2014] [debug] Rendering cached template "files/files.html.ep".
+[Mon Aug 25 18:55:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 18:55:18 2014] [debug] 200 OK (0.006653s, 150.308/s).
+[Mon Aug 25 18:57:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:57:06 2014] [debug] GET "/".
+[Mon Aug 25 18:57:06 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:57:06 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:57:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:57:06 2014] [debug] 200 OK (0.041948s, 23.839/s).
+[Mon Aug 25 18:57:19 2014] [debug] GET "/new_file".
+[Mon Aug 25 18:57:19 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 18:57:19 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 18:57:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:57:19 2014] [debug] 200 OK (0.008056s, 124.131/s).
+[Mon Aug 25 18:57:27 2014] [debug] POST "/new_file".
+[Mon Aug 25 18:57:27 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 18:57:28 2014] [debug] 302 Found (0.238519s, 4.193/s).
+[Mon Aug 25 18:57:28 2014] [debug] GET "/".
+[Mon Aug 25 18:57:28 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:57:28 2014] [debug] Rendering cached template "files/files.html.ep".
+[Mon Aug 25 18:57:28 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 18:57:28 2014] [debug] 200 OK (0.008959s, 111.620/s).
+[Mon Aug 25 18:59:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:59:02 2014] [debug] GET "/".
+[Mon Aug 25 18:59:02 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:59:02 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:59:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:59:02 2014] [debug] 200 OK (0.045827s, 21.821/s).
+[Mon Aug 25 18:59:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 18:59:26 2014] [debug] GET "/".
+[Mon Aug 25 18:59:26 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 18:59:27 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 18:59:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 18:59:27 2014] [debug] 200 OK (0.053267s, 18.773/s).
+[Mon Aug 25 19:09:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:09:15 2014] [debug] GET "/new_file".
+[Mon Aug 25 19:09:15 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 19:09:15 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 19:09:15 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 19:09:15 2014] [debug] 200 OK (0.032629s, 30.648/s).
+[Mon Aug 25 19:09:23 2014] [debug] POST "/new_file".
+[Mon Aug 25 19:09:23 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 19:09:23 2014] [debug] 302 Found (0.068291s, 14.643/s).
+[Mon Aug 25 19:09:23 2014] [debug] GET "/".
+[Mon Aug 25 19:09:23 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 19:09:23 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 19:09:23 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 19:09:23 2014] [debug] 200 OK (0.019238s, 51.980/s).
+[Mon Aug 25 19:09:29 2014] [debug] GET "/files/show/7".
+[Mon Aug 25 19:09:29 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:09:29 2014] [debug] Action not found in controller.
+[Mon Aug 25 19:09:29 2014] [debug] Template "files/show_file.html.ep" not found.
+[Mon Aug 25 19:09:29 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Aug 25 19:09:29 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Aug 25 19:09:29 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Mon Aug 25 19:09:29 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 19:09:29 2014] [debug] 404 Not Found (0.019811s, 50.477/s).
+[Mon Aug 25 19:10:23 2014] [debug] GET "/".
+[Mon Aug 25 19:10:23 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 19:10:23 2014] [debug] Rendering cached template "files/files.html.ep".
+[Mon Aug 25 19:10:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 19:10:23 2014] [debug] 200 OK (0.010891s, 91.819/s).
+[Mon Aug 25 19:13:51 2014] [info] Listening at "http://*:3000".
+[Mon Aug 25 19:35:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:35:05 2014] [debug] GET "/".
+[Mon Aug 25 19:35:05 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 19:35:05 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 19:35:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 19:35:05 2014] [debug] 200 OK (0.046521s, 21.496/s).
+[Mon Aug 25 19:35:11 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:35:11 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:35:11 2014] [debug] Action not found in controller.
+[Mon Aug 25 19:35:11 2014] [debug] Template "files/show_file.html.ep" not found.
+[Mon Aug 25 19:35:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Aug 25 19:35:11 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Aug 25 19:35:11 2014] [debug] Rendering inline template "61bac5a767dfc11d41545325644efbfa".
+[Mon Aug 25 19:35:11 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 19:35:11 2014] [debug] 404 Not Found (0.022663s, 44.125/s).
+[Mon Aug 25 19:35:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:35:41 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:35:41 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:35:41 2014] [error] Can't call method "p" on an undefined value at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/SqlManager.pm line 64.
+
+[Mon Aug 25 19:35:41 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 25 19:35:41 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 25 19:35:41 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Mon Aug 25 19:35:41 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Mon Aug 25 19:35:41 2014] [debug] 500 Internal Server Error (0.061834s, 16.172/s).
+[Mon Aug 25 19:36:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:36:00 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:36:00 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:36:00 2014] [debug] 200 OK (0.005170s, 193.424/s).
+[Mon Aug 25 19:36:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:36:59 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:36:59 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:36:59 2014] [debug] 200 OK (0.109090s, 9.167/s).
+[Mon Aug 25 19:37:03 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:37:03 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:37:03 2014] [debug] 200 OK (0.075747s, 13.202/s).
+[Mon Aug 25 19:37:08 2014] [debug] GET "/".
+[Mon Aug 25 19:37:08 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 19:37:08 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 19:37:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 19:37:08 2014] [debug] 200 OK (0.013625s, 73.394/s).
+[Mon Aug 25 19:37:10 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:37:10 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:37:10 2014] [debug] 200 OK (0.068773s, 14.541/s).
+[Mon Aug 25 19:41:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:41:01 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:41:01 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:41:03 2014] [debug] 200 OK (1.650525s, 0.606/s).
+[Mon Aug 25 19:42:52 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:42:52 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:42:52 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:42:53 2014] [debug] 200 OK (0.571359s, 1.750/s).
+[Mon Aug 25 19:47:02 2014] [info] Listening at "http://*:3000".
+[Mon Aug 25 19:47:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:47:07 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:47:07 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:47:07 2014] [debug] 200 OK (0.520307s, 1.922/s).
+[Mon Aug 25 19:47:49 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:47:49 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:47:49 2014] [debug] 200 OK (0.527638s, 1.895/s).
+[Mon Aug 25 19:49:02 2014] [info] Listening at "http://*:3000".
+[Mon Aug 25 19:49:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:49:06 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:49:06 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:49:06 2014] [debug] 200 OK (0.057050s, 17.528/s).
+[Mon Aug 25 19:49:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:49:46 2014] [debug] GET "/".
+[Mon Aug 25 19:49:46 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 19:49:46 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 19:49:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 19:49:46 2014] [debug] 200 OK (0.017877s, 55.938/s).
+[Mon Aug 25 19:49:49 2014] [debug] GET "/files/show/6".
+[Mon Aug 25 19:49:49 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:49:49 2014] [debug] 200 OK (0.125389s, 7.975/s).
+[Mon Aug 25 19:50:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 19:50:49 2014] [debug] GET "/".
+[Mon Aug 25 19:50:49 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 19:50:49 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 19:50:49 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 19:50:49 2014] [debug] 200 OK (0.018348s, 54.502/s).
+[Mon Aug 25 19:50:54 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 19:50:54 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 19:50:54 2014] [debug] 200 OK (0.052488s, 19.052/s).
+[Mon Aug 25 20:02:09 2014] [debug] GET "/files/show/6".
+[Mon Aug 25 20:02:09 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 20:02:09 2014] [debug] 200 OK (0.117637s, 8.501/s).
+[Mon Aug 25 20:02:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 25 20:02:34 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 20:02:34 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 20:02:34 2014] [debug] 200 OK (0.052168s, 19.169/s).
+[Mon Aug 25 20:11:45 2014] [debug] GET "/tags".
+[Mon Aug 25 20:11:45 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Mon Aug 25 20:11:45 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Mon Aug 25 20:11:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 20:11:45 2014] [debug] 200 OK (0.010540s, 94.877/s).
+[Mon Aug 25 20:11:49 2014] [debug] GET "/categories".
+[Mon Aug 25 20:11:49 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Mon Aug 25 20:11:49 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Mon Aug 25 20:11:49 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 20:11:49 2014] [debug] 200 OK (0.008334s, 119.990/s).
+[Mon Aug 25 20:11:50 2014] [debug] GET "/new_file".
+[Mon Aug 25 20:11:50 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 20:11:50 2014] [debug] Rendering template "files/new_file.html.ep".
+[Mon Aug 25 20:11:50 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 20:11:50 2014] [debug] 200 OK (0.008329s, 120.062/s).
+[Mon Aug 25 20:12:03 2014] [debug] POST "/new_file".
+[Mon Aug 25 20:12:03 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Mon Aug 25 20:12:03 2014] [debug] 302 Found (0.227979s, 4.386/s).
+[Mon Aug 25 20:12:03 2014] [debug] GET "/".
+[Mon Aug 25 20:12:03 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Aug 25 20:12:03 2014] [debug] Rendering template "files/files.html.ep".
+[Mon Aug 25 20:12:03 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 25 20:12:03 2014] [debug] 200 OK (0.013112s, 76.266/s).
+[Mon Aug 25 20:12:06 2014] [debug] GET "/files/show/8".
+[Mon Aug 25 20:12:06 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 20:12:07 2014] [debug] 200 OK (0.109529s, 9.130/s).
+[Mon Aug 25 20:12:18 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 20:12:18 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 20:12:18 2014] [debug] 200 OK (0.041771s, 23.940/s).
+[Mon Aug 25 20:12:54 2014] [debug] GET "/new_file".
+[Mon Aug 25 20:12:54 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Mon Aug 25 20:12:54 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Mon Aug 25 20:12:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Aug 25 20:12:54 2014] [debug] 200 OK (0.003565s, 280.505/s).
+[Mon Aug 25 20:13:11 2014] [debug] GET "/files/show/5".
+[Mon Aug 25 20:13:11 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Mon Aug 25 20:13:11 2014] [debug] 200 OK (0.039733s, 25.168/s).
+[Tue Aug 26 11:43:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:43:30 2014] [debug] GET "/files/remove/5".
+[Tue Aug 26 11:43:30 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 11:43:30 2014] [debug] 302 Found (0.042822s, 23.352/s).
+[Tue Aug 26 11:43:30 2014] [debug] GET "/".
+[Tue Aug 26 11:43:30 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:43:30 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 11:43:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:43:30 2014] [debug] 200 OK (0.013123s, 76.202/s).
+[Tue Aug 26 11:43:30 2014] [debug] GET "/files/remove/6".
+[Tue Aug 26 11:43:30 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 11:43:31 2014] [debug] 302 Found (0.088305s, 11.324/s).
+[Tue Aug 26 11:43:31 2014] [debug] GET "/".
+[Tue Aug 26 11:43:31 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:43:31 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 11:43:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 11:43:31 2014] [debug] 200 OK (0.004613s, 216.779/s).
+[Tue Aug 26 11:43:31 2014] [debug] GET "/files/remove/7".
+[Tue Aug 26 11:43:31 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 11:43:31 2014] [debug] 302 Found (0.019467s, 51.369/s).
+[Tue Aug 26 11:43:31 2014] [debug] GET "/".
+[Tue Aug 26 11:43:31 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:43:31 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 11:43:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 11:43:31 2014] [debug] 200 OK (0.003677s, 271.961/s).
+[Tue Aug 26 11:43:32 2014] [debug] GET "/files/remove/8".
+[Tue Aug 26 11:43:32 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 11:43:32 2014] [debug] 302 Found (0.073409s, 13.622/s).
+[Tue Aug 26 11:43:32 2014] [debug] GET "/".
+[Tue Aug 26 11:43:32 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:43:32 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 11:43:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 11:43:32 2014] [debug] 200 OK (0.003972s, 251.762/s).
+[Tue Aug 26 11:43:35 2014] [debug] GET "/new_file".
+[Tue Aug 26 11:43:35 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 11:43:35 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 11:43:35 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:43:35 2014] [debug] 200 OK (0.007863s, 127.178/s).
+[Tue Aug 26 11:44:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:44:04 2014] [debug] GET "/new_file".
+[Tue Aug 26 11:44:04 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 11:44:04 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 11:44:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:44:04 2014] [debug] 200 OK (0.014809s, 67.527/s).
+[Tue Aug 26 11:52:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:52:49 2014] [debug] GET "/".
+[Tue Aug 26 11:52:49 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:52:49 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 11:52:49 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:52:49 2014] [debug] 200 OK (0.014232s, 70.264/s).
+[Tue Aug 26 11:52:53 2014] [debug] GET "/".
+[Tue Aug 26 11:52:53 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:52:53 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 11:52:53 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 11:52:53 2014] [debug] 200 OK (0.004181s, 239.177/s).
+[Tue Aug 26 11:52:59 2014] [info] Listening at "http://*:3000".
+[Tue Aug 26 11:53:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:53:00 2014] [debug] GET "/".
+[Tue Aug 26 11:53:00 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:53:00 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 11:53:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:53:00 2014] [debug] 200 OK (0.013574s, 73.670/s).
+[Tue Aug 26 11:53:53 2014] [info] Listening at "http://*:3000".
+[Tue Aug 26 11:53:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:53:56 2014] [debug] GET "/".
+[Tue Aug 26 11:53:56 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:53:56 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 11:53:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:53:56 2014] [debug] 200 OK (0.012134s, 82.413/s).
+[Tue Aug 26 11:54:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:54:21 2014] [debug] GET "/".
+[Tue Aug 26 11:54:21 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:54:21 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 11:54:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:54:21 2014] [debug] 200 OK (0.014341s, 69.730/s).
+[Tue Aug 26 11:54:23 2014] [debug] GET "/new_file".
+[Tue Aug 26 11:54:23 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 11:54:23 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 11:54:23 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:54:23 2014] [debug] 200 OK (0.007278s, 137.400/s).
+[Tue Aug 26 11:54:47 2014] [debug] POST "/new_file".
+[Tue Aug 26 11:54:47 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 11:54:48 2014] [debug] 302 Found (0.336025s, 2.976/s).
+[Tue Aug 26 11:54:48 2014] [debug] GET "/".
+[Tue Aug 26 11:54:48 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:54:48 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 11:54:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 11:54:48 2014] [debug] 200 OK (0.003872s, 258.264/s).
+[Tue Aug 26 11:59:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:59:11 2014] [debug] GET "/".
+[Tue Aug 26 11:59:11 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 11:59:11 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 11:59:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 11:59:11 2014] [debug] 200 OK (0.014197s, 70.437/s).
+[Tue Aug 26 11:59:19 2014] [debug] GET "/files/show/9".
+[Tue Aug 26 11:59:19 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Tue Aug 26 11:59:19 2014] [error] Can't locate object method "description" via package "Pdms::PdmsFile" at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/SqlManager.pm line 72.
+
+[Tue Aug 26 11:59:19 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Aug 26 11:59:19 2014] [debug] Template "exception.html.ep" not found.
+[Tue Aug 26 11:59:19 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Tue Aug 26 11:59:19 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Tue Aug 26 11:59:19 2014] [debug] 500 Internal Server Error (0.141833s, 7.051/s).
+[Tue Aug 26 11:59:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 11:59:40 2014] [debug] GET "/files/show/9".
+[Tue Aug 26 11:59:40 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Tue Aug 26 11:59:40 2014] [debug] 200 OK (0.123405s, 8.103/s).
+[Tue Aug 26 12:05:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 12:05:09 2014] [debug] GET "/".
+[Tue Aug 26 12:05:09 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 12:05:09 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 12:05:09 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 12:05:09 2014] [debug] 200 OK (0.014451s, 69.199/s).
+[Tue Aug 26 12:13:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 12:13:13 2014] [debug] GET "/files/remove/9".
+[Tue Aug 26 12:13:13 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 12:13:13 2014] [debug] 302 Found (0.069365s, 14.416/s).
+[Tue Aug 26 12:13:13 2014] [debug] GET "/".
+[Tue Aug 26 12:13:13 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 12:13:13 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 12:13:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 12:13:13 2014] [debug] 200 OK (0.010485s, 95.374/s).
+[Tue Aug 26 12:13:15 2014] [debug] GET "/new_file".
+[Tue Aug 26 12:13:15 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 12:13:15 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 12:13:15 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 12:13:15 2014] [debug] 200 OK (0.009011s, 110.975/s).
+[Tue Aug 26 12:13:31 2014] [debug] POST "/new_file".
+[Tue Aug 26 12:13:31 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 12:13:31 2014] [debug] 302 Found (0.217862s, 4.590/s).
+[Tue Aug 26 12:13:31 2014] [debug] GET "/".
+[Tue Aug 26 12:13:31 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 12:13:31 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 12:13:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 12:13:31 2014] [debug] 200 OK (0.005101s, 196.040/s).
+[Tue Aug 26 12:13:40 2014] [debug] GET "/files/show/10".
+[Tue Aug 26 12:13:40 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Tue Aug 26 12:13:40 2014] [debug] 200 OK (0.110798s, 9.025/s).
+[Tue Aug 26 12:22:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 12:22:31 2014] [debug] GET "/".
+[Tue Aug 26 12:22:31 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 12:22:31 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 12:22:31 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 12:22:31 2014] [debug] 200 OK (0.020253s, 49.375/s).
+[Tue Aug 26 12:35:45 2014] [debug] GET "/".
+[Tue Aug 26 12:35:45 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 12:35:45 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 12:35:45 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 12:35:45 2014] [debug] 200 OK (0.004439s, 225.276/s).
+[Tue Aug 26 12:47:15 2014] [debug] GET "/".
+[Tue Aug 26 12:47:15 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 12:47:15 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 12:47:15 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 12:47:15 2014] [debug] 200 OK (0.005684s, 175.932/s).
+[Tue Aug 26 12:59:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 12:59:11 2014] [debug] GET "/".
+[Tue Aug 26 12:59:11 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 12:59:11 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 12:59:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 12:59:11 2014] [debug] 200 OK (0.014041s, 71.220/s).
+[Tue Aug 26 12:59:13 2014] [debug] GET "/files/show/10".
+[Tue Aug 26 12:59:13 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Tue Aug 26 12:59:14 2014] [debug] 200 OK (0.116419s, 8.590/s).
+[Tue Aug 26 12:59:19 2014] [debug] GET "/files/download/10".
+[Tue Aug 26 12:59:19 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Tue Aug 26 12:59:20 2014] [debug] 200 OK (0.100662s, 9.934/s).
+[Tue Aug 26 13:07:13 2014] [debug] GET "/categories".
+[Tue Aug 26 13:07:13 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:07:13 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Tue Aug 26 13:07:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:07:13 2014] [debug] 200 OK (0.008261s, 121.051/s).
+[Tue Aug 26 13:07:15 2014] [debug] GET "/categories/new_category".
+[Tue Aug 26 13:07:15 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Tue Aug 26 13:07:15 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Tue Aug 26 13:07:15 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:07:15 2014] [debug] 200 OK (0.006229s, 160.539/s).
+[Tue Aug 26 13:07:18 2014] [debug] POST "/categories/new_category".
+[Tue Aug 26 13:07:18 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Tue Aug 26 13:07:18 2014] [debug] 302 Found (0.005983s, 167.140/s).
+[Tue Aug 26 13:07:18 2014] [debug] GET "/categories".
+[Tue Aug 26 13:07:18 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:07:18 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Tue Aug 26 13:07:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:18 2014] [debug] 200 OK (0.003313s, 301.841/s).
+[Tue Aug 26 13:07:24 2014] [debug] GET "/categories/new_category".
+[Tue Aug 26 13:07:24 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Tue Aug 26 13:07:24 2014] [debug] Rendering cached template "categories/new_category.html.ep".
+[Tue Aug 26 13:07:24 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:24 2014] [debug] 200 OK (0.002294s, 435.920/s).
+[Tue Aug 26 13:07:27 2014] [debug] POST "/categories/new_category".
+[Tue Aug 26 13:07:27 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Tue Aug 26 13:07:27 2014] [debug] 302 Found (0.003570s, 280.112/s).
+[Tue Aug 26 13:07:27 2014] [debug] GET "/categories".
+[Tue Aug 26 13:07:27 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:07:27 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Tue Aug 26 13:07:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:27 2014] [debug] 200 OK (0.003474s, 287.853/s).
+[Tue Aug 26 13:07:33 2014] [debug] GET "/categories/new_category".
+[Tue Aug 26 13:07:33 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Tue Aug 26 13:07:33 2014] [debug] Rendering cached template "categories/new_category.html.ep".
+[Tue Aug 26 13:07:33 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:33 2014] [debug] 200 OK (0.002602s, 384.320/s).
+[Tue Aug 26 13:07:36 2014] [debug] POST "/categories/new_category".
+[Tue Aug 26 13:07:36 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Tue Aug 26 13:07:36 2014] [debug] 302 Found (0.003738s, 267.523/s).
+[Tue Aug 26 13:07:36 2014] [debug] GET "/categories".
+[Tue Aug 26 13:07:36 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:07:36 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Tue Aug 26 13:07:36 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:36 2014] [debug] 200 OK (0.004108s, 243.427/s).
+[Tue Aug 26 13:07:45 2014] [debug] GET "/categories/new_category".
+[Tue Aug 26 13:07:45 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Tue Aug 26 13:07:45 2014] [debug] Rendering cached template "categories/new_category.html.ep".
+[Tue Aug 26 13:07:45 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:45 2014] [debug] 200 OK (0.002241s, 446.229/s).
+[Tue Aug 26 13:07:49 2014] [debug] POST "/categories/new_category".
+[Tue Aug 26 13:07:49 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Tue Aug 26 13:07:49 2014] [debug] 302 Found (0.003688s, 271.150/s).
+[Tue Aug 26 13:07:49 2014] [debug] GET "/categories".
+[Tue Aug 26 13:07:49 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:07:49 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Tue Aug 26 13:07:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:49 2014] [debug] 200 OK (0.004188s, 238.777/s).
+[Tue Aug 26 13:07:56 2014] [debug] GET "/categories/new_category".
+[Tue Aug 26 13:07:56 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Tue Aug 26 13:07:56 2014] [debug] Rendering cached template "categories/new_category.html.ep".
+[Tue Aug 26 13:07:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:07:56 2014] [debug] 200 OK (0.003190s, 313.480/s).
+[Tue Aug 26 13:08:00 2014] [debug] POST "/categories/new_category".
+[Tue Aug 26 13:08:00 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Tue Aug 26 13:08:00 2014] [debug] 302 Found (0.004179s, 239.292/s).
+[Tue Aug 26 13:08:00 2014] [debug] GET "/categories".
+[Tue Aug 26 13:08:00 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:08:00 2014] [debug] Rendering cached template "categories/all_categories.html.ep".
+[Tue Aug 26 13:08:00 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:08:00 2014] [debug] 200 OK (0.004363s, 229.200/s).
+[Tue Aug 26 13:12:55 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:12:55 2014] [debug] GET "/categories".
+[Tue Aug 26 13:12:55 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:12:55 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Tue Aug 26 13:12:55 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:12:55 2014] [debug] 200 OK (0.012446s, 80.347/s).
+[Tue Aug 26 13:14:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:14:27 2014] [debug] GET "/categories".
+[Tue Aug 26 13:14:27 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 13:14:27 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Tue Aug 26 13:14:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:14:27 2014] [debug] 200 OK (0.013649s, 73.265/s).
+[Tue Aug 26 13:14:39 2014] [debug] GET "/tags".
+[Tue Aug 26 13:14:39 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:14:39 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:14:39 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:14:39 2014] [debug] 200 OK (0.016263s, 61.489/s).
+[Tue Aug 26 13:20:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:20:19 2014] [debug] GET "/tags".
+[Tue Aug 26 13:20:19 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:20:19 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:20:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:20:19 2014] [debug] 200 OK (0.011891s, 84.097/s).
+[Tue Aug 26 13:21:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:21:29 2014] [debug] GET "/tags".
+[Tue Aug 26 13:21:29 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:21:29 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:21:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:21:29 2014] [debug] 200 OK (0.010296s, 97.125/s).
+[Tue Aug 26 13:21:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:21:41 2014] [debug] GET "/tags".
+[Tue Aug 26 13:21:41 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:21:41 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:21:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:21:41 2014] [debug] 200 OK (0.017306s, 57.783/s).
+[Tue Aug 26 13:21:45 2014] [info] Listening at "http://*:3000".
+[Tue Aug 26 13:21:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:21:48 2014] [debug] GET "/tags".
+[Tue Aug 26 13:21:48 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:21:48 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:21:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:21:48 2014] [debug] 200 OK (0.011297s, 88.519/s).
+[Tue Aug 26 13:23:46 2014] [debug] GET "/tags".
+[Tue Aug 26 13:23:46 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:23:46 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Tue Aug 26 13:23:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:23:46 2014] [debug] 200 OK (0.003361s, 297.530/s).
+[Tue Aug 26 13:23:49 2014] [debug] GET "/tags".
+[Tue Aug 26 13:23:49 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:23:49 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Tue Aug 26 13:23:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:23:49 2014] [debug] 200 OK (0.003855s, 259.403/s).
+[Tue Aug 26 13:24:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:24:31 2014] [debug] GET "/tags".
+[Tue Aug 26 13:24:31 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:24:31 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:24:31 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:24:31 2014] [debug] 200 OK (0.013745s, 72.754/s).
+[Tue Aug 26 13:25:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:25:40 2014] [debug] GET "/tags".
+[Tue Aug 26 13:25:40 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:25:40 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:25:40 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:25:40 2014] [debug] 200 OK (0.011117s, 89.952/s).
+[Tue Aug 26 13:25:52 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:25:52 2014] [debug] GET "/tags".
+[Tue Aug 26 13:25:52 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:25:52 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:25:52 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:25:52 2014] [debug] 200 OK (0.013552s, 73.790/s).
+[Tue Aug 26 13:27:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:27:25 2014] [debug] GET "/tags".
+[Tue Aug 26 13:27:25 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 13:27:25 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 13:27:25 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:27:25 2014] [debug] 200 OK (0.017192s, 58.167/s).
+[Tue Aug 26 13:43:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 13:43:14 2014] [debug] GET "/".
+[Tue Aug 26 13:43:14 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 13:43:14 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 13:43:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 13:43:14 2014] [debug] 200 OK (0.015138s, 66.059/s).
+[Tue Aug 26 13:43:24 2014] [debug] GET "/".
+[Tue Aug 26 13:43:24 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 13:43:24 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 13:43:24 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 13:43:24 2014] [debug] 200 OK (0.004820s, 207.469/s).
+[Tue Aug 26 16:37:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 16:37:38 2014] [debug] GET "/".
+[Tue Aug 26 16:37:38 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:37:38 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 16:37:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:37:38 2014] [debug] 200 OK (0.015747s, 63.504/s).
+[Tue Aug 26 16:37:39 2014] [debug] GET "/new_file".
+[Tue Aug 26 16:37:39 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 16:37:39 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 16:37:39 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:37:39 2014] [debug] 200 OK (0.008623s, 115.969/s).
+[Tue Aug 26 16:38:11 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:38:11 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:38:11 2014] [debug] 302 Found (0.422986s, 2.364/s).
+[Tue Aug 26 16:38:11 2014] [debug] GET "/".
+[Tue Aug 26 16:38:11 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:38:11 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 16:38:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 16:38:11 2014] [debug] 200 OK (0.005428s, 184.230/s).
+[Tue Aug 26 16:38:49 2014] [debug] GET "/new_file".
+[Tue Aug 26 16:38:49 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 16:38:49 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 16:38:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 16:38:49 2014] [debug] 200 OK (0.003427s, 291.800/s).
+[Tue Aug 26 16:39:23 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:39:23 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:39:23 2014] [debug] 302 Found (0.412098s, 2.427/s).
+[Tue Aug 26 16:39:23 2014] [debug] GET "/".
+[Tue Aug 26 16:39:23 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:39:23 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 16:39:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 16:39:23 2014] [debug] 200 OK (0.007170s, 139.470/s).
+[Tue Aug 26 16:44:23 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 16:44:23 2014] [debug] GET "/new_file".
+[Tue Aug 26 16:44:23 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 16:44:23 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 16:44:23 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:44:23 2014] [debug] 200 OK (0.012991s, 76.976/s).
+[Tue Aug 26 16:44:31 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:44:31 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:44:31 2014] [debug] 302 Found (0.448093s, 2.232/s).
+[Tue Aug 26 16:44:31 2014] [debug] GET "/".
+[Tue Aug 26 16:44:31 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:44:31 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 16:44:31 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:44:31 2014] [debug] 200 OK (0.011177s, 89.469/s).
+[Tue Aug 26 16:45:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 16:45:21 2014] [debug] GET "/new_file".
+[Tue Aug 26 16:45:21 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 16:45:21 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 16:45:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:45:21 2014] [debug] 200 OK (0.015504s, 64.499/s).
+[Tue Aug 26 16:45:33 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:45:33 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:45:34 2014] [debug] 302 Found (0.594722s, 1.681/s).
+[Tue Aug 26 16:45:34 2014] [debug] GET "/".
+[Tue Aug 26 16:45:34 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:45:34 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 16:45:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:45:34 2014] [debug] 200 OK (0.013571s, 73.687/s).
+[Tue Aug 26 16:46:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 16:46:54 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:46:54 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:46:54 2014] [debug] 302 Found (0.595956s, 1.678/s).
+[Tue Aug 26 16:46:54 2014] [debug] GET "/".
+[Tue Aug 26 16:46:54 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:46:54 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 16:46:54 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:46:55 2014] [debug] 200 OK (0.019957s, 50.108/s).
+[Tue Aug 26 16:50:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 16:50:30 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:50:30 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:50:31 2014] [debug] 302 Found (0.502470s, 1.990/s).
+[Tue Aug 26 16:50:31 2014] [debug] GET "/".
+[Tue Aug 26 16:50:31 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:50:31 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 16:50:31 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:50:31 2014] [debug] 200 OK (0.023804s, 42.010/s).
+[Tue Aug 26 16:54:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 16:54:29 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:54:29 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:54:30 2014] [debug] 302 Found (0.475244s, 2.104/s).
+[Tue Aug 26 16:54:30 2014] [debug] GET "/".
+[Tue Aug 26 16:54:30 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:54:30 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 16:54:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:54:30 2014] [debug] 200 OK (0.026829s, 37.273/s).
+[Tue Aug 26 16:57:09 2014] [debug] GET "/".
+[Tue Aug 26 16:57:09 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:57:09 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 16:57:09 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 16:57:09 2014] [debug] 200 OK (0.011375s, 87.912/s).
+[Tue Aug 26 16:57:11 2014] [debug] GET "/new_file".
+[Tue Aug 26 16:57:11 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 16:57:11 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 16:57:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 16:57:11 2014] [debug] 200 OK (0.012521s, 79.866/s).
+[Tue Aug 26 16:57:27 2014] [debug] POST "/new_file".
+[Tue Aug 26 16:57:27 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 16:57:27 2014] [debug] 302 Found (0.532044s, 1.880/s).
+[Tue Aug 26 16:57:27 2014] [debug] GET "/".
+[Tue Aug 26 16:57:27 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 16:57:27 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 16:57:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 16:57:27 2014] [debug] 200 OK (0.011505s, 86.919/s).
+[Tue Aug 26 16:59:59 2014] [debug] GET "/new_file".
+[Tue Aug 26 16:59:59 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 16:59:59 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 16:59:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 16:59:59 2014] [debug] 200 OK (0.003542s, 282.326/s).
+[Tue Aug 26 17:00:05 2014] [debug] POST "/new_file".
+[Tue Aug 26 17:00:05 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 17:00:05 2014] [debug] 302 Found (0.008388s, 119.218/s).
+[Tue Aug 26 17:00:05 2014] [debug] GET "/".
+[Tue Aug 26 17:00:05 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:00:05 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:00:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:00:05 2014] [debug] 200 OK (0.021340s, 46.860/s).
+[Tue Aug 26 17:00:43 2014] [debug] GET "/new_file".
+[Tue Aug 26 17:00:43 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 17:00:43 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 17:00:43 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:00:43 2014] [debug] 200 OK (0.003748s, 266.809/s).
+[Tue Aug 26 17:00:59 2014] [debug] POST "/new_file".
+[Tue Aug 26 17:00:59 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 17:01:00 2014] [debug] 302 Found (0.493358s, 2.027/s).
+[Tue Aug 26 17:01:00 2014] [debug] GET "/".
+[Tue Aug 26 17:01:00 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:01:00 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:01:00 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:01:00 2014] [debug] 200 OK (0.021597s, 46.303/s).
+[Tue Aug 26 17:01:48 2014] [debug] GET "/new_file".
+[Tue Aug 26 17:01:48 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 17:01:48 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 17:01:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:01:48 2014] [debug] 200 OK (0.004051s, 246.853/s).
+[Tue Aug 26 17:01:51 2014] [debug] POST "/new_file".
+[Tue Aug 26 17:01:51 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 17:01:51 2014] [debug] 302 Found (0.007187s, 139.140/s).
+[Tue Aug 26 17:01:51 2014] [debug] GET "/".
+[Tue Aug 26 17:01:51 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:01:51 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:01:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:01:51 2014] [debug] 200 OK (0.013572s, 73.681/s).
+[Tue Aug 26 17:02:01 2014] [debug] GET "/new_file".
+[Tue Aug 26 17:02:01 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 17:02:01 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 17:02:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:02:01 2014] [debug] 200 OK (0.005548s, 180.245/s).
+[Tue Aug 26 17:02:08 2014] [debug] POST "/new_file".
+[Tue Aug 26 17:02:08 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 17:02:08 2014] [debug] 302 Found (0.102008s, 9.803/s).
+[Tue Aug 26 17:02:08 2014] [debug] GET "/".
+[Tue Aug 26 17:02:08 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:02:08 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:02:09 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:02:09 2014] [debug] 200 OK (0.021383s, 46.766/s).
+[Tue Aug 26 17:02:16 2014] [debug] GET "/new_file".
+[Tue Aug 26 17:02:16 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 17:02:16 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 17:02:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:02:16 2014] [debug] 200 OK (0.007584s, 131.857/s).
+[Tue Aug 26 17:02:26 2014] [debug] POST "/new_file".
+[Tue Aug 26 17:02:26 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 17:02:26 2014] [debug] 302 Found (0.133962s, 7.465/s).
+[Tue Aug 26 17:02:26 2014] [debug] GET "/".
+[Tue Aug 26 17:02:26 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:02:26 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:02:26 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:02:26 2014] [debug] 200 OK (0.018238s, 54.831/s).
+[Tue Aug 26 17:02:35 2014] [debug] GET "/new_file".
+[Tue Aug 26 17:02:35 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 17:02:35 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 17:02:35 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:02:35 2014] [debug] 200 OK (0.003875s, 258.065/s).
+[Tue Aug 26 17:02:58 2014] [debug] POST "/new_file".
+[Tue Aug 26 17:02:58 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 17:02:59 2014] [debug] 302 Found (0.520406s, 1.922/s).
+[Tue Aug 26 17:02:59 2014] [debug] GET "/".
+[Tue Aug 26 17:02:59 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:02:59 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:02:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:02:59 2014] [debug] 200 OK (0.022447s, 44.549/s).
+[Tue Aug 26 17:17:29 2014] [info] Listening at "http://*:3000".
+[Tue Aug 26 17:17:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 17:17:34 2014] [debug] GET "/new_file".
+[Tue Aug 26 17:17:34 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 17:17:34 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 17:17:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 17:17:34 2014] [debug] 200 OK (0.023435s, 42.671/s).
+[Tue Aug 26 17:17:42 2014] [debug] POST "/new_file".
+[Tue Aug 26 17:17:42 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 17:17:42 2014] [debug] 302 Found (0.829200s, 1.206/s).
+[Tue Aug 26 17:17:42 2014] [debug] GET "/".
+[Tue Aug 26 17:17:42 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:42 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 17:17:42 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 17:17:42 2014] [debug] 200 OK (0.023758s, 42.091/s).
+[Tue Aug 26 17:17:51 2014] [debug] GET "/files/remove/11".
+[Tue Aug 26 17:17:51 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:51 2014] [debug] 302 Found (0.155319s, 6.438/s).
+[Tue Aug 26 17:17:51 2014] [debug] GET "/".
+[Tue Aug 26 17:17:51 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:51 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:51 2014] [debug] 200 OK (0.014527s, 68.837/s).
+[Tue Aug 26 17:17:53 2014] [debug] GET "/files/remove/12".
+[Tue Aug 26 17:17:53 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:53 2014] [debug] 302 Found (0.133041s, 7.516/s).
+[Tue Aug 26 17:17:53 2014] [debug] GET "/".
+[Tue Aug 26 17:17:53 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:53 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:53 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:53 2014] [debug] 200 OK (0.019836s, 50.413/s).
+[Tue Aug 26 17:17:55 2014] [debug] GET "/files/remove/13".
+[Tue Aug 26 17:17:55 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:56 2014] [debug] 302 Found (0.128111s, 7.806/s).
+[Tue Aug 26 17:17:56 2014] [debug] GET "/".
+[Tue Aug 26 17:17:56 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:56 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:56 2014] [debug] 200 OK (0.017319s, 57.740/s).
+[Tue Aug 26 17:17:56 2014] [debug] GET "/files/remove/14".
+[Tue Aug 26 17:17:56 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:56 2014] [debug] 302 Found (0.229764s, 4.352/s).
+[Tue Aug 26 17:17:56 2014] [debug] GET "/".
+[Tue Aug 26 17:17:56 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:56 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:56 2014] [debug] 200 OK (0.012715s, 78.647/s).
+[Tue Aug 26 17:17:57 2014] [debug] GET "/files/remove/15".
+[Tue Aug 26 17:17:57 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:57 2014] [debug] 302 Found (0.416559s, 2.401/s).
+[Tue Aug 26 17:17:57 2014] [debug] GET "/".
+[Tue Aug 26 17:17:57 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:57 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:57 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:57 2014] [debug] 200 OK (0.014543s, 68.762/s).
+[Tue Aug 26 17:17:58 2014] [debug] GET "/files/remove/16".
+[Tue Aug 26 17:17:58 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:58 2014] [debug] 302 Found (0.126559s, 7.901/s).
+[Tue Aug 26 17:17:58 2014] [debug] GET "/".
+[Tue Aug 26 17:17:58 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:58 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:58 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:58 2014] [debug] 200 OK (0.009756s, 102.501/s).
+[Tue Aug 26 17:17:59 2014] [debug] GET "/files/remove/17".
+[Tue Aug 26 17:17:59 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:59 2014] [debug] 302 Found (0.131385s, 7.611/s).
+[Tue Aug 26 17:17:59 2014] [debug] GET "/".
+[Tue Aug 26 17:17:59 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:59 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:59 2014] [debug] 200 OK (0.009248s, 108.131/s).
+[Tue Aug 26 17:17:59 2014] [debug] GET "/files/remove/18".
+[Tue Aug 26 17:17:59 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:17:59 2014] [debug] 302 Found (0.222853s, 4.487/s).
+[Tue Aug 26 17:17:59 2014] [debug] GET "/".
+[Tue Aug 26 17:17:59 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:17:59 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:17:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:17:59 2014] [debug] 200 OK (0.008979s, 111.371/s).
+[Tue Aug 26 17:18:00 2014] [debug] GET "/files/remove/19".
+[Tue Aug 26 17:18:00 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:18:00 2014] [debug] 302 Found (0.002667s, 374.953/s).
+[Tue Aug 26 17:18:00 2014] [debug] GET "/".
+[Tue Aug 26 17:18:00 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:18:00 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:18:00 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:18:00 2014] [debug] 200 OK (0.008900s, 112.360/s).
+[Tue Aug 26 17:18:00 2014] [debug] GET "/files/remove/20".
+[Tue Aug 26 17:18:00 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:18:01 2014] [debug] 302 Found (0.122181s, 8.185/s).
+[Tue Aug 26 17:18:01 2014] [debug] GET "/".
+[Tue Aug 26 17:18:01 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:18:01 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:18:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:18:01 2014] [debug] 200 OK (0.007303s, 136.930/s).
+[Tue Aug 26 17:18:01 2014] [debug] GET "/files/remove/21".
+[Tue Aug 26 17:18:01 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:18:01 2014] [debug] 302 Found (0.004519s, 221.288/s).
+[Tue Aug 26 17:18:01 2014] [debug] GET "/".
+[Tue Aug 26 17:18:01 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:18:01 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:18:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:18:01 2014] [debug] 200 OK (0.007942s, 125.913/s).
+[Tue Aug 26 17:18:02 2014] [debug] GET "/files/remove/22".
+[Tue Aug 26 17:18:02 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:18:02 2014] [debug] 302 Found (0.028818s, 34.701/s).
+[Tue Aug 26 17:18:02 2014] [debug] GET "/".
+[Tue Aug 26 17:18:02 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:18:02 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:18:02 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:18:02 2014] [debug] 200 OK (0.006834s, 146.327/s).
+[Tue Aug 26 17:18:03 2014] [debug] GET "/files/remove/23".
+[Tue Aug 26 17:18:03 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:18:03 2014] [debug] 302 Found (0.035420s, 28.233/s).
+[Tue Aug 26 17:18:03 2014] [debug] GET "/".
+[Tue Aug 26 17:18:03 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:18:03 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:18:03 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:18:03 2014] [debug] 200 OK (0.005466s, 182.949/s).
+[Tue Aug 26 17:18:03 2014] [debug] GET "/files/remove/24".
+[Tue Aug 26 17:18:03 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:18:03 2014] [debug] 302 Found (0.126757s, 7.889/s).
+[Tue Aug 26 17:18:04 2014] [debug] GET "/".
+[Tue Aug 26 17:18:04 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:18:04 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:18:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:18:04 2014] [debug] 200 OK (0.005515s, 181.324/s).
+[Tue Aug 26 17:18:04 2014] [debug] GET "/files/remove/25".
+[Tue Aug 26 17:18:04 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 17:18:04 2014] [debug] 302 Found (0.214412s, 4.664/s).
+[Tue Aug 26 17:18:04 2014] [debug] GET "/".
+[Tue Aug 26 17:18:04 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 17:18:04 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 17:18:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 17:18:04 2014] [debug] 200 OK (0.004472s, 223.614/s).
+[Tue Aug 26 18:00:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:00:38 2014] [debug] GET "/new_file".
+[Tue Aug 26 18:00:38 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 18:00:38 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 18:00:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:00:38 2014] [debug] 200 OK (0.014574s, 68.615/s).
+[Tue Aug 26 18:00:59 2014] [debug] POST "/new_file".
+[Tue Aug 26 18:00:59 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 18:01:00 2014] [debug] 302 Found (0.651519s, 1.535/s).
+[Tue Aug 26 18:01:00 2014] [debug] GET "/".
+[Tue Aug 26 18:01:00 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:01:00 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 18:01:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:01:00 2014] [debug] 200 OK (0.010815s, 92.464/s).
+[Tue Aug 26 18:10:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:10:32 2014] [debug] GET "/new_file".
+[Tue Aug 26 18:10:32 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 18:10:32 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 18:10:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:10:32 2014] [debug] 200 OK (0.012502s, 79.987/s).
+[Tue Aug 26 18:10:42 2014] [debug] POST "/new_file".
+[Tue Aug 26 18:10:42 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 18:10:43 2014] [debug] 302 Found (0.664804s, 1.504/s).
+[Tue Aug 26 18:10:43 2014] [debug] GET "/".
+[Tue Aug 26 18:10:43 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:10:43 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 18:10:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:10:43 2014] [debug] 200 OK (0.011563s, 86.483/s).
+[Tue Aug 26 18:14:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:14:33 2014] [debug] GET "/new_file".
+[Tue Aug 26 18:14:33 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 18:14:33 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 18:14:33 2014] [error] Global symbol "$cats" requires explicit package name at template files/new_file.html.ep line 11.
+6: <form id="new_file" action="<%= url_for('/new_file') %>"  method="POST" enctype="multipart/form-data">
+7: File: <INPUT type="file" name="file" /><BR>
+8: <p>
+9: Category:
+10: <select name="category">
+11: % foreach my $category (@$cats) {
+12: <option value="<%= $category->{category_id} %>"><%= $category->{category_value} %></option>
+13: % }
+14: </select>
+15: </p>
+16: <p>
+
+[Tue Aug 26 18:14:33 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Aug 26 18:14:33 2014] [debug] Template "exception.html.ep" not found.
+[Tue Aug 26 18:14:33 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Tue Aug 26 18:14:33 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Tue Aug 26 18:14:33 2014] [debug] 500 Internal Server Error (0.040584s, 24.640/s).
+[Tue Aug 26 18:15:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:15:02 2014] [debug] GET "/new_file".
+[Tue Aug 26 18:15:02 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 18:15:02 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 18:15:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:15:02 2014] [debug] 200 OK (0.014769s, 67.709/s).
+[Tue Aug 26 18:22:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:22:26 2014] [debug] GET "/".
+[Tue Aug 26 18:22:26 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:22:26 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 18:22:26 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:22:26 2014] [debug] 200 OK (0.014360s, 69.638/s).
+[Tue Aug 26 18:22:27 2014] [debug] GET "/new_file".
+[Tue Aug 26 18:22:27 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 18:22:27 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 18:22:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:22:27 2014] [debug] 200 OK (0.007430s, 134.590/s).
+[Tue Aug 26 18:23:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:23:21 2014] [debug] GET "/".
+[Tue Aug 26 18:23:21 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:23:21 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 18:23:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:23:21 2014] [debug] 200 OK (0.019423s, 51.485/s).
+[Tue Aug 26 18:23:22 2014] [debug] GET "/new_file".
+[Tue Aug 26 18:23:22 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 18:23:22 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 18:23:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:23:22 2014] [debug] 200 OK (0.012014s, 83.236/s).
+[Tue Aug 26 18:23:34 2014] [debug] GET "/tags".
+[Tue Aug 26 18:23:34 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 18:23:34 2014] [debug] Rendering template "tags/all_tags.html.ep".
+[Tue Aug 26 18:23:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:23:34 2014] [debug] 200 OK (0.017573s, 56.905/s).
+[Tue Aug 26 18:23:42 2014] [debug] GET "/categories".
+[Tue Aug 26 18:23:42 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Tue Aug 26 18:23:42 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Tue Aug 26 18:23:42 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:23:42 2014] [debug] 200 OK (0.009368s, 106.746/s).
+[Tue Aug 26 18:23:45 2014] [debug] GET "/tags".
+[Tue Aug 26 18:23:45 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 18:23:45 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Tue Aug 26 18:23:45 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:23:45 2014] [debug] 200 OK (0.004863s, 205.634/s).
+[Tue Aug 26 18:23:46 2014] [debug] GET "/tags/remove/10".
+[Tue Aug 26 18:23:46 2014] [debug] Routing to controller "Pdms::Tags" and action "remove_tag".
+[Tue Aug 26 18:23:46 2014] [debug] 302 Found (0.002351s, 425.351/s).
+[Tue Aug 26 18:23:46 2014] [debug] GET "/tags".
+[Tue Aug 26 18:23:46 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 18:23:46 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Tue Aug 26 18:23:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:23:46 2014] [debug] 200 OK (0.004645s, 215.285/s).
+[Tue Aug 26 18:23:48 2014] [debug] GET "/tags/new_tag".
+[Tue Aug 26 18:23:48 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Tue Aug 26 18:23:48 2014] [debug] Rendering template "tags/new_tag.html.ep".
+[Tue Aug 26 18:23:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:23:48 2014] [debug] 200 OK (0.006081s, 164.447/s).
+[Tue Aug 26 18:23:49 2014] [debug] GET "/tags".
+[Tue Aug 26 18:23:49 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 18:23:49 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Tue Aug 26 18:23:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:23:49 2014] [debug] 200 OK (0.004190s, 238.663/s).
+[Tue Aug 26 18:23:50 2014] [debug] GET "/tags/new_tag".
+[Tue Aug 26 18:23:50 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Tue Aug 26 18:23:50 2014] [debug] Rendering cached template "tags/new_tag.html.ep".
+[Tue Aug 26 18:23:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:23:50 2014] [debug] 200 OK (0.003304s, 302.663/s).
+[Tue Aug 26 18:23:59 2014] [debug] POST "/tags/new_tag".
+[Tue Aug 26 18:23:59 2014] [debug] Routing to controller "Pdms::Tags" and action "store_tag".
+[Tue Aug 26 18:23:59 2014] [debug] 302 Found (0.007407s, 135.007/s).
+[Tue Aug 26 18:23:59 2014] [debug] GET "/tags".
+[Tue Aug 26 18:23:59 2014] [debug] Routing to controller "Pdms::Tags" and action "all_tags".
+[Tue Aug 26 18:23:59 2014] [debug] Rendering cached template "tags/all_tags.html.ep".
+[Tue Aug 26 18:23:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:23:59 2014] [debug] 200 OK (0.004157s, 240.558/s).
+[Tue Aug 26 18:24:01 2014] [debug] GET "/tags/new_tag".
+[Tue Aug 26 18:24:01 2014] [debug] Routing to controller "Pdms::Tags" and action "new_tag".
+[Tue Aug 26 18:24:01 2014] [debug] Rendering cached template "tags/new_tag.html.ep".
+[Tue Aug 26 18:24:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:24:01 2014] [debug] 200 OK (0.002829s, 353.482/s).
+[Tue Aug 26 18:24:02 2014] [debug] GET "/".
+[Tue Aug 26 18:24:02 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:24:02 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 18:24:02 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:24:02 2014] [debug] 200 OK (0.006999s, 142.878/s).
+[Tue Aug 26 18:24:03 2014] [debug] GET "/new_file".
+[Tue Aug 26 18:24:03 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 18:24:03 2014] [debug] Rendering cached template "files/new_file.html.ep".
+[Tue Aug 26 18:24:03 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:24:03 2014] [debug] 200 OK (0.003704s, 269.978/s).
+[Tue Aug 26 18:28:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:28:19 2014] [debug] GET "/".
+[Tue Aug 26 18:28:19 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:28:19 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 18:28:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:28:19 2014] [debug] 200 OK (0.018544s, 53.926/s).
+[Tue Aug 26 18:28:21 2014] [debug] GET "/files/remove/27".
+[Tue Aug 26 18:28:21 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 18:28:22 2014] [error] Can't locate object method "execute" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/pdms/script/../lib/Pdms/SqlManager.pm line 223.
+
+[Tue Aug 26 18:28:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Aug 26 18:28:22 2014] [debug] Template "exception.html.ep" not found.
+[Tue Aug 26 18:28:22 2014] [debug] Rendering inline template "3c057dacc1089aca8e7d6d310c180d08".
+[Tue Aug 26 18:28:22 2014] [debug] Rendering inline template "386d52bb3f2a581a1b21007d7de8d1aa".
+[Tue Aug 26 18:28:22 2014] [debug] 500 Internal Server Error (0.232250s, 4.306/s).
+[Tue Aug 26 18:28:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 18:28:43 2014] [debug] GET "/files/remove/27".
+[Tue Aug 26 18:28:43 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 18:28:43 2014] [debug] 302 Found (0.005049s, 198.059/s).
+[Tue Aug 26 18:28:43 2014] [debug] GET "/".
+[Tue Aug 26 18:28:43 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:28:43 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 18:28:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 18:28:43 2014] [debug] 200 OK (0.011699s, 85.477/s).
+[Tue Aug 26 18:28:45 2014] [debug] GET "/files/remove/26".
+[Tue Aug 26 18:28:45 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 18:28:46 2014] [debug] 302 Found (0.199152s, 5.021/s).
+[Tue Aug 26 18:28:46 2014] [debug] GET "/".
+[Tue Aug 26 18:28:46 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:28:46 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 18:28:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:28:46 2014] [debug] 200 OK (0.004577s, 218.484/s).
+[Tue Aug 26 18:29:00 2014] [debug] GET "/files/remove/10".
+[Tue Aug 26 18:29:00 2014] [debug] Routing to controller "Pdms::Files" and action "remove_file".
+[Tue Aug 26 18:29:01 2014] [debug] 302 Found (0.072249s, 13.841/s).
+[Tue Aug 26 18:29:01 2014] [debug] GET "/".
+[Tue Aug 26 18:29:01 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 18:29:01 2014] [debug] Rendering cached template "files/files.html.ep".
+[Tue Aug 26 18:29:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Aug 26 18:29:01 2014] [debug] 200 OK (0.003685s, 271.370/s).
+[Tue Aug 26 19:00:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 19:00:22 2014] [debug] GET "/".
+[Tue Aug 26 19:00:22 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 19:00:22 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 19:00:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 19:00:22 2014] [debug] 200 OK (0.012722s, 78.604/s).
+[Tue Aug 26 19:13:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 19:13:10 2014] [debug] GET "/new_file".
+[Tue Aug 26 19:13:10 2014] [debug] Routing to controller "Pdms::Files" and action "new_file".
+[Tue Aug 26 19:13:10 2014] [debug] Rendering template "files/new_file.html.ep".
+[Tue Aug 26 19:13:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 19:13:10 2014] [debug] 200 OK (0.014471s, 69.104/s).
+[Tue Aug 26 19:13:29 2014] [debug] POST "/new_file".
+[Tue Aug 26 19:13:29 2014] [debug] Routing to controller "Pdms::Files" and action "new_file_send".
+[Tue Aug 26 19:13:30 2014] [debug] 302 Found (0.646820s, 1.546/s).
+[Tue Aug 26 19:13:30 2014] [debug] GET "/".
+[Tue Aug 26 19:13:30 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 19:13:30 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 19:13:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 19:13:30 2014] [debug] 200 OK (0.011414s, 87.612/s).
+[Tue Aug 26 19:15:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 26 19:15:15 2014] [debug] GET "/".
+[Tue Aug 26 19:15:15 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Tue Aug 26 19:15:15 2014] [debug] Rendering template "files/files.html.ep".
+[Tue Aug 26 19:15:15 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 26 19:15:15 2014] [debug] 200 OK (0.015239s, 65.621/s).
+[Fri Sep  5 19:01:57 2014] [info] Listening at "http://*:3000".
+[Fri Sep  5 19:02:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Sep  5 19:02:06 2014] [debug] GET "/".
+[Fri Sep  5 19:02:06 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Sep  5 19:02:06 2014] [debug] Rendering template "files/files.html.ep".
+[Fri Sep  5 19:02:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Sep  5 19:02:06 2014] [debug] 200 OK (0.045675s, 21.894/s).
+[Sat Sep  6 12:09:39 2014] [info] Listening at "http://*:3000".
+[Sat Sep  6 12:10:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  6 12:10:07 2014] [debug] GET "/".
+[Sat Sep  6 12:10:07 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Sep  6 12:10:07 2014] [debug] Rendering template "files/files.html.ep".
+[Sat Sep  6 12:10:07 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep  6 12:10:07 2014] [debug] 200 OK (0.035075s, 28.510/s).
+[Sat Sep  6 12:11:42 2014] [debug] GET "/categories".
+[Sat Sep  6 12:11:42 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Sat Sep  6 12:11:42 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sat Sep  6 12:11:42 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep  6 12:11:42 2014] [debug] 200 OK (0.013132s, 76.150/s).
+[Sat Sep  6 12:12:13 2014] [debug] GET "/".
+[Sat Sep  6 12:12:13 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Sep  6 12:12:13 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Sep  6 12:12:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Sep  6 12:12:13 2014] [debug] 200 OK (0.005365s, 186.393/s).
+[Fri Sep 19 19:26:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Sep 19 19:26:19 2014] [debug] GET "/".
+[Fri Sep 19 19:26:19 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Sep 19 19:26:19 2014] [debug] Rendering template "files/files.html.ep".
+[Fri Sep 19 19:26:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Sep 19 19:26:19 2014] [debug] 200 OK (0.271837s, 3.679/s).

@@ -5,6 +5,22 @@
 
 <form id="new_file" action="<%= url_for('/new_file') %>"  method="POST" enctype="multipart/form-data">
 File: <INPUT type="file" name="file" /><BR>
-Categories:
+<p>
+Category:
+<select name="category">
+% foreach my $category (@$categories) {
+<option value="<%= $category->{category_id} %>"><%= $category->{category_value} %></option>
+% }
+</select>
+</p>
+<p>
+Tags:<br>
+% foreach my $tag (@$tags) {
+<input type="checkbox" name="tags" value="<%= $tag->{tag_id} %>"><%= $tag->{tag_value} %><br>
+% }
+</p>
+Description: <input type="text" name="description" /><br>
+New Category: <input type="text" name="new_category"><br>
+New Tag: <input type="text" name="new_tag"><br>
 <INPUT type="submit" value="Send" /><BR>
 </form>
