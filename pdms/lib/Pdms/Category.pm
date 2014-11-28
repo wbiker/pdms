@@ -1,12 +1,7 @@
-package Pdms::Example;
-use Mojo::Base 'Mojolicious::Controller';
+package Category;
+use Moose;
 
-# This action will render a template
-sub welcome {
-  my $self = shift;
-
-  # Render template "example/welcome.html.ep" with message
-  $self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
-}
+has 'id' => (is => 'ro', isa => 'Integer', required => 1);
+has 'name' => (is => 'ro', isa => 'Str', required => 1);
 
 1;

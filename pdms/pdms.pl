@@ -1,85 +1,157 @@
-#!/usr/bin/perl 
-#===============================================================================
-#
-#         FILE: pdms.pl
-#
-#        USAGE: ./pdms.pl  
-#
-#  DESCRIPTION: 
-#
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: YOUR NAME (), 
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 06/09/14 11:41:23
-#     REVISION: ---
-#===============================================================================
-use v5.12;
+#!/usr/bin/env perl
+
 use strict;
 use warnings;
-
-use FindBin qw($Bin);
-use lib "$Bin/lib";
-use File::Find;
-use Data::Printer;
-use File::stat;
-
-use autodie;
 use Getopt::Long;
+use feature qw(say);
+use YAML::Any qw(LoadFile);
 
-use Pdms::SqlManager;
+use Document;
+use Tag;
+use SqlManager;
 
-my %params;
-$params{path} = q(/mnt/scanner);
+# read config.
+my $config = 'config.yaml';
+die "$config not found." unless -e $config;
 
-GetOptions(\%params,
-    "path=s",
-    );
+my $conf = LoadFile($config);
+die "No config read." unless $conf;
 
-#my $db = Pdms::SqlManager->new;
-#$db->connect;
+mkdir $conf->{root_dir} unless -d $conf->{root_dir};
 
-say $params{path}." not found" and exit unless -d $params{path};
+do { usage(); exit; } unless @ARGV;
 
-opendir(my $fdh, $params{path});
-while(my $fdir = readdir($fdh)) {
-    next if $fdir =~ /\A\.\.?/;
+# Command Line parameter handling
+my $search;
+my $check_in;
+my $check_out;
+my $list;
+my @file;
+my $tags;
+my $special; # in this variable are parameter stored that was on the command line without options.
 
-    say $fdir;
-    my $sta = stat($fdir);
-    p $sta;
-    print_dir($fdir) if -d $fdir;
+GetOptions(
+	"search" => \$search,
+	"check-in" => \$check_in,
+	"check-out" => \$check_out,
+	"list" => \$list,
+	"file=s" => \@file,
+	"tags=s" => \$tags,
+	'<>' => sub { $special = shift },
+) or die "Invalid parameter";
+
+
+my $sql = SqlManager->new(root_path => $conf->{root_dir});
+if ($special) {
+	# one parameter without options was set.
+	# Assume it is a file path
+	# Can be used with check_out, check_in or if alone as new_document
+	if ($check_in) {
+		#code
+	}
+	elsif($check_out) {
+		
+	}
+	elsif($search) {
+        say "search file names with ", $special;
+		# search for a certain file name, stored in $special
+		my @found = $sql->find_name($special);
+		
+		say "Found: ";
+		for my $file (@found) {
+			say "\tName: ", $file->name;
+			say "\tPath: ", $file->get_file;
+		}
+		say "done.";
+	}
+	elsif($list) {
+		# --list was set and something was given over without option.
+		# assume the something in $special are text label for what I should list
+		if ($special =~ /tag(s)?/i) {
+			# list all tags
+			my $tags = $sql->get_tags;
+			say "Tags found in the database:";
+			say "\t$_" for @$tags;
+		}
+		elsif($special =~ /name(s)?/i) {
+			my $names = $sql->get_names;
+			say "File names found in the database:";
+			for my $value (@$names) {
+				say "\t", $value if $value;
+			}
+			
+		}
+	}
+	else {
+		# ok nothing set, assume it is a path and store file in DB
+		# But first, tags can also be set on the command line to store new doc with them.
+		my $doc = Document->new(file => $special, rootdir => $conf->{root_dir});
+		if ($tags) {
+			# check whether more than one tag was set.
+			my @tags = split(',', $tags);
+			if (1 < scalar @tags) {
+				# there are more than one tags set.
+				say "More than one tag:";
+				for my $tag (@tags) {
+					say "\t$tag";
+					$doc->add_tag($tag);
+				}
+			}
+			else {
+				say "One tag: $tags";
+				$doc->add_tag($tags);
+			}
+		}
+		
+		if (!$sql->exists_in_db($doc->name)) {
+			$doc->copy_file;
+			say "write doc in database.";
+			$sql->write_doc($doc);
+			say "done";	
+		}
+		else {
+			say $doc->name, " already in database. Use check-in to add a new version.";
+		}
+		
+		
+	}	
 }
-closedir($fdh);
-
-sub print_dir {
-    my $dir = shift;
-
-    return unless -d $dir;
-
-    opendir(my $dh, $dir);
-    while(my $item = readdir($dh)) {
-        next if $item =~ /\A\.\.?/;
-        say $item;
-
-        my @stat = stat($item);
-        p @stat;
-        print_dir($item) if -d $item;
-    }
-    closedir($dh);
+elsif($list) {
+	# not useful
+	say "$0 --list [tags|names] What should I list? Possible labels are: tags or names";
 }
-__END__
-my $wanted = sub {
-    my $full_name = $File::Find::name;
-    say "check $full_name";
-    return if -d $full_name;
-    #return unless /\.(pdf|tiff|jpe?g|tif)/i;
+elsif($search) {
+	if($tags) {
+		# try to split tags
+		my @tag_split = split(',', $tags);
+		my @files = $sql->find_files_with_tags(@tag_split);
+		
+		say "File found:";
+		for my $file (@files) {
+			say "\tName: ", $file->name;
+			say "\tPath: ", $file->get_file;
+		}
+	}
+}
+sub usage {
+	print <<"HELP";
+$0 - a document management system.
 
-    say "$full_name found";
-};
+usage:
+	Add file to database
+	$0 /path/to/file [--tag=tag1,tag2,...]
 
-find($wanted, $params{path});
+	List all tags
+	$0 --list tags
+
+	List all file names
+	$0 --list names
+
+	Search for file name
+	$0 --search <string>
+	
+	Search for files with tag names
+	$0 --search --tag=tag1[,tag2]
+	
+HELP
+}

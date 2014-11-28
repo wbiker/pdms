@@ -2587,3 +2587,13 @@ Compilation failed in require at (eval 279) line 1.
 [Fri Sep 19 19:26:19 2014] [debug] Rendering template "files/files.html.ep".
 [Fri Sep 19 19:26:19 2014] [debug] Rendering template "layouts/default.html.ep".
 [Fri Sep 19 19:26:19 2014] [debug] 200 OK (0.271837s, 3.679/s).
+[Thu Nov 27 19:57:02 2014] [info] Listening at "http://*:3000".
+[Thu Nov 27 19:57:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Nov 27 19:57:06 2014] [debug] GET "/".
+[Thu Nov 27 19:57:06 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Thu Nov 27 19:57:06 2014] [debug] Rendering template "files/files.html.ep".
+[Thu Nov 27 19:57:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov 27 19:57:06 2014] [debug] 200 OK (0.040878s, 24.463/s).
+[Thu Nov 27 19:57:14 2014] [debug] GET "/files/show/28".
+[Thu Nov 27 19:57:14 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
+[Thu Nov 27 19:57:15 2014] [debug] 200 OK (0.414463s, 2.413/s).
