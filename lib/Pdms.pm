@@ -11,6 +11,7 @@ sub startup {
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');
   $self->plugin('RenderFile');
+  $self->plugin('JSONConfig');
 
   # Router
   my $r = $self->routes;

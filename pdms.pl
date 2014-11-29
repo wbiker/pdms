@@ -4,17 +4,25 @@ use strict;
 use warnings;
 use Getopt::Long;
 use feature qw(say);
-use YAML::Any qw(LoadFile);
+use FindBin qw($Bin);
+use lib "$Bin/lib";
+use JSON qw(decode_json);
 
-use Document;
-use Tag;
-use SqlManager;
+use Pdms::Document;
+use Pdms::Tag;
+use Pdms::SqlManager;
 
-# read config.
-my $config = 'config.yaml';
+# read config into memory
+my $config = 'pdms.json';
 die "$config not found." unless -e $config;
 
-my $conf = LoadFile($config);
+my $content = do {
+  open(my $fh, "<", $config) or die "could not read $config: $!";
+  local $/ = undef;
+  <$fh>
+};
+
+my $conf = decode_json($content);
 die "No config read." unless $conf;
 
 mkdir $conf->{root_dir} unless -d $conf->{root_dir};
