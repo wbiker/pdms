@@ -11,7 +11,7 @@ sub startup {
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');
   $self->plugin('RenderFile');
-  $self->plugin('JSONConfig');
+  my $conf = $self->plugin('JSONConfig');
 
   # Router
   my $r = $self->routes;
@@ -25,7 +25,7 @@ sub startup {
   $r->get('/files/show/:file_id')->to('files#show_file');
   $r->get('/files/download/:file_id')->to('files#show_file', kind => 'download');
   
-  $r->get('/tags')->to('tags#all_tags');
+  $r->get('/tags')->to('tags#list_tags');
   $r->get('/tags/new_tag')->to('tags#new_tag');
   $r->post('/tags/new_tag')->to('tags#store_tag');
   $r->get('/tags/remove/:tag_id')->to('tags#remove_tag');
@@ -36,8 +36,7 @@ sub startup {
   $r->get('/categories/remove/:category_id')->to('categories#remove_category');
 
   $self->{file} = Pdms::PdmsFile->new;
-  $self->{sql} = Pdms::SqlManager->new;
-  $self->{sql}->connect;
+  $self->{sql} = Pdms::SqlManager->new(root_path => $conf->{root_dir});
 }
 
 1;

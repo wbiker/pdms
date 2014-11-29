@@ -1,11 +1,11 @@
-package SqlManager;
+package Pdms::SqlManager;
 use DBI;
 use Moose;
 use Digest::MD5 qw(md5_hex);
 use feature qw(say);
 
-use Document;
-use Tag;
+use Pdms::Document;
+use Pdms::Tag;
 
 has 'db' => (is => 'rw');
 has 'root_path' => (is => 'ro', required => 1);

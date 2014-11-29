@@ -2597,3 +2597,126 @@ Compilation failed in require at (eval 279) line 1.
 [Thu Nov 27 19:57:14 2014] [debug] GET "/files/show/28".
 [Thu Nov 27 19:57:14 2014] [debug] Routing to controller "Pdms::Files" and action "show_file".
 [Thu Nov 27 19:57:15 2014] [debug] 200 OK (0.414463s, 2.413/s).
+[Sat Nov 29 13:32:54 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:33:10 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:33:47 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:33:50 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:34:33 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:34:34 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:34:41 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:34:42 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:35:36 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:35:37 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:36:04 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:36:04 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:36:13 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:41:56 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:42:25 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:42:28 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:42:43 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:43:03 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:43:23 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:43:31 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:43:38 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:43:38 2014] [info] Listening at "http://*:3000".
+[Sat Nov 29 13:43:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Nov 29 13:43:46 2014] [debug] GET "/".
+[Sat Nov 29 13:43:47 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Nov 29 13:43:47 2014] [error] Can't locate object method "get_files" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/script/../lib/Pdms/Files.pm line 9.
+
+[Sat Nov 29 13:43:47 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Nov 29 13:43:47 2014] [debug] Template "exception.html.ep" not found.
+[Sat Nov 29 13:43:47 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Nov 29 13:43:47 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Nov 29 13:43:47 2014] [debug] 500 Internal Server Error (0.084988s, 11.766/s).
+[Sat Nov 29 13:44:08 2014] [debug] GET "/tags".
+[Sat Nov 29 13:44:08 2014] [debug] Routing to controller "Pdms::Tags" and action "list_tags".
+[Sat Nov 29 13:44:08 2014] [debug] Template "tags/list_tags.html.ep" not found.
+[Sat Nov 29 13:44:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Nov 29 13:44:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Nov 29 13:44:08 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Nov 29 13:44:08 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Nov 29 13:44:08 2014] [debug] 404 Not Found (0.049514s, 20.196/s).
+[Sat Nov 29 13:45:20 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:45:50 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:45:56 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:46:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Nov 29 13:46:09 2014] [debug] GET "/tags".
+[Sat Nov 29 13:46:09 2014] [debug] Routing to controller "Pdms::Tags" and action "list_tags".
+[Sat Nov 29 13:46:09 2014] [debug] Rendering template "tags/list_tags.html.ep".
+[Sat Nov 29 13:46:09 2014] [error] Global symbol "$tags" requires explicit package name at template tags/list_tags.html.ep line 16.
+11: <tr>
+12: <th>ID</th>
+13: <th>Value</th>
+14: <th>Remove</th>
+15: </tr>
+16: % for my $tag (@$tags) {
+17: <tr>
+18: <td><%= $tag->{tag_id} %></td>
+19: <td><%= $tag->{tag_value} %></td>
+20: <td><a href="<%= url_for("/tags/remove/$tag->{tag_id}") %>">Remove</a></td>
+21: % }
+
+[Sat Nov 29 13:46:09 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Nov 29 13:46:09 2014] [debug] Template "exception.html.ep" not found.
+[Sat Nov 29 13:46:09 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Nov 29 13:46:09 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Nov 29 13:46:09 2014] [debug] 500 Internal Server Error (0.083594s, 11.963/s).
+[Sat Nov 29 13:46:42 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:46:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Nov 29 13:46:44 2014] [debug] GET "/tags".
+[Sat Nov 29 13:46:44 2014] [debug] Routing to controller "Pdms::Tags" and action "list_tags".
+[Sat Nov 29 13:46:44 2014] [debug] Rendering template "tags/list_tags.html.ep".
+[Sat Nov 29 13:46:44 2014] [error] Not an ARRAY reference at template tags/list_tags.html.ep line 16.
+11: <tr>
+12: <th>ID</th>
+13: <th>Value</th>
+14: <th>Remove</th>
+15: </tr>
+16: % for my $tag (@$all_tags) {
+17: <tr>
+18: <td><%= $tag->{tag_id} %></td>
+19: <td><%= $tag->{tag_value} %></td>
+20: <td><a href="<%= url_for("/tags/remove/$tag->{tag_id}") %>">Remove</a></td>
+21: % }
+
+[Sat Nov 29 13:46:44 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Nov 29 13:46:44 2014] [debug] Template "exception.html.ep" not found.
+[Sat Nov 29 13:46:44 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Nov 29 13:46:44 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Nov 29 13:46:44 2014] [debug] 500 Internal Server Error (0.077159s, 12.960/s).
+[Sat Nov 29 13:47:03 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:47:12 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:47:14 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:48:01 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:49:03 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:49:20 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 13:49:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Nov 29 13:49:21 2014] [debug] GET "/tags".
+[Sat Nov 29 13:49:21 2014] [debug] Routing to controller "Pdms::Tags" and action "list_tags".
+[Sat Nov 29 13:49:21 2014] [debug] Rendering template "tags/list_tags.html.ep".
+[Sat Nov 29 13:49:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Nov 29 13:49:21 2014] [debug] 200 OK (0.039787s, 25.134/s).
+[Sat Nov 29 17:30:58 2014] [debug] GET "/categories".
+[Sat Nov 29 17:30:58 2014] [debug] Controller "Pdms::Categories" does not exist.
+[Sat Nov 29 17:30:58 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Sat Nov 29 17:30:58 2014] [error] Global symbol "$categories" requires explicit package name at template categories/all_categories.html.ep line 16.
+11: <tr>
+12: <th>ID</th>
+13: <th>Value</th>
+14: <th>Remove</th>
+15: </tr>
+16: % for my $category (@$categories) {
+17: <tr>
+18: <td><%= $category->{category_id} %></td>
+19: <td><%= $category->{category_value} %></td>
+20: <td><a href="<%= url_for("/categories/remove/$category->{category_id}") %>">Remove</a></td>
+21: % }
+
+[Sat Nov 29 17:30:58 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Nov 29 17:30:58 2014] [debug] Template "exception.html.ep" not found.
+[Sat Nov 29 17:30:58 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Nov 29 17:30:58 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Nov 29 17:30:58 2014] [debug] 500 Internal Server Error (0.063294s, 15.799/s).
+[Sat Nov 29 19:27:48 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Nov 29 19:27:52 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".

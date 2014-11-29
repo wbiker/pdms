@@ -13,10 +13,10 @@
 <th>Value</th>
 <th>Remove</th>
 </tr>
-% for my $tag (@$tags) {
+% for my $tag_id (keys %$all_tags) {
 <tr>
-<td><%= $tag->{tag_id} %></td>
-<td><%= $tag->{tag_value} %></td>
-<td><a href="<%= url_for("/tags/remove/$tag->{tag_id}") %>">Remove</a></td>
+<td><%= $tag_id %></td>
+<td><%= $all_tags->{$tag_id} %></td>
+<td><a href="<%= url_for("/tags/remove/$tag_id") %>">Remove</a></td>
 % }
 </table>
