@@ -110,6 +110,9 @@ sub find_name {
 										   parent => $files->{$doc}->{parent},
 										   tag => $files->{$doc}->{tag},
 										   rootdir => $self->root_path,
+                       category => $files->{$doc}->category,
+                       date_add => $files->{$doc}->date_add,
+                       date => $files->{$doc}->date,
 										  ));
 	}
 	

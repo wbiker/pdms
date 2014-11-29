@@ -36,6 +36,9 @@ my $check_out;
 my $list;
 my @file;
 my $tags;
+my $category = "new";
+my $description;
+my $date;
 my $special; # in this variable are parameter stored that was on the command line without options.
 
 GetOptions(
@@ -45,11 +48,13 @@ GetOptions(
 	"list" => \$list,
 	"file=s" => \@file,
 	"tags=s" => \$tags,
+  "category=s" => \$category,
+  "description=s" => \$description,
+  "date=s" => \$date,
 	'<>' => sub { $special = shift },
 ) or die "Invalid parameter";
 
-
-my $sql = SqlManager->new(root_path => $conf->{root_dir});
+my $sql = Pdms::SqlManager->new(root_path => $conf->{root_dir});
 if ($special) {
 	# one parameter without options was set.
 	# Assume it is a file path
@@ -93,7 +98,7 @@ if ($special) {
 	else {
 		# ok nothing set, assume it is a path and store file in DB
 		# But first, tags can also be set on the command line to store new doc with them.
-		my $doc = Document->new(file => $special, rootdir => $conf->{root_dir});
+		my $doc = Pdms::Document->new(file => $special, rootdir => $conf->{root_dir}, category => $category, date => $date);
 		if ($tags) {
 			# check whether more than one tag was set.
 			my @tags = split(',', $tags);
@@ -112,9 +117,9 @@ if ($special) {
 		}
 		
 		if (!$sql->exists_in_db($doc->name)) {
-			$doc->copy_file;
+		#	$doc->copy_file;
 			say "write doc in database.";
-			$sql->write_doc($doc);
+		#	$sql->write_doc($doc);
 			say "done";	
 		}
 		else {
