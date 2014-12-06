@@ -2732,3 +2732,74 @@ Compilation failed in require at (eval 279) line 1.
 [Sat Nov 29 19:53:37 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
 [Sat Nov 29 19:53:37 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
 [Sat Nov 29 19:53:37 2014] [debug] 500 Internal Server Error (0.038119s, 26.234/s).
+[Mon Dec  1 21:10:23 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Mon Dec  1 21:10:23 2014] [info] Listening at "http://*:3000".
+[Mon Dec  1 21:10:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Dec  1 21:10:38 2014] [debug] GET "/".
+[Mon Dec  1 21:10:38 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Mon Dec  1 21:10:38 2014] [error] Can't locate object method "get_files" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/script/../lib/Pdms/Files.pm line 9.
+
+[Mon Dec  1 21:10:38 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Dec  1 21:10:38 2014] [debug] Template "exception.html.ep" not found.
+[Mon Dec  1 21:10:38 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Dec  1 21:10:38 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Dec  1 21:10:38 2014] [debug] 500 Internal Server Error (0.034111s, 29.316/s).
+[Mon Dec  1 21:10:55 2014] [debug] GET "/cateories".
+[Mon Dec  1 21:10:55 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Dec  1 21:10:55 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Dec  1 21:10:55 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Dec  1 21:10:55 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Dec  1 21:10:55 2014] [debug] 404 Not Found (0.021197s, 47.176/s).
+[Mon Dec  1 21:11:12 2014] [debug] GET "/catecories".
+[Mon Dec  1 21:11:12 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Dec  1 21:11:12 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Dec  1 21:11:12 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Dec  1 21:11:12 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Dec  1 21:11:12 2014] [debug] 404 Not Found (0.009199s, 108.707/s).
+[Mon Dec  1 21:11:22 2014] [debug] GET "/categories".
+[Mon Dec  1 21:11:22 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Mon Dec  1 21:11:22 2014] [error] Can't locate object method "selectall_arrayref" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/script/../lib/Pdms/Categories.pm line 10.
+
+[Mon Dec  1 21:11:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Dec  1 21:11:22 2014] [debug] Template "exception.html.ep" not found.
+[Mon Dec  1 21:11:22 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Dec  1 21:11:22 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Dec  1 21:11:22 2014] [debug] 500 Internal Server Error (0.011330s, 88.261/s).
+[Mon Dec  1 21:15:56 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Mon Dec  1 21:16:07 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Mon Dec  1 21:21:24 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Mon Dec  1 21:21:49 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Mon Dec  1 21:21:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Dec  1 21:21:54 2014] [debug] GET "/categories".
+[Mon Dec  1 21:21:54 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Mon Dec  1 21:21:54 2014] [error] Can't locate object method "fetchall_arrayref" via package "DBI::db" at /home/wolf/repos/pdms/script/../lib/Pdms/SqlManager.pm line 272.
+
+[Mon Dec  1 21:21:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Dec  1 21:21:54 2014] [debug] Template "exception.html.ep" not found.
+[Mon Dec  1 21:21:54 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Dec  1 21:21:54 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Dec  1 21:21:54 2014] [debug] 500 Internal Server Error (0.035294s, 28.333/s).
+[Mon Dec  1 21:25:00 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Mon Dec  1 21:25:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Dec  1 21:25:04 2014] [debug] GET "/categories".
+[Mon Dec  1 21:25:04 2014] [debug] Routing to controller "Pdms::Categories" and action "all_categories".
+[Mon Dec  1 21:25:04 2014] [debug] Rendering template "categories/all_categories.html.ep".
+[Mon Dec  1 21:25:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Dec  1 21:25:04 2014] [debug] 200 OK (0.016010s, 62.461/s).
+[Mon Dec  1 21:25:08 2014] [debug] GET "/categories/new_category".
+[Mon Dec  1 21:25:08 2014] [debug] Routing to controller "Pdms::Categories" and action "new_category".
+[Mon Dec  1 21:25:08 2014] [debug] Action not found in controller.
+[Mon Dec  1 21:25:08 2014] [debug] Rendering template "categories/new_category.html.ep".
+[Mon Dec  1 21:25:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Dec  1 21:25:08 2014] [debug] 200 OK (0.012432s, 80.438/s).
+[Mon Dec  1 21:25:16 2014] [debug] POST "/categories/new_category".
+[Mon Dec  1 21:25:16 2014] [debug] Routing to controller "Pdms::Categories" and action "store_category".
+[Mon Dec  1 21:25:16 2014] [debug] Action not found in controller.
+[Mon Dec  1 21:25:16 2014] [debug] Template "categories/store_category.html.ep" not found.
+[Mon Dec  1 21:25:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Dec  1 21:25:16 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Dec  1 21:25:16 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Mon Dec  1 21:25:16 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Mon Dec  1 21:25:16 2014] [debug] 404 Not Found (0.043675s, 22.896/s).
+[Mon Dec  1 21:28:36 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Mon Dec  1 21:28:40 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".

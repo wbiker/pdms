@@ -265,4 +265,12 @@ sub get_tag_id {
 	}
 }
 
+sub get_all_categories {
+  my $self = shift;
+
+	my $dbh = $self->db;
+	my $array_ref = $dbh->selectall_arrayref("SELECT category_id, category_name FROM CATEGORY", { Slice => {}});
+  return $array_ref;
+}
+
 1;

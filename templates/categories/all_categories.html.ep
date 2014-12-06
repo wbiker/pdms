@@ -13,10 +13,10 @@
 <th>Value</th>
 <th>Remove</th>
 </tr>
-% for my $category (@$categories) {
+% for my $category (@$all_categories) {
 <tr>
 <td><%= $category->{category_id} %></td>
-<td><%= $category->{category_value} %></td>
+<td><%= $category->{category_name} %></td>
 <td><a href="<%= url_for("/categories/remove/$category->{category_id}") %>">Remove</a></td>
 % }
 </table>
