@@ -17,7 +17,7 @@ has 'name' => (is => 'rw', isa => 'Str');
 has 'rootdir' => (is => 'ro', isa => 'Str');
 has 'extension' => (is => 'rw', isa => 'Str');
 has 'path' => (is => 'rw', isa => 'Str');
-has 'tags' => (is => 'rw', isa => 'ArrayRef|Str');
+has 'tag' => (is => 'rw', isa => 'ArrayRef');
 has 'version' => (is => 'rw', isa => 'Int', default => 1);
 has 'category' => (is => 'rw', isa => 'Str');
 has 'date_added' => (is => 'rw', isa => 'Time::Moment', default => sub { Time::Moment->now });
@@ -48,30 +48,17 @@ sub BUILD {
 		say "set file: ", $dest_file;
 		$self->file($dest_file);
     
-        # set date (date of the doc) and date_added if not already done.
-        $self->date_added(Time::Moment->now);
+    # set date (date of the doc) and date_added if not already done.
+    $self->date_added(Time::Moment->now);
 
-        # check whether date is a Time::Momnet object
-        $self->date(Time::Moment->now) unless $self->date;
-        my $dt = $self->date;
-        unless(ref $dt eq "Time::Moment") {
-          say "Parse date: ", $dt;
+    # check whether date is a Time::Momnet object
+    $self->date(Time::Moment->now) unless $self->date;
+    my $dt = $self->date;
+    unless(ref $dt eq "Time::Moment") {
+      say "Parse date: ", $dt;
 
-          $self->date(Time::Moment->now);
-        }
-
-        # if tags is a string split it and add them to the tags array
-        my $tags = $self->tags;
-        if($tags && ref($tags) ne "ARRAY") {
-            $tags =~ s/\s+//g;
-          my @tags = split(',', $tags);
-          if(1 < scalar @tags) {
-              for my $tag (@tags) {
-                  $self->add_tag($tag);
-              }
-          }
-        }
-
+      $self->date(Time::Moment->now);
+    }
 	}
 }
 
@@ -80,7 +67,7 @@ sub add_tag {
 	my $tag = shift;
 	
 	$tag = lc($tag);
-	push(@{$self->{tags}}, $tag);
+	push(@{$self->{tag}}, $tag);
 }
 
 sub copy_file {
