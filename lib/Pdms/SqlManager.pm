@@ -19,47 +19,8 @@ sub BUILD {
 	$self->db(DBI->connect("dbi:SQLite:dbname=PDMS.db.sqlite","",""));
 }
 
-sub write_doc {
-	my $self = shift;
-	my $doc = shift;
-	
-	my $dbh = $self->db;
-	# first check whether a file with this name is already stored in the database.
-	my $lfn = $dbh->prepare("SELECT * FROM DOCUMENT WHERE name = ?");
-	$lfn->execute($doc->name);
-	my $rows = $lfn->fetchall_arrayref();
-	
-	if (0 == scalar @{$rows}) {
-		# ok not found. Insert it one row for each tag
-		my @tags;
-		@tags = @{$doc->tag} if $doc->tag;
-		if (@tags) {
-			for my $tag (@tags) {
-				my $tag_id = $self->get_tag_id($tag);
-				my $sth = $dbh->prepare("INSERT INTO DOCUMENT (hash, name, ext, tag) VALUES (?1, ?2 , ?3, ?4)");
-				$sth->bind_param(1, $doc->hash);
-				$sth->bind_param(2, $doc->name);
-				$sth->bind_param(3, $doc->extension);
-				$sth->bind_param(4, $tag_id);
-				$sth->execute();
-				$sth->finish();
-			}
-		}
-		else {
-			my $sth = $dbh->prepare("INSERT INTO DOCUMENT (hash, name, ext) VALUES (?1, ?2 , ?3)");
-			$sth->bind_param(1, $doc->hash);
-			$sth->bind_param(2, $doc->name);
-			$sth->bind_param(3, $doc->extension);
-			$sth->execute();
-			$sth->finish();
-		}
-	}
-	else {
-		# found at least one file with that name in the database.
-		
-	}	
-}
 
+# obsolete
 sub exists_in_db {
 	my $self = shift;
 	my $name = shift;
@@ -74,6 +35,86 @@ sub exists_in_db {
 	return 0;
 }
 
+###############################################################################
+# write_file
+# Writes a file hash in the database.
+# Hash must contains at least name
+#
+# fileh is a hash with keys: path
+###############################################################################
+sub write_file {
+  my $self = shift;
+  my $fileh = shift;
+  
+  # hash with the tags from the database. Key is the name id the value.
+  # Used to find the tag_id of a tag stored in the fileh hash.
+
+  # if there at least one tag string I fetch tags from database
+  if(exists $fileh->{tags} && $fileh->{tags}) {
+      my $tags_array = [];
+      my $tags = delete $fileh->{tags};
+      $tags = lc($tags);
+      if($tags =~ /,/) {
+          $tags =~ s/\s+//g;
+          my @tags_str = split(',', $tags);
+          # ok array contains the tag string.
+          # search them in the hash and if not found create them in the database
+          for my $tag (@tags_str) {
+              # create tag in DB if not already exists
+              push(@{$fileh->{tags}}, $self->_find_or_insert_tag($tag));
+          }
+      }
+      else {
+          push(@{$fileh->{tags}}, $self->_find_or_insert_tag($tags));
+      }
+  }
+
+  $fileh->{category} = $self->_find_or_insert_category($fileh->{category});
+
+  p $fileh;
+      
+}
+
+sub _find_or_insert_category {
+    my $self = shift;
+    my $category_str = shift;
+
+    my $sth = $self->db->prepare('SELECT category_id, category_name FROM CATEGORY WHERE category_name = ?');
+    $sth->execute($category_str);
+
+    my $ref = $sth->fetchall_arrayref;
+    if(0 < scalar @$ref) {
+        return $ref->[0]->[0];
+    }
+
+    my $query = 'INSERT INTO CATEGORY (category_name) VALUES (?)';
+    $self->db->do($query, undef, $category_str);
+    my $cat_id = $self->db->last_insert_id(undef, undef, 'CATEGORY', undef);
+    return $cat_id;
+}
+
+sub _find_or_insert_tag {
+    my $self = shift;
+    my $tag_string = shift;
+
+    my $sth = $self->db->prepare('SELECT id, name from TAG WHERE name = ?');
+    $sth->execute($tag_string);
+
+    my $ref = $sth->fetchall_arrayref;
+    if(0 < scalar @{$ref}) {
+       return $ref->[0]->[0];
+    }
+    $sth->finish;
+
+    # write new tag in db
+    my $query = "INSERT INTO TAG (name) VALUES (?)";
+    $self->db->do($query, undef, $tag_string);
+    my $tag_id = $self->db->last_insert_id(undef, undef, 'TAG', undef);
+    say "Last id: ", $tag_id;
+    return $tag_id;
+}
+
+# obsolete
 sub find_name {
 	my $self = shift;
 	my $name = shift;
@@ -122,24 +163,29 @@ sub find_name {
 	return @doc_files;
 }
 
+# obsolete
 sub get_all_tags {
 	my $self = shift;
+    my $key = shift;
 	
 	my $dbh = $self->db;
-	my $statement = "SELECT id, name FROM TAG";
 
-	my $sth = $dbh->prepare($statement);
-	$sth->execute(); 	
-
-	my %tags;
-	while(my $row_array = $sth->fetchrow_arrayref) {
-		$tags{$row_array->[0]} = $row_array->[1];
-	}
-	$sth->finish;
+    my %tags;
+    if($key && $key eq "name") {
+	  %tags = 
+        map { $_->[1], $_->[0] }
+          @{ $dbh->selectall_arrayref('SELECT id, name FROM TAG') };
+    }
+    else {
+      %tags = 
+        map { $_->[0], $_->[1] }
+          @{ $dbh->selectall_arrayref('SELECT id, name FROM TAG') };
+    }
 	
 	return \%tags;
 }
 
+# obsolete
 sub find_tags {
 	my $self = shift;
 	my $tag = shift;
@@ -170,6 +216,7 @@ sub find_tags {
 	return @tag_ids;
 }
 
+# obsolete
 sub get_all_files {
     my $self = shift;
 
@@ -183,6 +230,7 @@ sub get_all_files {
     return @doc_files;
 }
 
+# obsolete
 sub find_files_with_tags {
 	my $self = shift;
 	my $tag = shift;
@@ -211,6 +259,7 @@ sub find_files_with_tags {
 	return @doc_files;
 }
 
+# obsolete
 sub get_tags {
 	my $self = shift;
 	
@@ -225,6 +274,7 @@ sub get_tags {
 	return $tag_names;
 }
 
+# obsolete
 sub get_names {
 	my $self = shift;
 	
@@ -239,6 +289,7 @@ sub get_names {
 	return $file_names;
 }
 
+# obsolete
 sub get_tag_id {
 	my $self = shift;
 	my $tag = shift;
@@ -266,6 +317,7 @@ sub get_tag_id {
 	}
 }
 
+# obsolete
 sub get_all_categories {
   my $self = shift;
 

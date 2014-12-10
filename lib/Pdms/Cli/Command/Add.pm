@@ -49,7 +49,7 @@ sub execute {
     $file->{category} = $opt->{category};
     $file->{tags} = $opt->{tags} if exists $opt->{tags};
     $file->{date} = $opt->{date};
-    $file->{description} = $opt->{descritpion};
+    $file->{description} = $opt->{description};
 
     $self->app->add_file($file);
 }
