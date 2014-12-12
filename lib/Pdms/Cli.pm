@@ -91,17 +91,7 @@ sub add_file {
     my $file = shift;
     
     $file->{rootdir} = $conf->{root_dir};
-
-		
-	if (!$sql->exists_in_db($file->{name})) {
-	  #	$doc->copy_file;
-	  say "write doc in database.doc";
-	  $sql->write_file($file);	
-	  say "done";	
-	}
-	else {
-	  say $file->{name}, " already in database. Use check-in to add a new version.";
-	}
+	$sql->write_file($file);	
 }
 
 1;

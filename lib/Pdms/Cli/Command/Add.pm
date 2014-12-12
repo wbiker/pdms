@@ -39,6 +39,10 @@ sub validate_args {
 
     $self->usage_error("Path and file name must be set!") unless exists $opt->{file};
     $self->usage_error("Category must be set") unless exists $opt->{category};
+
+    unless(-e $opt->{file}) {
+        $self->usage_error("$opt->{file} does not exists!");
+    }
 }
 
 sub execute {

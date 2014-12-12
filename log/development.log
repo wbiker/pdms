@@ -2803,3 +2803,20 @@ Compilation failed in require at (eval 279) line 1.
 [Mon Dec  1 21:25:16 2014] [debug] 404 Not Found (0.043675s, 22.896/s).
 [Mon Dec  1 21:28:36 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
 [Mon Dec  1 21:28:40 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Fri Dec 12 17:41:32 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Fri Dec 12 17:41:32 2014] [info] Listening at "http://*:3000".
+[Fri Dec 12 17:41:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 12 17:41:39 2014] [debug] GET "/".
+[Fri Dec 12 17:41:39 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Fri Dec 12 17:41:39 2014] [error] Can't locate object method "get_files" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/script/../lib/Pdms/Files.pm line 9.
+
+[Fri Dec 12 17:41:39 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 12 17:41:39 2014] [debug] Template "exception.html.ep" not found.
+[Fri Dec 12 17:41:39 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Fri Dec 12 17:41:39 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Fri Dec 12 17:41:39 2014] [debug] 500 Internal Server Error (0.051635s, 19.367/s).
+[Fri Dec 12 17:43:16 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Fri Dec 12 17:44:22 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Fri Dec 12 17:44:29 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Fri Dec 12 17:56:24 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Fri Dec 12 18:00:06 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
