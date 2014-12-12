@@ -3,9 +3,6 @@ use DBI;
 use Moose;
 use Digest::MD5 qw(md5_hex);
 use feature qw(say);
-use FindBin qw($Bin);
-use lib "$Bin/lib";
-use Data::Printer;
 
 use Pdms::Document;
 use Pdms::Tag;
@@ -216,6 +213,7 @@ sub find_tags {
 	return @tag_ids;
 }
 
+<<<<<<< HEAD
 # obsolete
 sub get_all_files {
     my $self = shift;
@@ -231,6 +229,8 @@ sub get_all_files {
 }
 
 # obsolete
+=======
+>>>>>>> 786f02c44f034eb0b14427586a600de33e37567e
 sub find_files_with_tags {
 	my $self = shift;
 	my $tag = shift;
@@ -238,7 +238,7 @@ sub find_files_with_tags {
 	my @tag_ids = $self->find_tags($tag);
 	my $dbh = $self->db;
 	
-	my $statement = "SELECT DISTINCT id, hash, name, ext, version, parent, description, date, dateadded  FROM DOCUMENT WHERE tag = ?";
+	my $statement = "SELECT DISTINCT * FROM DOCUMENT WHERE tag = ?";
 	if (1 < scalar @tag_ids) {
 		$statement .= " OR tag = ?";
 	}
@@ -249,11 +249,26 @@ sub find_files_with_tags {
 	my $all_tags = $self->get_all_tags;
 	
 	my @files;
+	my $docs = {};
+	while(my @row_array = $sth->fetchrow_array) {
+		my $hash = $row_array[1];
+		
+		$docs->{$hash}->{name} = $row_array[2];
+		$docs->{$hash}->{ext} = $row_array[3];
+		$docs->{$hash}->{version} = $row_array[4];
+		$docs->{$hash}->{parent} = $row_array[5];
+		push(@{$docs->{$hash}->{tag}}, $all_tags->{$row_array[6]});
+	}
 	my @doc_files;
-	while(my $hash_row = $sth->fetchrow_hashref) {
-        my $doc_tmp = Pdms::Document->new($hash_row);
-        $doc_tmp->tag($all_tags->{$doc_tmp->tag()});
-        push(@doc_files, $doc_tmp);
+	for my $doc (keys %$docs) {
+		push(@doc_files, new Document->new(hash => $doc,
+										   name => $docs->{$doc}->{name},
+										   extension => $docs->{$doc}->{ext},
+										   version => $docs->{$doc}->{version},
+										   parent => $docs->{$doc}->{parent},
+										   tag => $docs->{$doc}->{tag},
+										   rootdir => $self->root_path,
+										  ));
 	}
 	
 	return @doc_files;
