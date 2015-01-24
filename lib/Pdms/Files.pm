@@ -6,8 +6,20 @@ use Data::Printer;
 sub files {
   my $self = shift;
 
-  my $files = $self->app->{sql}->get_files();
+  my $files = $self->app->{sql}->get_files_with_category('new');
   $self->render(files => $files);
+}
+
+sub get_files {
+    my $self = shift;
+
+    my $params = $self->req->param('text');
+
+    return $self->render(json => { status => 'OK' }) if $params;
+
+    my $files = $self->app->{sql}->get_files();
+
+    $self->render(json => $files);
 }
 
 sub new_file {
@@ -78,14 +90,6 @@ sub new_file_send {
     else {
         $self->render(text => "Failed");
     }
-}
-
-sub remove_file {
-    my $self = shift;
-    my $file_id = $self->stash('file_id');
-
-    $self->app->{sql}->remove_file($file_id);
-    $self->redirect_to('/');
 }
 
 sub show_file {

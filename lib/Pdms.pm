@@ -20,6 +20,7 @@ sub startup {
   $r->get('/')->to('files#files');
   $r->get('/files/remove/:file_id')->to('files#remove_file');
   $r->get('/new_file')->to('files#new_file');
+  $r->get('/get_files')->to('files#get_files');
   $r->post('/new_file')->to('files#new_file_send');
 
   $r->get('/files/show/:file_id')->to('files#show_file');

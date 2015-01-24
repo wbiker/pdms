@@ -19,7 +19,7 @@ use v5.14;
 use strict;
 use warnings;
  
-use Data::Dumper;
+use Data::Printer;
 use App::Cmd::Setup -app;
 
 use FindBin qw($Bin);
@@ -66,22 +66,27 @@ sub list_all_tags {
   # list all tags
   my $tags = $sql->get_tags;
   say "Tags found in the database:";
-  say "\t$_" for @$tags;
+  say "\t", $_->{name} for @$tags;
 }
 
 sub list_all_categories {
     my $categories = $sql->get_categories;
     say "Categories found in the database:";
-    say "\r$_" for @$categories;
+    say "\t", $_->{category_name} for @$categories;
 }
 
 sub list_all_files {
-  my @files = $sql->get_all_files();
+  my $files = $sql->get_files();
 		
   say "File found:";
-  for my $file (@files) {
-	say "\tName: ", $file->name;
-	say "\tPath: ", $file->get_file;
+  for my $file (@$files) {
+	p $file;
+	$file->{rootdir} = $conf->{root_dir};
+	my $tmp = Pdms::Document->new($file);
+	say "\tName: ", $tmp->name;
+	say "\tPath: ", $tmp->get_file;
+	say "\tCategory: ", ($tmp->category())->{name};
+	say "\tTags: ", @{$tmp->tags()};
     say "";
   }
 }

@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head><title><%= title %></title></head>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="/js/jquery/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/js/jquery/themes/icon.css">
+    <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery/jquery.easyui.min.js"></script>
+  </head>
+
   <body>
-  <a href="<%= url_for('/') %>">All Files</a>
-  <a href="<%= url_for('/tags') %>">Manage Tags</a>
-  <a href="<%= url_for('/categories') %>">Manage Categories</a>
   <%= content %></body>
 </html>

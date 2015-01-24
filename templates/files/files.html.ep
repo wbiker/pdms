@@ -1,38 +1,12 @@
 % layout 'default';
 % title 'All Files';
-<p>
-<a href="<%= url_for('/new_file') %>">New File</a>
-</p>
-<h2>All files</h2>
-<h3>File name:</h3>
 
-<table>
-<thead>
-<tr>
-    <th>category</th>
-    <th>name</th>
-    <th>date</th>
-    <th>description</th>
-</tr>
-</thead>
-<tr>
-% my $files = stash('files');
-% if($files) {
-    % foreach my $file (@$files) {
-        <tr>
-            <td><%= $file->{category}->{category_value} %></td>
-            <td><%= $file->{name} %></td>
-            <td><%= $file->{date}->strftime("%d.%m.%Y") %></td>
-            <td><%= $file->{description} %></td>
-            <td>
-            <a href="<%= url_for("/files/show/$file->{file_id}") %>">Show</a>
-            <a href="<%= url_for("/files/download/$file->{file_id}") %>">Download</a>
-            <a href="<%= url_for("/files/remove/$file->{file_id}") %>">Remove</a>
-            </td>
-        </tr>
-    % }
-% } else {
-<p>No files stored so far.</p<>
-% }
-</tr>
-</table>
+<script type="text/javascript" src="/js/search.js"></script>
+
+<div id="search_area">
+<input id="search_tb" type="text" style="width:300px">
+</div>
+
+<div id="results">
+<table id="result_table"></table>
+</div>

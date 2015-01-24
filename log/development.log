@@ -2820,3 +2820,686 @@ Compilation failed in require at (eval 279) line 1.
 [Fri Dec 12 17:44:29 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
 [Fri Dec 12 17:56:24 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
 [Fri Dec 12 18:00:06 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 16:36:06 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 16:36:06 2014] [info] Listening at "http://*:3000".
+[Sat Dec 13 16:36:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 16:36:15 2014] [debug] GET "/".
+[Sat Dec 13 16:36:15 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 16:36:15 2014] [error] Can't locate object method "get_files" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/script/../lib/Pdms/Files.pm line 9.
+
+[Sat Dec 13 16:36:15 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Dec 13 16:36:15 2014] [debug] Template "exception.html.ep" not found.
+[Sat Dec 13 16:36:15 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 16:36:15 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 16:36:15 2014] [debug] 500 Internal Server Error (0.039825s, 25.110/s).
+[Sat Dec 13 16:37:41 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 16:39:00 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 16:39:10 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 16:40:18 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:09:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 17:09:26 2014] [debug] GET "/".
+[Sat Dec 13 17:09:26 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:09:26 2014] [error] Can't locate object method "get_files_with_category" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/script/../lib/Pdms/Files.pm line 9.
+
+[Sat Dec 13 17:09:26 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Dec 13 17:09:26 2014] [debug] Template "exception.html.ep" not found.
+[Sat Dec 13 17:09:26 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:09:26 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:09:26 2014] [debug] 500 Internal Server Error (0.041415s, 24.146/s).
+[Sat Dec 13 17:16:56 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:16:58 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:17:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 17:17:06 2014] [debug] GET "/".
+[Sat Dec 13 17:17:06 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:17:06 2014] [error] Can't locate object method "_get_files_with_category" via package "Pdms::SqlManager" at /home/wolf/repos/pdms/script/../lib/Pdms/SqlManager.pm line 85.
+
+[Sat Dec 13 17:17:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Dec 13 17:17:06 2014] [debug] Template "exception.html.ep" not found.
+[Sat Dec 13 17:17:06 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:17:06 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:17:06 2014] [debug] 500 Internal Server Error (0.050450s, 19.822/s).
+[Sat Dec 13 17:17:32 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:18:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 17:18:32 2014] [debug] GET "/".
+[Sat Dec 13 17:18:32 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:18:32 2014] [error] Can't locate object method "fetchall_arrayref" via package "DBI::db" at /home/wolf/repos/pdms/script/../lib/Pdms/SqlManager.pm line 86.
+
+[Sat Dec 13 17:18:32 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Dec 13 17:18:32 2014] [debug] Template "exception.html.ep" not found.
+[Sat Dec 13 17:18:32 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:18:32 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:18:32 2014] [debug] 500 Internal Server Error (0.051087s, 19.574/s).
+[Sat Dec 13 17:19:03 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:19:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 17:19:08 2014] [debug] GET "/".
+[Sat Dec 13 17:19:08 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:19:08 2014] [debug] Rendering template "files/files.html.ep".
+[Sat Dec 13 17:19:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 13 17:19:08 2014] [debug] 200 OK (0.014417s, 69.363/s).
+[Sat Dec 13 17:19:08 2014] [debug] GET "/js/jquery/themes/default/easyui.css".
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:19:08 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:19:08 2014] [debug] 404 Not Found (0.053473s, 18.701/s).
+[Sat Dec 13 17:19:08 2014] [debug] GET "/js/jquery/jquery.easyui.min.js".
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:19:08 2014] [debug] 404 Not Found (0.011664s, 85.734/s).
+[Sat Dec 13 17:19:08 2014] [debug] GET "/js/jquery/jquery.min.js".
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:19:08 2014] [debug] 404 Not Found (0.010201s, 98.030/s).
+[Sat Dec 13 17:19:08 2014] [debug] GET "/jsjquery/themes/icon.css".
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:19:08 2014] [debug] 404 Not Found (0.017291s, 57.834/s).
+[Sat Dec 13 17:19:08 2014] [debug] GET "/js/jquery/jquery.easyui.min.js".
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:19:08 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:19:08 2014] [debug] 404 Not Found (0.011182s, 89.429/s).
+[Sat Dec 13 17:20:01 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:20:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 17:20:18 2014] [debug] GET "/".
+[Sat Dec 13 17:20:18 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:20:18 2014] [debug] Rendering template "files/files.html.ep".
+[Sat Dec 13 17:20:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 13 17:20:18 2014] [debug] 200 OK (0.013071s, 76.505/s).
+[Sat Dec 13 17:20:18 2014] [debug] GET "/js/jquery/themes/default/easyui.css".
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:20:18 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:20:18 2014] [debug] 404 Not Found (0.050569s, 19.775/s).
+[Sat Dec 13 17:20:18 2014] [debug] GET "/js/jquery/jquery.easyui.min.js".
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:20:18 2014] [debug] 404 Not Found (0.009866s, 101.358/s).
+[Sat Dec 13 17:20:18 2014] [debug] GET "/js/jquery/jquery.min.js".
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:20:18 2014] [debug] 404 Not Found (0.008555s, 116.891/s).
+[Sat Dec 13 17:20:18 2014] [debug] GET "/jsjquery/themes/icon.css".
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:20:18 2014] [debug] 404 Not Found (0.008506s, 117.564/s).
+[Sat Dec 13 17:20:18 2014] [debug] GET "/js/jquery/jquery.easyui.min.js".
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 17:20:18 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 17:20:18 2014] [debug] 404 Not Found (0.007776s, 128.601/s).
+[Sat Dec 13 17:21:24 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:21:28 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:21:39 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:25:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 17:25:29 2014] [debug] GET "/".
+[Sat Dec 13 17:25:29 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:25:29 2014] [debug] Rendering template "files/files.html.ep".
+[Sat Dec 13 17:25:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 13 17:25:29 2014] [debug] 200 OK (0.015973s, 62.606/s).
+[Sat Dec 13 17:25:43 2014] [debug] GET "/".
+[Sat Dec 13 17:25:43 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:25:43 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:25:43 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:25:43 2014] [debug] 200 OK (0.005593s, 178.795/s).
+[Sat Dec 13 17:26:04 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:26:05 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:27:19 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 13 17:27:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 13 17:27:32 2014] [debug] GET "/".
+[Sat Dec 13 17:27:32 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:27:32 2014] [debug] Rendering template "files/files.html.ep".
+[Sat Dec 13 17:27:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 13 17:27:32 2014] [debug] 200 OK (0.014329s, 69.789/s).
+[Sat Dec 13 17:32:52 2014] [debug] GET "/".
+[Sat Dec 13 17:32:52 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:32:52 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:32:52 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:32:52 2014] [debug] 200 OK (0.006858s, 145.815/s).
+[Sat Dec 13 17:33:19 2014] [debug] GET "/".
+[Sat Dec 13 17:33:19 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:33:19 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:33:19 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:33:19 2014] [debug] 200 OK (0.006396s, 156.348/s).
+[Sat Dec 13 17:34:07 2014] [debug] GET "/".
+[Sat Dec 13 17:34:07 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:34:07 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:34:07 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:34:07 2014] [debug] 200 OK (0.004939s, 202.470/s).
+[Sat Dec 13 17:36:01 2014] [debug] GET "/".
+[Sat Dec 13 17:36:01 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:36:01 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:36:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:36:01 2014] [debug] 200 OK (0.004512s, 221.631/s).
+[Sat Dec 13 17:36:18 2014] [debug] GET "/".
+[Sat Dec 13 17:36:18 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:36:18 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:36:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:36:18 2014] [debug] 200 OK (0.005414s, 184.706/s).
+[Sat Dec 13 17:36:58 2014] [debug] GET "/".
+[Sat Dec 13 17:36:58 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:36:58 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:36:58 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:36:58 2014] [debug] 200 OK (0.004770s, 209.644/s).
+[Sat Dec 13 17:37:20 2014] [debug] GET "/".
+[Sat Dec 13 17:37:20 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 17:37:20 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 17:37:20 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 17:37:20 2014] [debug] 200 OK (0.004987s, 200.521/s).
+[Sat Dec 13 19:26:39 2014] [debug] GET "/".
+[Sat Dec 13 19:26:39 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 19:26:39 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 19:26:39 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 19:26:39 2014] [debug] 200 OK (0.004655s, 214.823/s).
+[Sat Dec 13 19:26:54 2014] [debug] GET "/".
+[Sat Dec 13 19:26:54 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 19:26:54 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 19:26:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 19:26:54 2014] [debug] 200 OK (0.003902s, 256.279/s).
+[Sat Dec 13 19:28:48 2014] [debug] GET "/".
+[Sat Dec 13 19:28:48 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 19:28:48 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 19:28:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 19:28:48 2014] [debug] 200 OK (0.009884s, 101.174/s).
+[Sat Dec 13 19:29:22 2014] [debug] GET "/".
+[Sat Dec 13 19:29:22 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 19:29:22 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 19:29:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 19:29:22 2014] [debug] 200 OK (0.006174s, 161.970/s).
+[Sat Dec 13 19:51:55 2014] [debug] GET "/".
+[Sat Dec 13 19:51:55 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 19:51:55 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 19:51:55 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 19:51:55 2014] [debug] 200 OK (0.007125s, 140.351/s).
+[Sat Dec 13 19:56:37 2014] [debug] GET "/".
+[Sat Dec 13 19:56:37 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 19:56:37 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 19:56:37 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 19:56:37 2014] [debug] 200 OK (0.006291s, 158.957/s).
+[Sat Dec 13 19:56:43 2014] [debug] GET "/get_files".
+[Sat Dec 13 19:56:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 19:56:43 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 19:56:43 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 19:56:43 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 19:56:43 2014] [debug] 404 Not Found (0.036674s, 27.267/s).
+[Sat Dec 13 19:56:59 2014] [debug] GET "/".
+[Sat Dec 13 19:56:59 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sat Dec 13 19:56:59 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sat Dec 13 19:56:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 13 19:56:59 2014] [debug] 200 OK (0.005935s, 168.492/s).
+[Sat Dec 13 19:57:02 2014] [debug] GET "/get_files".
+[Sat Dec 13 19:57:02 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 13 19:57:02 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 13 19:57:02 2014] [debug] Rendering cached inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sat Dec 13 19:57:02 2014] [debug] Rendering cached inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sat Dec 13 19:57:02 2014] [debug] 404 Not Found (0.010666s, 93.756/s).
+[Sun Dec 14 09:59:07 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:09:59 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:10:04 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:10:41 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:11:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:11:25 2014] [debug] GET "/".
+[Sun Dec 14 10:11:25 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:11:25 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:11:25 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:11:25 2014] [debug] 200 OK (0.012634s, 79.151/s).
+[Sun Dec 14 10:11:34 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:11:34 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:11:34 2014] [error] Can't locate object method "params" via package "Pdms::Files" at /usr/local/share/perl5/Mojolicious.pm line 126.
+
+[Sun Dec 14 10:11:34 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 14 10:11:34 2014] [debug] Template "exception.html.ep" not found.
+[Sun Dec 14 10:11:34 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Dec 14 10:11:34 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Dec 14 10:11:34 2014] [debug] 500 Internal Server Error (0.048919s, 20.442/s).
+[Sun Dec 14 10:12:18 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:12:38 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:13:18 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:13:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:13:22 2014] [debug] GET "/".
+[Sun Dec 14 10:13:22 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:13:22 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:13:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:13:22 2014] [debug] 200 OK (0.012592s, 79.416/s).
+[Sun Dec 14 10:13:27 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:13:28 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:13:28 2014] [error] Can't locate object method "params" via package "Pdms::Files" at /usr/local/share/perl5/Mojolicious.pm line 126.
+
+[Sun Dec 14 10:13:28 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 14 10:13:28 2014] [debug] Template "exception.html.ep" not found.
+[Sun Dec 14 10:13:28 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Dec 14 10:13:28 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Dec 14 10:13:28 2014] [debug] 500 Internal Server Error (0.044012s, 22.721/s).
+[Sun Dec 14 10:13:49 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:13:49 2014] [info] Listening at "http://*:3000".
+[Sun Dec 14 10:13:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:13:51 2014] [debug] GET "/".
+[Sun Dec 14 10:13:51 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:13:51 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:13:51 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:13:51 2014] [debug] 200 OK (0.019907s, 50.234/s).
+[Sun Dec 14 10:13:54 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:13:54 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:13:54 2014] [error] Can't locate object method "params" via package "Pdms::Files" at /usr/local/share/perl5/Mojolicious.pm line 126.
+
+[Sun Dec 14 10:13:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 14 10:13:54 2014] [debug] Template "exception.html.ep" not found.
+[Sun Dec 14 10:13:54 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Dec 14 10:13:54 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Dec 14 10:13:54 2014] [debug] 500 Internal Server Error (0.050827s, 19.675/s).
+[Sun Dec 14 10:14:56 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:14:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:14:59 2014] [debug] GET "/".
+[Sun Dec 14 10:14:59 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:14:59 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:14:59 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:14:59 2014] [debug] 200 OK (0.014212s, 70.363/s).
+[Sun Dec 14 10:15:01 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:15:01 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:15:01 2014] [debug] Template "files/get_files.html.ep" not found.
+[Sun Dec 14 10:15:01 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Dec 14 10:15:16 2014] [debug] Inactivity timeout.
+[Sun Dec 14 10:15:16 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:15:16 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:15:16 2014] [debug] Template "files/get_files.html.ep" not found.
+[Sun Dec 14 10:15:16 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Dec 14 10:15:31 2014] [debug] Inactivity timeout.
+[Sun Dec 14 10:15:59 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:16:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:16:04 2014] [debug] GET "/".
+[Sun Dec 14 10:16:04 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:16:04 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:16:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:16:04 2014] [debug] 200 OK (0.019549s, 51.154/s).
+[Sun Dec 14 10:16:07 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:16:07 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:16:07 2014] [debug] 200 OK (0.004267s, 234.357/s).
+[Sun Dec 14 10:17:11 2014] [debug] GET "/".
+[Sun Dec 14 10:17:11 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:17:11 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:17:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:17:11 2014] [debug] 200 OK (0.006479s, 154.345/s).
+[Sun Dec 14 10:17:14 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:17:14 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:17:14 2014] [debug] 200 OK (0.003604s, 277.469/s).
+[Sun Dec 14 10:17:53 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:17:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:17:57 2014] [debug] GET "/".
+[Sun Dec 14 10:17:57 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:17:57 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:17:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:17:57 2014] [debug] 200 OK (0.013937s, 71.751/s).
+[Sun Dec 14 10:18:01 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:18:01 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:18:01 2014] [debug] 200 OK (0.006601s, 151.492/s).
+[Sun Dec 14 10:19:43 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:19:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:19:46 2014] [debug] GET "/".
+[Sun Dec 14 10:19:46 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:19:46 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:19:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:19:46 2014] [debug] 200 OK (0.014019s, 71.332/s).
+[Sun Dec 14 10:19:48 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:19:48 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:19:48 2014] [debug] 200 OK (0.003104s, 322.165/s).
+[Sun Dec 14 10:21:26 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:44:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:44:05 2014] [debug] GET "/".
+[Sun Dec 14 10:44:05 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:44:05 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:44:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:44:05 2014] [debug] 200 OK (0.014792s, 67.604/s).
+[Sun Dec 14 10:44:26 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:44:26 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:44:26 2014] [debug] 200 OK (0.003139s, 318.573/s).
+[Sun Dec 14 10:44:32 2014] [debug] GET "/".
+[Sun Dec 14 10:44:32 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:44:32 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:44:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:44:32 2014] [debug] 200 OK (0.004001s, 249.938/s).
+[Sun Dec 14 10:45:05 2014] [debug] GET "/".
+[Sun Dec 14 10:45:05 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:45:05 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:45:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:45:05 2014] [debug] 200 OK (0.004210s, 237.530/s).
+[Sun Dec 14 10:46:04 2014] [debug] GET "/".
+[Sun Dec 14 10:46:04 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:46:04 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:46:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:46:04 2014] [debug] 200 OK (0.004267s, 234.357/s).
+[Sun Dec 14 10:47:11 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:47:11 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:47:11 2014] [debug] 200 OK (0.002719s, 367.782/s).
+[Sun Dec 14 10:49:47 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:52:17 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:52:40 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:52:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:52:43 2014] [debug] GET "/".
+[Sun Dec 14 10:52:43 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:52:43 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:52:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:52:43 2014] [debug] 200 OK (0.011281s, 88.645/s).
+[Sun Dec 14 10:52:54 2014] [debug] GET "/".
+[Sun Dec 14 10:52:54 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:52:54 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:52:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:52:54 2014] [debug] 200 OK (0.004960s, 201.613/s).
+[Sun Dec 14 10:53:27 2014] [debug] GET "/".
+[Sun Dec 14 10:53:27 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:53:27 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:53:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:53:27 2014] [debug] 200 OK (0.005358s, 186.637/s).
+[Sun Dec 14 10:53:39 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:53:42 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:53:42 2014] [debug] GET "/".
+[Sun Dec 14 10:53:42 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:53:42 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:53:42 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:53:42 2014] [debug] 200 OK (0.015724s, 63.597/s).
+[Sun Dec 14 10:53:47 2014] [debug] GET "/".
+[Sun Dec 14 10:53:47 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:53:47 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:53:47 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:53:47 2014] [debug] 200 OK (0.005049s, 198.059/s).
+[Sun Dec 14 10:53:54 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:53:54 2014] [info] Listening at "http://*:3000".
+[Sun Dec 14 10:54:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:54:11 2014] [debug] GET "/".
+[Sun Dec 14 10:54:11 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:54:11 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:54:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:54:11 2014] [debug] 200 OK (0.012846s, 77.845/s).
+[Sun Dec 14 10:57:34 2014] [debug] GET "/".
+[Sun Dec 14 10:57:34 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:57:34 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 10:57:34 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 10:57:34 2014] [debug] 200 OK (0.004660s, 214.592/s).
+[Sun Dec 14 10:57:34 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:57:34 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:57:34 2014] [debug] 200 OK (0.003705s, 269.906/s).
+[Sun Dec 14 10:58:25 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:58:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:58:28 2014] [debug] GET "/".
+[Sun Dec 14 10:58:28 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:58:28 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:58:28 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:58:28 2014] [debug] 200 OK (0.014707s, 67.995/s).
+[Sun Dec 14 10:58:28 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:58:28 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:58:28 2014] [error] Not a HASH reference at /home/wolf/repos/pdms/script/../lib/Pdms/SqlManager.pm line 114.
+
+[Sun Dec 14 10:58:28 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 14 10:58:28 2014] [debug] Template "exception.html.ep" not found.
+[Sun Dec 14 10:58:28 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Dec 14 10:58:28 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Dec 14 10:58:28 2014] [debug] 500 Internal Server Error (0.038169s, 26.199/s).
+[Sun Dec 14 10:59:22 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 10:59:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 10:59:24 2014] [debug] GET "/".
+[Sun Dec 14 10:59:24 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 10:59:24 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 10:59:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 10:59:24 2014] [debug] 200 OK (0.017711s, 56.462/s).
+[Sun Dec 14 10:59:25 2014] [debug] GET "/get_files".
+[Sun Dec 14 10:59:25 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 10:59:25 2014] [error] Not a HASH reference at /home/wolf/repos/pdms/script/../lib/Pdms/SqlManager.pm line 116.
+
+[Sun Dec 14 10:59:25 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 14 10:59:25 2014] [debug] Template "exception.html.ep" not found.
+[Sun Dec 14 10:59:25 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Dec 14 10:59:25 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Dec 14 10:59:25 2014] [debug] 500 Internal Server Error (0.062827s, 15.917/s).
+[Sun Dec 14 11:02:46 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 11:02:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 11:02:48 2014] [debug] GET "/".
+[Sun Dec 14 11:02:48 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:02:48 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 11:02:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 11:02:48 2014] [debug] 200 OK (0.021543s, 46.419/s).
+[Sun Dec 14 11:02:49 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:02:49 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:02:49 2014] [error] Not a HASH reference at /home/wolf/repos/pdms/script/../lib/Pdms/SqlManager.pm line 116.
+
+[Sun Dec 14 11:02:49 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 14 11:02:49 2014] [debug] Template "exception.html.ep" not found.
+[Sun Dec 14 11:02:49 2014] [debug] Rendering inline template "3e3201ab0667c1fc7f39089209f0435c".
+[Sun Dec 14 11:02:49 2014] [debug] Rendering inline template "b2d451b47e2053ce583cbfdf7bcc6006".
+[Sun Dec 14 11:02:49 2014] [debug] 500 Internal Server Error (0.036293s, 27.554/s).
+[Sun Dec 14 11:03:52 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 11:04:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 11:04:04 2014] [debug] GET "/".
+[Sun Dec 14 11:04:04 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:04:04 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 11:04:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 11:04:04 2014] [debug] 200 OK (0.011925s, 83.857/s).
+[Sun Dec 14 11:04:04 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:04:04 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:04:04 2014] [debug] 200 OK (0.009224s, 108.413/s).
+[Sun Dec 14 11:05:48 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 11:05:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 11:05:50 2014] [debug] GET "/".
+[Sun Dec 14 11:05:50 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:05:50 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 11:05:50 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 11:05:50 2014] [debug] 200 OK (0.017718s, 56.440/s).
+[Sun Dec 14 11:05:50 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:05:50 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:05:50 2014] [debug] 200 OK (0.017963s, 55.670/s).
+[Sun Dec 14 11:06:32 2014] [debug] GET "/".
+[Sun Dec 14 11:06:32 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:06:32 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:06:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:06:32 2014] [debug] 200 OK (0.008613s, 116.104/s).
+[Sun Dec 14 11:06:33 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:06:33 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:06:33 2014] [debug] 200 OK (0.008298s, 120.511/s).
+[Sun Dec 14 11:08:21 2014] [debug] GET "/".
+[Sun Dec 14 11:08:21 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:08:21 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:08:21 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:08:21 2014] [debug] 200 OK (0.007206s, 138.773/s).
+[Sun Dec 14 11:08:22 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:08:22 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:08:22 2014] [debug] 200 OK (0.009636s, 103.778/s).
+[Sun Dec 14 11:09:25 2014] [debug] GET "/".
+[Sun Dec 14 11:09:25 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:09:25 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:09:25 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:09:25 2014] [debug] 200 OK (0.007521s, 132.961/s).
+[Sun Dec 14 11:09:25 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:09:25 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:09:25 2014] [debug] 200 OK (0.008276s, 120.831/s).
+[Sun Dec 14 11:09:44 2014] [debug] GET "/".
+[Sun Dec 14 11:09:44 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:09:44 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:09:44 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:09:44 2014] [debug] 200 OK (0.010671s, 93.712/s).
+[Sun Dec 14 11:09:45 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:09:45 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:09:45 2014] [debug] 200 OK (0.007608s, 131.441/s).
+[Sun Dec 14 11:10:35 2014] [debug] GET "/".
+[Sun Dec 14 11:10:35 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:10:35 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:10:35 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:10:35 2014] [debug] 200 OK (0.008076s, 123.824/s).
+[Sun Dec 14 11:10:35 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:10:35 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:10:35 2014] [debug] 200 OK (0.008880s, 112.613/s).
+[Sun Dec 14 11:11:12 2014] [debug] GET "/".
+[Sun Dec 14 11:11:12 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:11:12 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:11:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:11:12 2014] [debug] 200 OK (0.004703s, 212.630/s).
+[Sun Dec 14 11:11:12 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:11:12 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:11:12 2014] [debug] 200 OK (0.011178s, 89.461/s).
+[Sun Dec 14 11:12:12 2014] [debug] GET "/".
+[Sun Dec 14 11:12:12 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:12:12 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:12:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:12:12 2014] [debug] 200 OK (0.009547s, 104.745/s).
+[Sun Dec 14 11:12:12 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:12:12 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:12:12 2014] [debug] 200 OK (0.008537s, 117.137/s).
+[Sun Dec 14 11:12:53 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 11:12:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 11:12:53 2014] [debug] GET "/".
+[Sun Dec 14 11:12:53 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:12:53 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 11:12:53 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 11:12:53 2014] [debug] 200 OK (0.021579s, 46.341/s).
+[Sun Dec 14 11:12:54 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:12:54 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:12:54 2014] [debug] 200 OK (0.008458s, 118.231/s).
+[Sun Dec 14 11:14:19 2014] [debug] GET "/".
+[Sun Dec 14 11:14:19 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:14:19 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:14:19 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:14:19 2014] [debug] 200 OK (0.007381s, 135.483/s).
+[Sun Dec 14 11:14:40 2014] [debug] GET "/".
+[Sun Dec 14 11:14:40 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:14:40 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:14:40 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:14:40 2014] [debug] 200 OK (0.007857s, 127.275/s).
+[Sun Dec 14 11:14:40 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:14:40 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:14:40 2014] [debug] 200 OK (0.007390s, 135.318/s).
+[Sun Dec 14 11:15:10 2014] [debug] GET "/".
+[Sun Dec 14 11:15:10 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:15:10 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:15:10 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:15:10 2014] [debug] 200 OK (0.008345s, 119.832/s).
+[Sun Dec 14 11:15:11 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:15:11 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:15:11 2014] [debug] 200 OK (0.010131s, 98.707/s).
+[Sun Dec 14 11:17:49 2014] [debug] GET "/".
+[Sun Dec 14 11:17:49 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:17:49 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:17:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:17:49 2014] [debug] 200 OK (0.009900s, 101.010/s).
+[Sun Dec 14 11:17:50 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:17:50 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:17:50 2014] [debug] 200 OK (0.010619s, 94.171/s).
+[Sun Dec 14 11:20:10 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 11:20:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 11:20:11 2014] [debug] GET "/".
+[Sun Dec 14 11:20:11 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:20:11 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 11:20:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 11:20:11 2014] [debug] 200 OK (0.017724s, 56.421/s).
+[Sun Dec 14 11:20:12 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:20:12 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:20:12 2014] [debug] 200 OK (0.007864s, 127.162/s).
+[Sun Dec 14 11:20:29 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sun Dec 14 11:20:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 14 11:20:30 2014] [debug] GET "/".
+[Sun Dec 14 11:20:30 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:20:30 2014] [debug] Rendering template "files/files.html.ep".
+[Sun Dec 14 11:20:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 14 11:20:30 2014] [debug] 200 OK (0.020228s, 49.436/s).
+[Sun Dec 14 11:20:31 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:20:31 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:20:31 2014] [debug] 200 OK (0.008490s, 117.786/s).
+[Sun Dec 14 11:21:09 2014] [debug] GET "/".
+[Sun Dec 14 11:21:09 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:21:09 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:21:09 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:21:09 2014] [debug] 200 OK (0.007250s, 137.931/s).
+[Sun Dec 14 11:21:10 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:21:10 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:21:10 2014] [debug] 200 OK (0.007971s, 125.455/s).
+[Sun Dec 14 11:21:34 2014] [debug] GET "/".
+[Sun Dec 14 11:21:34 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:21:34 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:21:34 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:21:34 2014] [debug] 200 OK (0.007272s, 137.514/s).
+[Sun Dec 14 11:21:35 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:21:35 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:21:35 2014] [debug] 200 OK (0.010376s, 96.376/s).
+[Sun Dec 14 11:21:57 2014] [debug] GET "/".
+[Sun Dec 14 11:21:57 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:21:57 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:21:57 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:21:57 2014] [debug] 200 OK (0.007894s, 126.678/s).
+[Sun Dec 14 11:21:58 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:21:58 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:21:58 2014] [debug] 200 OK (0.007078s, 141.283/s).
+[Sun Dec 14 11:23:28 2014] [debug] GET "/".
+[Sun Dec 14 11:23:28 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:23:28 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:23:28 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:23:28 2014] [debug] 200 OK (0.009864s, 101.379/s).
+[Sun Dec 14 11:23:29 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:23:29 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:23:29 2014] [debug] 200 OK (0.007052s, 141.804/s).
+[Sun Dec 14 11:24:31 2014] [debug] GET "/".
+[Sun Dec 14 11:24:31 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:24:31 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:24:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:24:31 2014] [debug] 200 OK (0.007291s, 137.155/s).
+[Sun Dec 14 11:24:32 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:24:32 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:24:32 2014] [debug] 200 OK (0.007477s, 133.743/s).
+[Sun Dec 14 11:27:58 2014] [debug] GET "/".
+[Sun Dec 14 11:27:58 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:27:58 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:27:58 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:27:58 2014] [debug] 200 OK (0.007633s, 131.010/s).
+[Sun Dec 14 11:28:22 2014] [debug] GET "/".
+[Sun Dec 14 11:28:22 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:28:22 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:28:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:28:22 2014] [debug] 200 OK (0.009547s, 104.745/s).
+[Sun Dec 14 11:28:23 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:28:23 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:28:23 2014] [debug] 200 OK (0.008212s, 121.773/s).
+[Sun Dec 14 11:29:11 2014] [debug] GET "/".
+[Sun Dec 14 11:29:11 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:29:11 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:29:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:29:11 2014] [debug] 200 OK (0.010161s, 98.416/s).
+[Sun Dec 14 11:29:11 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:29:11 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:29:11 2014] [debug] 200 OK (0.009808s, 101.958/s).
+[Sun Dec 14 11:29:39 2014] [debug] GET "/".
+[Sun Dec 14 11:29:39 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:29:39 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:29:39 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:29:39 2014] [debug] 200 OK (0.007623s, 131.182/s).
+[Sun Dec 14 11:29:40 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:29:40 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:29:40 2014] [debug] 200 OK (0.012391s, 80.704/s).
+[Sun Dec 14 11:30:00 2014] [debug] GET "/".
+[Sun Dec 14 11:30:00 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:30:00 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:30:00 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:30:00 2014] [debug] 200 OK (0.010911s, 91.651/s).
+[Sun Dec 14 11:30:01 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:30:01 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:30:01 2014] [debug] 200 OK (0.010680s, 93.633/s).
+[Sun Dec 14 11:30:50 2014] [debug] GET "/".
+[Sun Dec 14 11:30:50 2014] [debug] Routing to controller "Pdms::Files" and action "files".
+[Sun Dec 14 11:30:50 2014] [debug] Rendering cached template "files/files.html.ep".
+[Sun Dec 14 11:30:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 14 11:30:50 2014] [debug] 200 OK (0.006250s, 160.000/s).
+[Sun Dec 14 11:30:51 2014] [debug] GET "/get_files".
+[Sun Dec 14 11:30:51 2014] [debug] Routing to controller "Pdms::Files" and action "get_files".
+[Sun Dec 14 11:30:51 2014] [debug] 200 OK (0.009465s, 105.652/s).
+[Sat Dec 27 14:44:37 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Sat Dec 27 14:44:38 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".
+[Tue Dec 30 17:57:11 2014] [debug] Reading configuration file "/home/wolf/repos/pdms/pdms.json".

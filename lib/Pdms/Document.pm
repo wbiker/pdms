@@ -15,11 +15,11 @@ has 'original' => (is => 'rw', isa => 'Str');
 has 'file' => (is => 'rw', isa => 'Str');
 has 'name' => (is => 'rw', isa => 'Str');
 has 'rootdir' => (is => 'ro', isa => 'Str');
-has 'extension' => (is => 'rw', isa => 'Str');
+has 'ext' => (is => 'rw', isa => 'Str');
 has 'path' => (is => 'rw', isa => 'Str');
 has 'tags' => (is => 'rw', isa => 'ArrayRef');
 has 'version' => (is => 'rw', isa => 'Int', default => 1);
-has 'category' => (is => 'rw', isa => 'Str');
+has 'category' => (is => 'rw', isa => 'Str|HashRef');
 has 'date_added' => (is => 'rw', isa => 'Time::Moment', default => sub { Time::Moment->now });
 has 'date' => (is => 'rw', isa => 'Time::Moment|Str|Undef');
 has 'description' => (is => 'rw', isa => 'Str|Undef');
@@ -74,8 +74,8 @@ sub get_file {
 	my $self = shift;
 	
 	my $file = $self->name;
-	if ($self->extension) {
-		$file .= $self->extension;
+	if ($self->ext) {
+		$file .= $self->ext;
 	}
 	$file = catfile($self->hash, $file);
 	if ($self->rootdir) {

@@ -77,6 +77,87 @@ sub write_file {
   $self->_insert_doc_in_db($doc);
 }
 
+sub get_files {
+  my $self = shift;
+
+
+  my $array_ref = $self->db->selectall_arrayref('SELECT * FROM DOCUMENT', { Slice => {}});
+  $array_ref = $self->_add_cat_and_tags($array_ref);
+
+  return $array_ref;
+}
+
+sub get_tags {
+	my $self = shift;
+	
+	my $array_ref = $self->db->selectall_arrayref('SELECT name FROM TAG', {Slice => {}});
+	
+	return $array_ref;
+}
+
+sub get_categories {
+	my $self = shift;
+	
+	my $array_ref = $self->db->selectall_arrayref('SELECT category_name FROM CATEGORY', {Slice => {}});
+
+	return $array_ref;
+}
+
+sub get_files_with_category {
+  my $self = shift;
+  my $cat = shift;
+
+  my $cat_id = $self->_find_or_insert_category($cat);
+
+  my $array_ref = $self->db->selectall_arrayref('SELECT * FROM DOCUMENT WHERE category = ?');
+  p $array_ref;
+  $array_ref = $self->_add_cat_and_tags($array_ref);
+  p $array_ref;
+
+  return $array_ref;
+}
+
+sub _add_cat_and_tags {
+    my $self = shift;
+    my $array_ref = shift;
+
+    my $tags = $self->db->selectall_hashref('SELECT * FROM TAG', 'id');
+    my $categories = $self->db->selectall_hashref('SELECT * from CATEGORY', 'category_id');
+    
+    foreach my $doc (@$array_ref) {
+        # first category
+        my $cat_id = $doc->{category};
+        $doc->{category} = {id => $cat_id, name => $categories->{$cat_id}->{category_name}};
+
+        # now tags
+        my $tags_array = $self->db->selectall_arrayref('SELECT document_id, tag_id FROM DOCTAG WHERE document_id = ?');
+        # build tag array
+        my $tag_ob_array = [];
+        for my $tag (@$tags_array) {
+            my $tag_id = $tag->[1];
+            push($tag_ob_array, { id => $tag_id, name => $tags->{$tag_id} });
+        }
+
+        $doc->{tags} = $tag_ob_array;
+    
+    }
+
+    return $array_ref;
+}
+
+sub _get_tag_id {
+    my $self = shift;
+    my $cat = shift;
+
+    my $sth = $self->db->prepare('SELECT category_id, category_name FROM CATEGORY WHERE category_name = ?');
+    $sth->execute($cat);
+
+    my $cat_array = $sth->fetchrow_arrayref;
+    if($cat_array) {
+        return $cat_array->[0];
+    }
+}
+
 sub _insert_doc_in_db {
     my $self = shift;
     my $doc = shift;
