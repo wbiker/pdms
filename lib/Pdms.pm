@@ -15,7 +15,6 @@ sub startup {
 
   # Router
   my $r = $self->routes;
-
   # Normal route to controller
   $r->get('/')->to('files#files');
   $r->get('/files/remove/:file_id')->to('files#remove_file');

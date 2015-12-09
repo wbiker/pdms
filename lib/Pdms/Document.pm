@@ -35,7 +35,7 @@ sub BUILD {
 		say "Set name: ", $filename;
 		$self->name($filename);
 		say "set extension: ", $extension;
-		$self->extension($extension);
+		$self->ext($extension);
 		# calculate hash out of the name
 		my $hash = md5_hex(time);
 		say "set hash: ", $hash;
@@ -45,7 +45,7 @@ sub BUILD {
 		#do { say "create path: ", $dest_path; mkdir($dest_path); } unless -e $dest_path;
 		$self->path($dest_path);
 		
-		my $dest_file = catfile($dest_path, $self->name.$self->extension);
+		my $dest_file = catfile($dest_path, $self->name.$self->ext);
 		say "set file: ", $dest_file;
 		$self->file($dest_file);
     

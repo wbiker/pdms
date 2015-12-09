@@ -168,7 +168,7 @@ sub _insert_doc_in_db {
     $sth->execute(
       $doc->hash,
       $doc->name,
-      $doc->extension,
+      $doc->ext,
       $doc->version,
       $doc->description,
       $doc->date,
